@@ -1,0 +1,1189 @@
+[
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-1",
+    "number": 1,
+    "question": "Evaluate the following as true or false. The domestic financial manager must be knowledgeable in several areas within finance, whereas the multinational financial manager usually specializes in a single area, such as corporate finance, investments, or financial markets.",
+    "options": [],
+    "answer": "false",
+    "explanation": ". The multinational financial manager is likely to require knowledge of several fields within finance.",
+    "type": "true-false",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-2",
+    "number": 2,
+    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22 2.    Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22 What was the price of British pounds in terms of U.S. dollars on August 22?",
+    "options": [],
+    "answer": null,
+    "explanation": "On 8/22, the exchange rate on the British pound was $1.89/£",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-3",
+    "number": 3,
+    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.  3. Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.",
+    "options": [
+      {
+        "label": "a",
+        "text": "€0.8894/$ Bid and €0.8898/$ Ask "
+      },
+      {
+        "label": "b",
+        "text": "€0.8898/$ Bid and €0.8894/$ Ask "
+      }
+    ],
+    "answer": null,
+    "explanation": "Traders buy low and sell high, but don’t necessarily state everything in terms of “Rule #2”. This question requires that you keep bids and asks constant as bids and asks but deduce which currency is being bought or sold.  Restating in terms of “Rule #2” is a good way to evaluate.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-4",
+    "number": 4,
+    "question": "Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar (note: forward rates are just rates contracted for an exchange in the future, whereas the spot rate is a rate on a given day and the question is focusing on converting bid and ask rates on different currencies). 4. Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar (note: forward rates are just rates contracted for an exchange in the future, whereas the spot rate is a rate on a given day and the question is focusing on converting bid and ask rates on different currencies). • Bid (€/$)\tAsk (€/$) Spot rate\t0.8894\t0.8898 1-month forward\t0.8938\t0.8942 3-month forward\t0.9028\t0.9032 6-month forward\t0.9164\t0.9168 12-month forward\t0.9443\t0.9447  Convert these to $/€ quotes for the euro—be careful with your bid and ask labels! What would you receive from CSFB if you sold $10 million at the 6-month forward rate? What would you pay CSFB if you bought €10 million at the 12-month forward rate?",
+    "options": [],
+    "answer": null,
+    "explanation": "€ Bid in $/€ \t\t€ Ask in $/€",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-5",
+    "number": 5,
+    "question": "A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?  5. A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?",
+    "options": [],
+    "answer": null,
+    "explanation": "The car costs 70,000/.7821 or $89,502.62",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-6",
+    "number": 6,
+    "question": "If capital markets were perfect, that is, capital could move freely across national borders, would MNC’s still exist? Why or why not?",
+    "options": [],
+    "answer": null,
+    "explanation": "Even if capital moved freely across national borders, MNCs would still exist, because MNCs bring a host of firm-specific knowledge and advantages along with capital to the countries in which they operate. Such advantages may include unique products, processes, technologies, patents, specific rights, or specific knowledge and skills. These advantages can be used profitably in foreign markets. Moreover, MNCs are better able to apply the knowledge and skills gained in their prior operations in other countries to each new country that they enter. Thus, from the point of view of a country attracting foreign capital, the capital that is brought in by an MNC brings with it firm-specific advantages that yield better returns than the capital that is simply borrowed from a foreign country.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-7",
+    "number": 7,
+    "question": "Opportunities for MNCs to create value to their operations through their financial policies include each of the following except ______.",
+    "options": [
+      {
+        "label": "a",
+        "text": "access to low-cost capital"
+      },
+      {
+        "label": "b",
+        "text": "currency risk management"
+      },
+      {
+        "label": "c",
+        "text": "expansion of the investment opportunity set"
+      },
+      {
+        "label": "d",
+        "text": "financial market arbitrage"
+      },
+      {
+        "label": "e",
+        "text": "overcoming capital flow barriers  "
+      }
+    ],
+    "answer": "d",
+    "explanation": "",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-8",
+    "number": 8,
+    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia, a dollar cost 26.776 rubles. When the deal was finally completed and the invoice arrived, the firm was obliged to pay under an exchange rate of 32 rubles per dollar. We may conclude from this example that  8. When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia, a dollar cost 26.776 rubles. When the deal was finally completed and the invoice arrived, the firm was obliged to pay under an exchange rate of 32 rubles per dollar. We may conclude from this example that •\tthe firm was able to buy the tractors at a lower U.S. dollar cost, thus making additional profit •\tthe firm was forced to buy the tractors at a higher U.S. dollar cost, thus losing some or all of its profit •\tthis firm is not ready for the international phase of globalization •\tthe U.S. balance of payments is likely to fail to balance if the new exchange rate continues •\tnone of the above",
+    "options": [],
+    "answer": "a",
+    "explanation": "Explanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-9",
+    "number": 9,
+    "question": "A major advantage of floating exchange rates is 9. A major advantage of floating exchange rates is",
+    "options": [
+      {
+        "label": "a",
+        "text": "the need to adjust domestic monetary and fiscal policy whenever a change occurs in international markets"
+      },
+      {
+        "label": "b",
+        "text": "their inability to deal with changing domestic prices"
+      },
+      {
+        "label": "c",
+        "text": "export expansion failure that accompanies depreciations in the nation’s currency."
+      },
+      {
+        "label": "d",
+        "text": "the instability it creates for those involved in international trade and finance."
+      },
+      {
+        "label": "e",
+        "text": "that they are determined by market forces like any other price "
+      }
+    ],
+    "answer": "e",
+    "explanation": "",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-10",
+    "number": 10,
+    "question": "Which of the following is one of the IMF’s challenges? 10. Which of the following is one of the IMF’s challenges?",
+    "options": [
+      {
+        "label": "a",
+        "text": "to ensure that the consequences of poor investment decisions are borne by investors and not by taxpayers."
+      },
+      {
+        "label": "b",
+        "text": "to leave a legacy of debt"
+      },
+      {
+        "label": "c",
+        "text": "to encourage countries to use IMF loans to support the value of their currency"
+      },
+      {
+        "label": "d",
+        "text": "all of the above"
+      },
+      {
+        "label": "e",
+        "text": "none of the above "
+      }
+    ],
+    "answer": "a",
+    "explanation": "",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-11",
+    "number": 11,
+    "question": "Describe the benefits and costs of a common currency such as the euro. 11. Describe the benefits and costs of a common currency such as the euro.",
+    "options": [],
+    "answer": null,
+    "explanation": "See lecture and page 38 of the e-book.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-12",
+    "number": 12,
+    "question": "What is the European Central Bank and its role? 12. What is the European Central Bank and its role?",
+    "options": [],
+    "answer": null,
+    "explanation": "See lecture and pages 18 and 38 of the e-book.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-13",
+    "number": 13,
+    "question": "Chapter 1, question 2 (How is international financial management different from domestic financial management?) 13. Chapter 1, question 2 (How is international financial management different from domestic financial management?)",
+    "options": [],
+    "answer": null,
+    "explanation": "See lecture and pages 15-16 of the e-book. Be sure to understand all the concepts that distinguish domestic versus international finance.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-14",
+    "number": 14,
+    "question": "Chapter 2, question 4 (Discuss the advantages and disadvantages of the gold standard.) 14. Chapter 2, question 4 (Discuss the advantages and disadvantages of the gold standard.)",
+    "options": [],
+    "answer": null,
+    "explanation": "The advantages of the gold standard include: (I) since the supply of gold is restricted, countries cannot have high inflation; (2) any BOP disequilibrium can be corrected automatically through cross-border flows of gold. On the other hand, the main disadvantages of the gold standard are: (I) the world economy can be subject to deflationary pressure due to restricted supply of gold; (ii) the gold standard itself has no mechanism to enforce the rules of the game, and, as a result, countries may pursue economic policies (like de-monetization of gold) that are incompatible with the gold standard.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-15",
+    "number": 15,
+    "question": "Chapter 2, question 5 (What were the main objectives of the Bretton Woods system?) 15. Chapter 2, question 5 (What were the main objectives of the Bretton Woods system?)",
+    "options": [],
+    "answer": null,
+    "explanation": "The main objectives of the Bretton Woods system were to achieve exchange rate stability and promote international trade and development.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-16",
+    "number": 16,
+    "question": "Chapter 2, question 12 (Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.) 16. Chapter 2, question 12 (Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.)",
+    "options": [],
+    "answer": null,
+    "explanation": "Once capital markets are integrated internationally, vast amounts of money may flow in and out of a country in a short time period. This will make it very difficult for the country to maintain a fixed exchange rate.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-17",
+    "number": 17,
+    "question": "(A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization?  17. (A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization?",
+    "options": [],
+    "answer": null,
+    "explanation": "(A) See page 18 of the e-book .One example of these factors is advances in telecommunication.  (B) See the Module 1 article about globalization and refer to class discussion on the topic. One example of recent trends is Brexit.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-18",
+    "number": 18,
+    "question": "Evaluate each of the following as true or false and explain. A) Cryptocurrencies, such as Bitcoin, serves the three essential functions of money. B) The IMF is encouraging countries such as El Salvador and Central African Republic, with extreme volatility in their exchange rates, to replace their currencies with cryptocurrency. C) Central Bank Digital Currency refers to a central bank adopting cryptocurrency instead of their national currency, as in the case of El Salvador.",
+    "options": [],
+    "answer": null,
+    "explanation": "(A), (B), and (C) are all false. Refer to class notes and page 36 of the e-book.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-19",
+    "number": 19,
+    "question": "What is the Paris Agreement and what are its key elements?",
+    "options": [],
+    "answer": null,
+    "explanation": "See page 18 of the e-book.",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 1 - 3 .txt-20",
+    "number": 20,
+    "question": "Evaluate the following as true or false: According the text, COVID-19 solutions are best addressed at the national or state levels.",
+    "options": [],
+    "answer": "false",
+    "explanation": "- see page 18 of the e-book.",
+    "type": "true-false",
+    "module": "1-3"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-2",
+    "number": 2,
+    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. A week later on August 29 the exchange rate becomes $2.50/£. Which of the following best explains what has happened between August 22 and August 29? 2.\tSuppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. A week later on August 29 the exchange rate becomes $2.50/£. Which of the following best explains what has happened between August 22 and August 29? •\tThe U.S. dollar appreciated against the British pound. •\tThe British pound appreciated against the dollar •\tThe U.S. dollar depreciated against the British pound. •\t(b) and (c) above •\tNone of the above",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-3",
+    "number": 3,
+    "question": "Suppose substantial amounts of people from around the world wish to view the Olympics in person and spend three weeks in the England doing so. While there, they also purchase millions of souvenirs for their family and friends left behind.  All else constant, describe the effect this will have on the foreign exchange market for British pounds. Illustrate your discussion with a graph. 3.\tSuppose substantial amounts of people from around the world wish to view the Olympics in person and spend three weeks in the England doing so. While there, they also purchase millions of souvenirs for their family and friends left behind.  All else constant, describe the effect this will have on the foreign exchange market for British pounds. Illustrate your discussion with a graph.",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-4",
+    "number": 4,
+    "question": "In class, the following example was given. 4.\tIn class, the following example was given.  •\tSuppose the foreign exchange market is made up of only 2 trading partners, the U.S. and the euro area. Determine the effect on the equilibrium exchange rate in the market for euros of the following changes.  Repeat the example, only this time considering the market for dollars  •\tSuppose the price level in the U.S. were to increase by 20% while the average price level in the euro area remained unchanged. •\tSuppose that interest rates increase in the United States, while remaining unchanged in the euro area.",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-5",
+    "number": 5,
+    "question": "On August 1, 2006, Zimbabwe changed the value of the Zim dollar from Z$101/US$ to Z$250/US$.  5. \tOn August 1, 2006, Zimbabwe changed the value of the Zim dollar from Z$101/US$ to Z$250/US$.",
+    "options": [
+      {
+        "label": "a",
+        "text": "What was the original US dollar value of the Zim dollar?"
+      },
+      {
+        "label": "b",
+        "text": "By what percent has the Zim dollar devalued (or revalued) relative to the US dollar?"
+      },
+      {
+        "label": "c",
+        "text": "By what percent has the US dollar appreciated (or depreciated) relative to the US dollar? "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-6",
+    "number": 6,
+    "question": "In 2002, one dollar bought ¥125. In 2006 it bought about ¥115. 6. \tIn 2002, one dollar bought ¥125. In 2006 it bought about ¥115.",
+    "options": [
+      {
+        "label": "a",
+        "text": "What was the dollar value of the yen in 2002? What was the yen’s dollar value in 2006?"
+      },
+      {
+        "label": "b",
+        "text": "By what percent has the yen risen in value between 2002 and 2006?"
+      },
+      {
+        "label": "c",
+        "text": "By what percent has the dollar fallen in value between 2002 and 2006? "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-7",
+    "number": 7,
+    "question": "On February 1, the euro is worth $1.2966. By May 1, it has moved to $1.3634.  7. \tOn February 1, the euro is worth $1.2966. By May 1, it has moved to $1.3634.",
+    "options": [
+      {
+        "label": "a",
+        "text": "By what percent has the euro appreciated or depreciated against the dollar during this 3-month period?"
+      },
+      {
+        "label": "b",
+        "text": "By what percent has the dollar appreciated or depreciated against the euro during this period? "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-8",
+    "number": 8,
+    "question": "In early August 2002 (the exact date is a state secret), North Korea reduced the official value of the won from $0.465 to $0.0067. The black market value of the won was $0.005 at the time. 8. \tIn early August 2002 (the exact date is a state secret), North Korea reduced the official value of the won from $0.465 to $0.0067. The black market value of the won was $0.005 at the time.",
+    "options": [
+      {
+        "label": "a",
+        "text": "By what percentage did the won devalue? "
+      },
+      {
+        "label": "b",
+        "text": "Following the initial devaluation, what further percentage devaluation would be necessary for the won to equal its black market value?  "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-9",
+    "number": 9,
+    "question": "On March 29, 2007, the Indian rupee was worth $0.023270. The next day, it was worth $0.022980.  9. \tOn March 29, 2007, the Indian rupee was worth $0.023270. The next day, it was worth $0.022980.",
+    "options": [
+      {
+        "label": "a",
+        "text": "By how much had the rupee depreciated against the dollar?"
+      },
+      {
+        "label": "b",
+        "text": "By how much had the dollar appreciated against the rupee? "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-10",
+    "number": 10,
+    "question": "When foreigners decide to purchase additional U.S. government bonds, ____.  10.\tWhen foreigners decide to purchase additional U.S. government bonds, ____.",
+    "options": [
+      {
+        "label": "a",
+        "text": "the demand for dollars rises"
+      },
+      {
+        "label": "b",
+        "text": "the federal government budget deficit declines"
+      },
+      {
+        "label": "c",
+        "text": "the supply of dollars rises"
+      },
+      {
+        "label": "d",
+        "text": "the trade deficit declines"
+      },
+      {
+        "label": "e",
+        "text": "None of the above "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-11",
+    "number": 11,
+    "question": "Foreign nations’ demand for dollars increases as   11. Foreign nations’ demand for dollars increases as •\tAmericans purchase more foreign goods •\tForeigners purchase more American goods •\tAmericans travel more abroad •\tForeigners receive more U.S. direct investment •\tAmericans’ exports fall",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-12",
+    "number": 12,
+    "question": "If the equilibrium price of yen is $0.008/¥, but for some reason the market opens at $0.005/¥, it is likely that 12.\tIf the equilibrium price of yen is $0.008/¥, but for some reason the market opens at $0.005/¥, it is likely that •\tthe Japanese demand for U.S. goods will increase, moving the foreign rate toward equilibrium •\tthe US purchases of Japanese goods will increase driving up the foreign exchange price of yen •\tan excess supply of yen will force a decline in the exchange rate •\tthe US demand for yen will shift right •\tnone of the above",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-13",
+    "number": 13,
+    "question": "If the price level in Mexico falls relative to the U.S. price level, which of the following is correct? 13.\tIf the price level in Mexico falls relative to the U.S. price level, which of the following is correct? •\tdemand for pesos increases (shifts right) •\tsupply of pesos decreases (shifts left) •\tdemand for dollars decreases (shifts left) •\tsupply of dollars increases (shifts right) •\tall of the above",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-14",
+    "number": 14,
+    "question": "All else equal, an appreciation in the US dollar relative to other currencies tends to 14.  All else equal, an appreciation in the US dollar relative to other currencies tends to •\tincrease U.S. imports •\tincrease U.S. exports •\tdemand for the dollar to increase •\toccur when interest rates abroad are higher than those in the U.S. •\tcause more foreigners to invest in U.S. securities",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-15",
+    "number": 15,
+    "question": "Which of the following will decrease (shift left) the demand for Swiss francs 15. Which of the following will decrease (shift left) the demand for Swiss francs •\thigher inflation in Switzerland •\tlower U.S. interest rates •\tU.S. incomes rise •\tAppreciation of the Swiss franc •\tDepreciation of the Swiss franc",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-16",
+    "number": 16,
+    "question": "During 1995, the yen went from $0.0125 to $0.0095238. By how much did the dollar appreciate against the yen? 16.\tDuring 1995, the yen went from $0.0125 to $0.0095238. By how much did the dollar appreciate against the yen? •\t23.81% •\t31.25% •\t15.67% •\t40.78% •\tNone of the above",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-17",
+    "number": 17,
+    "question": "Answer true or false and explain: In 2011, the Swiss National Bank intervened in the foreign currency market to strengthen the Swiss franc against the euro.  17. Answer true or false and explain: In 2011, the Swiss National Bank intervened in the foreign currency market to strengthen the Swiss franc against the euro.  ANSWERS",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-1",
+    "number": 1,
+    "question": "a.\tSince it is the Czech koruna that has depreciated, it is most convenient to place the koruna in the denominator of the foreign exchange quote; CZK36.02/$ = $0.02776/CZK. A 20% depreciation of the koruna results in: (End rate) = (Beg. rate)(1+%) = ($0.02776/CZK)(0.80) = $0.02221/CZK, or CZK45.03/$.  1.\ta.\tSince it is the Czech koruna that has depreciated, it is most convenient to place the koruna in the denominator of the foreign exchange quote; CZK36.02/$ = $0.02776/CZK. A 20% depreciation of the koruna results in: (End rate) = (Beg. rate)(1+%) = ($0.02776/CZK)(0.80) = $0.02221/CZK, or CZK45.03/$.",
+    "options": [
+      {
+        "label": "b",
+        "text": "To find the dollar appreciation, it is most convenient to use a CZK/$ quote. The dollar appreciates by (45.03-36.02)/36.02 = 25% • "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-2",
+    "number": 2,
+    "question": "d\texplanation: On 8/22 the exchange rate required $1.89 to buy one British pound. On 8/29, $2.50 was required to buy one British pound. So the dollar depreciated against the pound. This is the same thing as saying the pound appreciated against the dollar.",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-3",
+    "number": 3,
+    "question": "The large influx of foreigners into Britain increases the demand for British goods and services. So, in the market for British pounds there is an increase in demand for pounds. The demand curve shifts to the right and the equilibrium $/£ exchange rate increases. 3.\tThe large influx of foreigners into Britain increases the demand for British goods and services. So, in the market for British pounds there is an increase in demand for pounds. The demand curve shifts to the right and the equilibrium $/£ exchange rate increases.",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-4",
+    "number": 4,
+    "question": "a.\tU.S. goods are now relatively more expensive compared to European goods. This decreases demand by Europeans for U.S. goods and decreases the demand for dollars (shifts left to Da). This also increases American’s desire for imports, and therefore, increases the supply of dollars (shifts right to Sa). Both of these factors drive the exchange rate of €/$ downward. This means the dollar depreciates against the euro.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    4.\ta.\tU.S. goods are now relatively more expensive compared to European goods. This decreases demand by Europeans for U.S. goods and decreases the demand for dollars (shifts left to Da). This also increases American’s desire for imports, and therefore, increases the supply of dollars (shifts right to Sa). Both of these factors drive the exchange rate of €/$ downward. This means the dollar depreciates against the euro.",
+    "options": [
+      {
+        "label": "b",
+        "text": "U.S. securities now offer a relatively higher return compared to euro-denominated securities. This means Europeans and Americans both desire to hold relatively more U.S. securities and less euro-denominated securities. This means Europeans need more dollars and Americans need fewer euros. So the demand for dollars  by Europeans increases (shifts right to Dc) and the supply of dollars by Americans decreases (shifts left to Sc).  The dollar appreciates against the euro. "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-5",
+    "number": 5,
+    "question": "a.\tThe U.S. dollar value of the Zim dollar prior to devaluation was $0.0099 (1/101). Subsequent to devaluation, the Zim dollar was worth $0.004 (1/250).                5. \ta.\tThe U.S. dollar value of the Zim dollar prior to devaluation was $0.0099 (1/101). Subsequent to devaluation, the Zim dollar was worth $0.004 (1/250). •\tThe U.S. dollar value of the Zim dollar has changed by (0.004 - 0.0099)/0.0099 = -59.6%. Thus, the Zim dollar has devalued by 59.6% against the U.S. dollar. •\t147.5%",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-6",
+    "number": 6,
+    "question": "a.  The dollar value of the yen in 2002 was $0.008 (1/125). By 2006, the yen had risen to $0.0087. 6. \ta.  The dollar value of the yen in 2002 was $0.008 (1/125). By 2006, the yen had risen to $0.0087.",
+    "options": [
+      {
+        "label": "b",
+        "text": "Between 2002 and 2006, the yen rose by 8.8%, calculated as (0.0087 - 0.008)/0.008."
+      },
+      {
+        "label": "c",
+        "text": "During this same period, the dollar depreciated by 8%, calculated as (115 - 125)/125. "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-7",
+    "number": 7,
+    "question": "a. Since the euro is now worth more in dollar terms, it has appreciated against the dollar. The amount of euro appreciation is (1.3634 - 1.2966)/1.2966 = 5.15%. 7.  a. Since the euro is now worth more in dollar terms, it has appreciated against the dollar. The amount of euro appreciation is (1.3634 - 1.2966)/1.2966 = 5.15%.",
+    "options": [
+      {
+        "label": "b",
+        "text": "The flip side of euro appreciation is dollar depreciation. The dollar has depreciated by an amount equal to [(1/1.3634) – (1/1.2966)]/(1/1.2966)  =  -4.9% "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-8",
+    "number": 8,
+    "question": "a. The won devalued ($0.067-$0.465)/$0.465) = 98.56% \tb.  (0.005-0.0067)/0.0067 = 25.4% 8. a. The won devalued ($0.067-$0.465)/$0.465) = 98.56% \tb.  (0.005-0.0067)/0.0067 = 25.4%",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-9",
+    "number": 9,
+    "question": "a. The rupee devalued by (0.02298 - 0.02327)/0.02327, or -1.25%.",
+    "options": [
+      {
+        "label": "b",
+        "text": "The dollar appreciated against the rupee by  [(1/0.02298) - (1/0.02327)]/(1/0.02327), or 1.28%. "
+      }
+    ],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-10",
+    "number": 10,
+    "question": "a\t 10.\ta",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-11",
+    "number": 11,
+    "question": "b",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-12",
+    "number": 12,
+    "question": "b.\texplanation: At an exchange rate below equilibrium, there is a shortage of yen, with Americans wanting more Japanese imports than the Japanese want to export. The price of yen is thus bid up to equilibrium. See explanation and graph given in class. 12.\tb.\texplanation: At an exchange rate below equilibrium, there is a shortage of yen, with Americans wanting more Japanese imports than the Japanese want to export. The price of yen is thus bid up to equilibrium. See explanation and graph given in class.",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-13",
+    "number": 13,
+    "question": "e.\texplanation: If the price level in Mexico falls relative to the U.S. then Mexican imports become more attractive to Americans and they demand more pesos (which means the supply of dollars increases). At the same time, American exports become relatively more expensive to Mexicans and they demand fewer dollars (supply of pesos decreases).",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-14",
+    "number": 14,
+    "question": "a.\texplanation: An appreciation in the U.S. dollar means it takes more of other countries’ currencies to buy a dollar. This means that the price of American exports increases, which decreases the amount of the U.S. exports abroad",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-15",
+    "number": 15,
+    "question": "a",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-16",
+    "number": 16,
+    "question": "b.   (105 -80)/80 = 31.25%",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 4-6.txt-17",
+    "number": 17,
+    "question": "False- in 2011 the Swiss National Bank (SNB) intervened in the currency market to strengthen the euro because Swiss exports were declining. Study tip: Review the following from the notes (1) what events were causing Swiss exports to decline and (2) What actions the SNB took in the foreign exchange market to strengthen the euro.",
+    "options": [],
+    "answer": null,
+    "module": "4-6"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-2",
+    "number": 2,
+    "question": "The ____ of the IMF’s Balance-of-Payments Statistics measures whether a particular country is a net importer or exporter of manufactured goods. 2.\tThe ____ of the IMF’s Balance-of-Payments Statistics measures whether a particular country is a net importer or exporter of manufactured goods.",
+    "options": [
+      {
+        "label": "a",
+        "text": "current account"
+      },
+      {
+        "label": "b",
+        "text": "financial account"
+      },
+      {
+        "label": "c",
+        "text": "overall balance"
+      },
+      {
+        "label": "d",
+        "text": "trade balance"
+      },
+      {
+        "label": "e",
+        "text": "None of the above "
+      }
+    ],
+    "answer": "d",
+    "explanation": "",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-3",
+    "number": 3,
+    "question": "The ____ of the IMF’s Balance-of-Payments Statistics measures whether a particular country is a net importer or exporter of goods and services. 3.\tThe ____ of the IMF’s Balance-of-Payments Statistics measures whether a particular country is a net importer or exporter of goods and services.",
+    "options": [
+      {
+        "label": "a",
+        "text": "current account"
+      },
+      {
+        "label": "b",
+        "text": "financial account"
+      },
+      {
+        "label": "c",
+        "text": "overall balance"
+      },
+      {
+        "label": "d",
+        "text": "trade balance"
+      },
+      {
+        "label": "e",
+        "text": "None of the above • "
+      }
+    ],
+    "answer": "a",
+    "explanation": "",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-4",
+    "number": 4,
+    "question": "The ____ of the IMF’s Balance-of-Payments Statistics measures cross-border transactions associated with changes in ownership of financial assets and liabilities.",
+    "options": [
+      {
+        "label": "a",
+        "text": "current account"
+      },
+      {
+        "label": "b",
+        "text": "financial account"
+      },
+      {
+        "label": "c",
+        "text": "overall balance"
+      },
+      {
+        "label": "d",
+        "text": "trade balance"
+      },
+      {
+        "label": "e",
+        "text": "None of the above • "
+      }
+    ],
+    "answer": "b",
+    "explanation": "",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-5",
+    "number": 5,
+    "question": "The ____ of the IMF’s Balance-of-Payments Statistics measures the sum of all private financial and economic transactions of the reporting economy with the rest of the world.",
+    "options": [
+      {
+        "label": "a",
+        "text": "current account"
+      },
+      {
+        "label": "b",
+        "text": "financial account"
+      },
+      {
+        "label": "c",
+        "text": "overall balance"
+      },
+      {
+        "label": "d",
+        "text": "trade balance"
+      },
+      {
+        "label": "e",
+        "text": "None of the above "
+      }
+    ],
+    "answer": "c",
+    "explanation": "",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-6",
+    "number": 6,
+    "question": "Chapter 3, question 3 6. Chapter 3, question 3",
+    "options": [],
+    "answer": null,
+    "explanation": "The current account deficits of U.S. may be attributable to (i) the strong dollar and undervalued currencies of trading partners such as China, (ii) high consumption and low savings in the U.S., (iii) weak competitiveness of U.S. industries. If U.S. deficits continue, the dollar may eventually depreciate substantially and the confidence in dollar may suffer.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-7",
+    "number": 7,
+    "question": "Chapter 3, question 5",
+    "options": [],
+    "answer": null,
+    "explanation": "The statement presupposes that the U.S. current account deficit causes its capital account surplus. In reality, the causality may be running in the opposite direction: U.S. capital account surplus may cause the country’s current account deficit. Suppose foreigners find the U.S. a great place to invest and send their capital to the U.S., resulting in U.S. capital account surplus. This capital inflow will strengthen the dollar, hurting the U.S. export and encouraging imports from foreign countries, causing current account deficits.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-8",
+    "number": 8,
+    "question": "What sort of activities result in credits to the trade category of the US balance of payments? Give some examples from the book or notes. 8. What sort of activities result in credits to the trade category of the US balance of payments? Give some examples from the book or notes.",
+    "options": [],
+    "answer": null,
+    "explanation": "Sales of  US manufactured goods to entities in other countries. Examples will vary.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-9",
+    "number": 9,
+    "question": "What sort of activities result in debits to the services category of the US balance of payments? Give some examples from the book or notes.",
+    "options": [],
+    "answer": null,
+    "explanation": "Purchases by US entities of services from other countries. Examples will vary.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-10",
+    "number": 10,
+    "question": "What sort of activities result in credits to the primary income category of the US balance of payment? Give some examples from the book or notes.",
+    "options": [],
+    "answer": null,
+    "explanation": "Dividends, interest payments, salaries, etc. paid to US entities from foreign entities. Examples will vary.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-11",
+    "number": 11,
+    "question": "What sort of activities result in debits to the foreign direct investment category of the US balance of payments? Give some examples from the book or notes.",
+    "options": [],
+    "answer": null,
+    "explanation": "Purchases by US entities of foreign ownership shares, foreign firms, real estate. Examples will vary.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-12",
+    "number": 12,
+    "question": "What sort of activities result in credits to the portfolio investment  category of the US balance of payments? Give some examples from the book or notes.",
+    "options": [],
+    "answer": null,
+    "explanation": "Purchases by foreign entities of  US financial assets such as stock, stocks ,bonds, and derivatives that do not involve a transfer of control. Examples will vary.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-13",
+    "number": 13,
+    "question": "According to your book’s presentation of the BOP categories, what sort of activities result in debits to Switzerland’s official reserves account? Why?",
+    "options": [],
+    "answer": null,
+    "explanation": "Purchases of foreign currency, gold, SDR’s by Switzerland’s Central Bank. Examples will vary.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-14",
+    "number": 14,
+    "question": "What BOP account does the trade category belong to?",
+    "options": [],
+    "answer": null,
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-15",
+    "number": 15,
+    "question": "What BOP account does the foreign direct investment category belong to?",
+    "options": [],
+    "answer": null,
+    "explanation": "financial account",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-16",
+    "number": 16,
+    "question": "What BOP account does the services category belong to?",
+    "options": [],
+    "answer": null,
+    "explanation": "Current account",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-17",
+    "number": 17,
+    "question": "What BOP account does the primary income account belong to?",
+    "options": [],
+    "answer": null,
+    "explanation": "Current account",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-18",
+    "number": 18,
+    "question": "What BOP account does the portfolio income account belong to?",
+    "options": [],
+    "answer": null,
+    "explanation": "Financial account",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-19",
+    "number": 19,
+    "question": "What makes the BOP an “identity”?",
+    "options": [],
+    "answer": null,
+    "explanation": "When the accounts are recorded correctly, the combined balance of the current account, the capital account, the financial account, and the reserves account, must be zero. See the note for the equation. Under the pure flexible exchange rate regime, central banks will not intervene in the foreign exchange markets, and central banks do not need to maintain official reserves. In this case, the sum of the rest of the accounts is zero.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 7-8.txt-20",
+    "number": 20,
+    "question": "What are some problems with making bilateral comparisons between two countries’ BOP accounts? 21.What is secondary income and what BOP account does it belong to?",
+    "options": [],
+    "answer": null,
+    "explanation": "See the required article “The i-phone isn’t made in China. It’ s made everywhere.",
+    "module": "7-8"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-1",
+    "number": 1,
+    "question": "If the $/€ bid and ask prices are $1.50/€ and $1.51/€, respectively, what are the corresponding bid and ask prices on the dollar?",
+    "options": [
+      {
+        "label": "a",
+        "text": "bid: $1.5; ask: $1.50"
+      },
+      {
+        "label": "b",
+        "text": "bid: €0.6667; ask: €0.6623"
+      },
+      {
+        "label": "c",
+        "text": "bid: €0.6623; ask: €0.6667"
+      },
+      {
+        "label": "d",
+        "text": "Cannot be determined with the information give."
+      },
+      {
+        "label": "e",
+        "text": "None of the above.  "
+      }
+    ],
+    "answer": "c",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-2",
+    "number": 2,
+    "question": "The AUD/$ spot exchange rate is AUD1.60/$ and the CHF/$ is CHF1.25/$. The AUD/CHF cross exchange rate is _____.   2. The AUD/$ spot exchange rate is AUD1.60/$ and the CHF/$ is CHF1.25/$. The AUD/CHF cross exchange rate is _____.",
+    "options": [
+      {
+        "label": "a",
+        "text": "AUD 0.7813/CHF"
+      },
+      {
+        "label": "b",
+        "text": "AUD 2.0000/CHF"
+      },
+      {
+        "label": "c",
+        "text": "AUD 1.2800/CHF"
+      },
+      {
+        "label": "d",
+        "text": "AUD 0.3500/CHF"
+      },
+      {
+        "label": "e",
+        "text": "None of the above  Use the following information to answer the next two questions. The dollar-euro exchange rate is quoted at Bank A as $1.00= €0.8334 and the dollar-pound exchange rate is quoted at Bank B as $1.00 = £0.5556. Bank C quotes you a rate of £1.00 = €1.50 "
+      }
+    ],
+    "answer": "c",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-3",
+    "number": 3,
+    "question": "What is the euro/pound cross rate computed from the first two quotes in the information above? 3. What is the euro/pound cross rate computed from the first two quotes in the information above?",
+    "options": [
+      {
+        "label": "a",
+        "text": "£1.50/€"
+      },
+      {
+        "label": "b",
+        "text": "€1.20/£"
+      },
+      {
+        "label": "c",
+        "text": "€1.50/£"
+      },
+      {
+        "label": "d",
+        "text": "€1.80/£ "
+      },
+      {
+        "label": "e",
+        "text": "None of the above "
+      }
+    ],
+    "answer": "c",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-4",
+    "number": 4,
+    "question": "How much money can an astute trader with $1,000,000 make from triangular arbitrage between Banks A, B, and C above?  4.  How much money can an astute trader with $1,000,000 make from triangular arbitrage between Banks A, B, and C above?",
+    "options": [
+      {
+        "label": "a",
+        "text": "No triangular arbitrage is possible at the above rates. "
+      },
+      {
+        "label": "b",
+        "text": "$1,600,000 "
+      },
+      {
+        "label": "c",
+        "text": "$41,667 "
+      },
+      {
+        "label": "d",
+        "text": "$40,000 "
+      },
+      {
+        "label": "e",
+        "text": "none of the above is correct "
+      }
+    ],
+    "answer": "a",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-5",
+    "number": 5,
+    "question": "The spot market  5. The spot market a. involves the almost-immediate purchase or sale of foreign exchange. b. involves the sale of futures, forwards, and options on foreign exchange. c. takes place only on the floor of a physical exchange. d. all of the above.",
+    "options": [
+      {
+        "label": "e",
+        "text": "none of the above "
+      }
+    ],
+    "answer": "a",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-6",
+    "number": 6,
+    "question": "The forward market   6. The forward market a. involves contracting today for the future purchase or sale of foreign exchange at the spot rate that will prevail at the maturity of the contract. b. involves contracting today for the future purchase of sale of foreign exchange at a price agreed upon today. c. involves contracting today for the right but not obligation to the future purchase of sale of foreign exchange at a price agreed upon today. d. none of the above   Use the table below to answer the next 4 questions Wednesday, October 22, 2014 U.S.-dollar foreign-exchange rates in late New York trading  IN US$  PER US$ Country/currency Wed    Wed Australian dollar 0.8778  1.1392 1-mos forward 0.8759  1.1417 3-mos forward 0.8721  1.1467 6-mos forward 0.8665  1.1540 China yuan 0.1635  6.1160 Hong Kong dollar 0.1289  7.7572 India rupee 0.01634  61.19995 Indonesia rupiah 0.0000832  12018 UK pound 1.6050  0.6231 1-mos forward 1.6046  0.6232 3-mos forward 1.6038  0.6235 6-mos forward 1.6024  0.6241",
+    "options": [],
+    "answer": "b",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-7",
+    "number": 7,
+    "question": "Which of the following can you infer from the table above? 7. Which of the following can you infer from the table above?",
+    "options": [
+      {
+        "label": "a",
+        "text": "The US dollar is expected to appreciate against the UK pound."
+      },
+      {
+        "label": "b",
+        "text": "The Australian dollar is expected to appreciate against the US dollar."
+      },
+      {
+        "label": "c",
+        "text": "The US dollar is expected to depreciate against the UK pound."
+      },
+      {
+        "label": "d",
+        "text": "The UK pound is expected to appreciate against the Indian rupee."
+      },
+      {
+        "label": "e",
+        "text": "none of the above "
+      }
+    ],
+    "answer": "a",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-8",
+    "number": 8,
+    "question": "You are receiving a payment of 2 million Australian dollars in 3 months and would like to lock in the dollar amount of your receipt using the forward market.  How much will you receive in US dollars if you enter into the 3 month forward contract? 8. You are receiving a payment of 2 million Australian dollars in 3 months and would like to lock in the dollar amount of your receipt using the forward market.  How much will you receive in US dollars if you enter into the 3 month forward contract?",
+    "options": [
+      {
+        "label": "a",
+        "text": "$1,755,600\tb. $2,278,400\tc. $1,744,200\td. $2,293,400\te. None of the above "
+      }
+    ],
+    "answer": "c",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-9",
+    "number": 9,
+    "question": "You are receiving a payment of 2 million Australian dollars in 3 months and would like to lock in the dollar amount of your receipt using the forward market (with a 3 month forward contract).  What is the ANNUALIZED forward discount or premium on the US dollar? Round to 4 decimal places in your work.  9. You are receiving a payment of 2 million Australian dollars in 3 months and would like to lock in the dollar amount of your receipt using the forward market (with a 3 month forward contract).  What is the ANNUALIZED forward discount or premium on the US dollar? Round to 4 decimal places in your work.",
+    "options": [
+      {
+        "label": "a",
+        "text": "0.65% forward premium\tb. 0.66% forward premium\tc. 2.60% forward premium"
+      },
+      {
+        "label": "d",
+        "text": "2.64% forward premium\te. none of the above "
+      }
+    ],
+    "answer": "d",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-10",
+    "number": 10,
+    "question": "You owe 5 million UK pounds in 6 months and are considering a forward contract to cover your payable. What is the ANNUALIZED 6-month forward premium or discount on the UK pound? 10. You owe 5 million UK pounds in 6 months and are considering a forward contract to cover your payable. What is the ANNUALIZED 6-month forward premium or discount on the UK pound?",
+    "options": [
+      {
+        "label": "a",
+        "text": "0.32% discount\t\tb. 0.32% premium\tc. 0.16% discount\t\td. 0.16% premium"
+      },
+      {
+        "label": "e",
+        "text": "none of the above "
+      }
+    ],
+    "answer": "a",
+    "explanation": "",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-11",
+    "number": 11,
+    "question": "Define each of the following types of foreign exchange transactions and give an example.  11.\tDefine each of the following types of foreign exchange transactions and give an example. •\tSpot •\tOutright forward",
+    "options": [],
+    "answer": null,
+    "explanation": "See book/notes",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-12",
+    "number": 12,
+    "question": "Given the following exchange rates 12.\tGiven the following exchange rates Mexican peso: MXN 10.974/$ Japanese yen: ¥117.29/$  Calculate the cross rate between the peso and the yen.",
+    "options": [],
+    "answer": null,
+    "explanation": "¥ 10.69/MXN",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-13",
+    "number": 13,
+    "question": "Suppose the spot rate on the British pound is $1.8410/£ and the one-month and three-month forward rates are given below   13.\tSuppose the spot rate on the British pound is $1.8410/£ and the one-month and three-month forward rates are given below One-month  $1.8360/£ Six-month\t$1.8120/£  •\tCalculate the one-month forward discount or premium on the pound. •\tCalculate the six-month forward discount or premium on the dollar (hint: first convert to a direct quote on the dollar).   Use the following information to answer the next three questions. Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar. Round to 4 decimal places in your work. Bid (€/$)\tAsk (€/$) Spot rate\t0.8894\t0.8898 1-month forward\t0.8938\t0.8942 3-month forward\t0.9028\t0.9032 6-month forward\t0.9164\t0.9168 12-month forward\t0.9443\t0.9447",
+    "options": [],
+    "answer": "a",
+    "explanation": ". [(1.8360-1.8410)/1.8410]*[360/30] =  - 0.0326 = 3.26% discount      B. [(0.5519-0.5432)/0.5432]*[360/180] = .0320 = 3.2% premium",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-14",
+    "number": 14,
+    "question": "What is expected to happen to the value of the dollar? 14.  What is expected to happen to the value of the dollar?",
+    "options": [],
+    "answer": null,
+    "explanation": "Increasing",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-15",
+    "number": 15,
+    "question": "What is the annualized 3-month forward premium or discount on the dollar? 15.  What is the annualized 3-month forward premium or discount on the dollar? • •\t\t\t\t16.  What is the annualized 6-month forward premium or discount on the euro? (Note that you will need to restate the exchange rates so that the euro is in the denominator and then identify the dealer’s asking price on the euro).",
+    "options": [],
+    "answer": null,
+    "explanation": "[(0.9032-0.8898)/0.8898]*[360/90] = 0.0602 = 6.02% premium",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-17",
+    "number": 17,
+    "question": "Assume the following quotes:   17.\tAssume the following quotes: •\tCitibank quotes US dollars per pound at $1.8500/£ •\tNational Westminster quotes euro per pound at €1.5000/£ •\tDeutsche Bank quotes dollars per euro at $1.2400/€  Calculate how a market trader with $1,000,000 can make an intermarket arbitrage profit.",
+    "options": [],
+    "answer": null,
+    "explanation": "The quoted cross rate is €1.5000/£ at National Westminster.",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-18",
+    "number": 18,
+    "question": "Suppose a currency trader sees the following quotes at Banks A, J, S.  18. Suppose a currency trader sees the following quotes at Banks A, J, S. Bank A: $0.009411/¥ Bank J:\tCHF 0.016459 / ¥ Bank S: CHF 1.7125 /$ How much profit can a trader who starts with $1,000,000 make through arbitrage (round to the nearest hundred)?",
+    "options": [],
+    "answer": null,
+    "explanation": "The quoted cross rate at Bank J is:\tCHF 0.016459 / ¥.",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-19",
+    "number": 19,
+    "question": "Using the excerpt below, calculate the one-, three-, and six-month forward premium or discount for the Canadian dollar versus the U.S. dollar using American term quotations (see definition in the book). For simplicity, assume each moth has 30 days. What is the interpretation of your results?  19.  Using the excerpt below, calculate the one-, three-, and six-month forward premium or discount for the Canadian dollar versus the U.S. dollar using American term quotations (see definition in the book). For simplicity, assume each moth has 30 days. What is the interpretation of your results?    in US $ per US $  Canada dollar 0.9629 1.0385  1-mos forward 0.9628 1.0386  3-mos forward 0.9624 1.0391  6-mos forward 0.9614 1.0401",
+    "options": [],
+    "answer": null,
+    "explanation": "This question is asking about the forward premium or discount on the Canadian dollar (in US dollars).",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-20",
+    "number": 20,
+    "question": "Chapter 5, problem 7. Note the wording is a little different than what we used in class. This exercise is asking for the forward premium or discount on the yen (price is in dollars).   20. Chapter 5, problem 7. Note the wording is a little different than what we used in class. This exercise is asking for the forward premium or discount on the yen (price is in dollars).  Exercises continue on the next page.  21-26. The following tables show currency quotes from three Banks. Note that this problem does NOT ask you to solve for arbitrage profit. The reason for this is to get extra practice on a challenging step in solving triangular arbitrage exercises. Each column of the table is a separate exercise. For each exercise answer the following three questions. •\tWhich bank offers the “Quoted Cross Rate?” (See notes and book for the definition of this term). •\tSolve for the implied cross rate using the quotes provided. (See notes and book for the definition of this term). •\tComparing the quoted cross rate and the implied cross rate, which currency do you want to buy, and which currency do you want to sell at the bank you identified in question A?   Exercise 21 Exercise 22 Exercise 23 Bank Quotes Quotes Quotes Apex 1.0676 USD = 1EUR 0.8974 CHF = 1 USD 1.3538 CAD = 1 USD Beta 160 JPY = 1 EUR 1.2386 USD = 1 GBP 12.05 MXN = 1 CAD Chicago 147.78 JPY = 1 USD 1.03 CHF = 1 GBP 17.08 MXN = 1 USD (A) Which Bank gives quoted cross rate?        (B) Implied Cross rate        (C) Which currency to buy and which to sell at quoted cross rate?           Exercise 24 Exercise 25 Exercise 26 Bank Quotes Quotes Quotes Apex 8.5902 JPY = 1 MXN 0.6938 EUR = 1 CAD 1.1143 USD = 1 CHF Beta 147.78 JPY = 1 USD 0.7386 USD = 1 CAD 83.10 INR = 1 USD Chicago 17.08 MXN = 1 USD 1.0676 USD = 1 EUR 92.5983 INR = 1 CHF (A) Which Bank gives quoted cross rate?        (B) Implied Cross rate        (C) Which currency to buy and which to sell at quoted cross rate?            27-33. Refer to your answers to Exercises 21-26 above. Suppose a trader begins with $5,750,000 in each case. Solve for this trader’s triangular arbitrage profit in each case. Show each step in the arbitrage process.",
+    "options": [],
+    "answer": null,
+    "explanation": "This question is asking about the forward premium or discount on the JPY (in USD). Solution: The formula we want to use is:",
+    "module": "9-11"
+  },
+  {
+    "id": "Independent Practice Questions for Modules 9-11.txt-34",
+    "number": 34,
+    "question": "Doug Bernard specializes in cross-rate arbitrage. He notices the following quotes: 34. Doug Bernard specializes in cross-rate arbitrage. He notices the following quotes: Bank A: CHF/USD = CHF 1.5971/USD Bank B: AUD/USD = AUD 1.8215/USD Bank C: AUD/CHF = AUD 1.1440/CHF Ignoring transaction costs, does Doug Bernard have an arbitrage opportunity based on these quotes? If there is an arbitrage opportunity, what steps would he take to make an arbitrage profit, and how much would he profit if he has $1,000,000 available for this purpose?",
+    "options": [],
+    "answer": null,
+    "module": "9-11"
+  }
+]
