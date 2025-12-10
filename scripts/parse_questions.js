@@ -5,160 +5,323 @@ import path from 'path';
 const RAW_DIR = path.join(process.cwd(), 'src/data/raw');
 const OUTPUT_FILE = path.join(process.cwd(), 'src/data/questions.json');
 
-function parseFile(filename) {
-    const content = fs.readFileSync(path.join(RAW_DIR, filename), 'utf-8');
-    
+// Expected counts per module for validation
+const EXPECTED_COUNTS = {
+    '1-3': 20,
+    '4-6': 16,
+    '7-8': 21,
+    '9-11': 34
+};
+
+function parseModules7_8(content) {
+    const questions = [];
+
     // Split into Questions and Answers
-    // Common delimiters seen: "Answers", "Answers are at the end"
-    const splitRegex = /\nAnswers\s*\n|Answers are at the end/i;
-    const parts = content.split(splitRegex);
-    
-    // If we have "Answers are at the end" at top, it might split there
-    // We want the LAST split usually, or distinct sections.
-    // The file seems to have "Answers are at the end..." at line 2 usually.
-    // And actual "Answers" header later.
-    
-    // Let's look for the *last* occurrence of "Answers" on its own line if possible.
-    // Or scan for lines starting with "1." after a significant gap.
-    
+    const answerHeaderMatch = content.match(/\nAnswers\s*\n/);
     let questionSection = content;
     let answerSection = '';
 
-    const answerHeaderMatch = content.match(/\nAnswers\s*\n/);
     if (answerHeaderMatch) {
-        const idx = answerHeaderMatch.index;
-        questionSection = content.substring(0, idx);
-        answerSection = content.substring(idx + answerHeaderMatch[0].length);
+        questionSection = content.substring(0, answerHeaderMatch.index);
+        answerSection = content.substring(answerHeaderMatch.index + answerHeaderMatch[0].length);
     }
 
-    // Normalize
-    questionSection = questionSection.replace(/\r/g, '');
-    answerSection = answerSection.replace(/\r/g, '');
+    // Question 1 uses bullet point format at line 5
+    // Lines 5: "• Why do economists..."
+    const bulletMatch = questionSection.match(/•\s+(Why do economists[^\n]+)/);
+    if (bulletMatch) {
+        questions.push({
+            id: 'mod7-8-1',
+            number: 1,
+            question: bulletMatch[1].trim(),
+            options: [],
+            answer: null,
+            explanation: 'See class notes/discussion.'
+        });
+    }
 
-    // Extract Modules if present
-    // "Module 9: Exercises..."
-    // We can try to tag questions with modules.
-    
-    // Strategy: Split by "Number." 
-    const questions = [];
-    
-    // Regex for start of question: "1. ", "2. "
-    // Note: Some files span modules.
-    
-    const qRegex = /^\s*(\d+)\.\s+(.*)$/gm;
+    // Questions 2-21 use standard numbering
+    const qRegex = /^\s*(\d+)\.\s*(.+)/gm;
     let match;
     const qMatches = [];
+
     while ((match = qRegex.exec(questionSection)) !== null) {
-        qMatches.push({
-            num: parseInt(match[1]),
-            text: match[2], // Start of text
-            index: match.index,
-            fullMatch: match[0]
+        const num = parseInt(match[1]);
+        if (num >= 2 && num <= 21) {
+            qMatches.push({
+                num,
+                text: match[2].trim(),
+                index: match.index
+            });
+        }
+    }
+
+    // Deduplicate
+    const seen = new Set([1]); // already have Q1
+    for (const q of qMatches) {
+        if (seen.has(q.num)) continue;
+        seen.add(q.num);
+
+        // Find options for this question if they exist
+        const nextQ = qMatches.find(x => x.num === q.num + 1);
+        const endIdx = nextQ ? nextQ.index : questionSection.length;
+        const block = questionSection.substring(q.index, endIdx);
+
+        const options = [];
+        const optRegex = /^\s*([a-e])[\.\)]\s*(.+)/gm;
+        let optMatch;
+        while ((optMatch = optRegex.exec(block)) !== null) {
+            options.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
+        }
+
+        questions.push({
+            id: 'mod7-8-' + q.num,
+            number: q.num,
+            question: q.text,
+            options,
+            answer: null,
+            explanation: ''
         });
     }
 
-    for (let i = 0; i < qMatches.length; i++) {
-        const start = qMatches[i].index;
-        const end = (i < qMatches.length - 1) ? qMatches[i+1].index : questionSection.length;
-        
-        const fullBlock = questionSection.substring(start, end);
-        // Remove the "1. " part from the parsing logic to get options
-        
-        // Extract options a. b. c. d.
-        // Regex: /^\s*([a-e])\.\s+(.*)$/gm
-        const options = [];
-        const optRegex = /^\s*([a-e])\.\s+(.*)$/gm;
-        let optMatch;
-        // Text part is everything before the first option?
-        // Or all text lines that don't match option regex?
-        
-        const lines = fullBlock.split('\n');
-        let questionText = '';
-        let currentOption = null;
-        
-        lines.forEach((line, idx) => {
-            if (idx === 0) {
-                 // First line is "1. Text..."
-                 // qMatches[i].fullMatch handles the number removal if we want
-                 // But fullBlock includes it.
-                 // let's use the matched text from qMatch[i].text
-                 questionText += qMatches[i].text;
-                 return;
-            }
-            
-            const optM = /^\s*([a-e])\.\s+(.*)$/i.exec(line);
-            if (optM) {
-                if (currentOption) options.push(currentOption);
-                currentOption = { label: optM[1].toLowerCase(), text: optM[2] };
-            } else if (currentOption) {
-                currentOption.text += ' ' + line.trim();
-            } else {
-                questionText += ' ' + line.trim();
-            }
-        });
-        if (currentOption) options.push(currentOption);
-        
-        questions.push({
-            id: filename + '-' + qMatches[i].num,
-            number: qMatches[i].num,
-            question: questionText.trim(),
-            options: options,
-            answer: null // To be filled
-        });
-    }
-    
-    // Parse Answers
-    // Format: "1. a" or "1. Explanation..."
-    const aRegex = /^\s*(\d+)\.\s+(.*)$/gm;
+    // Parse answers
+    const aRegex = /^\s*(\d+)\.\s*(.+)/gm;
     let aMatch;
     while ((aMatch = aRegex.exec(answerSection)) !== null) {
         const num = parseInt(aMatch[1]);
         const text = aMatch[2].trim();
-        
-        // Find corresponding question
-        const q = questions.find(q => q.number === num);
+        const q = questions.find(x => x.number === num);
         if (q) {
-            // Try to extract just the letter if simple
             const letterMatch = text.match(/^([a-e])\b/i);
-            
-            // Or "False. Explanation"
-            const trueFalseMatch = text.match(/^(True|False)/i);
-
             if (letterMatch) {
                 q.answer = letterMatch[1].toLowerCase();
                 q.explanation = text.substring(letterMatch[0].length).trim();
-            } else if (trueFalseMatch) {
-                q.answer = trueFalseMatch[1].toLowerCase(); // 'true' or 'false'
-                q.explanation = text.substring(trueFalseMatch[0].length).trim();
+            } else {
+                q.explanation = text;
+            }
+        }
+    }
+
+    return questions;
+}
+
+function parseModules9_11(content) {
+    const questions = [];
+
+    // Split into Questions and Answers
+    const answerHeaderMatch = content.match(/\nAnswers\s*\n/);
+    let questionSection = content;
+    let answerSection = '';
+
+    if (answerHeaderMatch) {
+        questionSection = content.substring(0, answerHeaderMatch.index);
+        answerSection = content.substring(answerHeaderMatch.index + answerHeaderMatch[0].length);
+    }
+
+    // Questions 1-20 are standard
+    const qRegex = /^\s*(\d+)\.\s+(.+)/gm;
+    let match;
+    const seen = new Set();
+
+    while ((match = qRegex.exec(questionSection)) !== null) {
+        const num = parseInt(match[1]);
+        if (num >= 1 && num <= 20 && !seen.has(num)) {
+            seen.add(num);
+
+            // Find block end
+            const nextMatch = new RegExp(`^\\s*${num + 1}\\.\\s+`, 'm');
+            const restContent = questionSection.substring(match.index + match[0].length);
+            const nextIdx = restContent.search(nextMatch);
+            const block = nextIdx > 0 ? restContent.substring(0, nextIdx) : restContent.substring(0, 500);
+
+            // Extract options
+            const options = [];
+            const optRegex = /^([a-e])[\.\)]\s+(.+)/gm;
+            let optMatch;
+            while ((optMatch = optRegex.exec(block)) !== null) {
+                options.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
+            }
+
+            questions.push({
+                id: 'mod9-11-' + num,
+                number: num,
+                question: match[2].trim(),
+                options,
+                answer: null,
+                explanation: ''
+            });
+        }
+    }
+
+    // Questions 21-26 are grouped as "21-26. The following tables..."
+    const q21_26Match = questionSection.match(/21-26\.\s+(.+?)(?=27-33|$)/s);
+    if (q21_26Match) {
+        for (let i = 21; i <= 26; i++) {
+            questions.push({
+                id: 'mod9-11-' + i,
+                number: i,
+                question: `Exercise ${i}: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.`,
+                options: [],
+                answer: null,
+                explanation: ''
+            });
+        }
+    }
+
+    // Questions 27-33 
+    const q27_33Match = questionSection.match(/27-33\.\s+(.+?)(?=34\.|$)/s);
+    if (q27_33Match) {
+        for (let i = 27; i <= 33; i++) {
+            questions.push({
+                id: 'mod9-11-' + i,
+                number: i,
+                question: `Exercise ${i}: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.`,
+                options: [],
+                answer: null,
+                explanation: ''
+            });
+        }
+    }
+
+    // Question 34 is standalone
+    const q34Match = questionSection.match(/34\.\s+(.+?)(?=Answers|$)/s);
+    if (q34Match) {
+        questions.push({
+            id: 'mod9-11-34',
+            number: 34,
+            question: q34Match[1].trim().split('\n')[0],
+            options: [],
+            answer: null,
+            explanation: ''
+        });
+    }
+
+    // Parse answers
+    const aRegex = /^\s*(\d+)\.\s*(.+)/gm;
+    let aMatch;
+    while ((aMatch = aRegex.exec(answerSection)) !== null) {
+        const num = parseInt(aMatch[1]);
+        const text = aMatch[2].trim();
+        const q = questions.find(x => x.number === num);
+        if (q) {
+            const letterMatch = text.match(/^([a-e])\b/i);
+            if (letterMatch) {
+                q.answer = letterMatch[1].toLowerCase();
+                q.explanation = text.substring(letterMatch[0].length).trim();
+            } else {
+                q.explanation = text;
+            }
+        }
+    }
+
+    return questions;
+}
+
+function parseStandardFile(filename, content, moduleRange) {
+    const questions = [];
+
+    // Split into Questions and Answers
+    const answerHeaderMatch = content.match(/\nAnswers\s*\n/);
+    let questionSection = content;
+    let answerSection = '';
+
+    if (answerHeaderMatch) {
+        questionSection = content.substring(0, answerHeaderMatch.index);
+        answerSection = content.substring(answerHeaderMatch.index + answerHeaderMatch[0].length);
+    }
+
+    const qRegex = /^\s*(\d+)\.\s+(.+)/gm;
+    let match;
+    const seen = new Set();
+    const qMatches = [];
+
+    while ((match = qRegex.exec(questionSection)) !== null) {
+        const num = parseInt(match[1]);
+        if (!seen.has(num)) {
+            seen.add(num);
+            qMatches.push({
+                num,
+                text: match[2].trim(),
+                index: match.index,
+                length: match[0].length
+            });
+        }
+    }
+
+    for (let i = 0; i < qMatches.length; i++) {
+        const q = qMatches[i];
+        const nextQ = qMatches[i + 1];
+        const endIdx = nextQ ? nextQ.index : questionSection.length;
+        const block = questionSection.substring(q.index + q.length, endIdx);
+
+        const options = [];
+        const optRegex = /^\s*([a-e])[\.\)]\s+(.+)/gm;
+        let optMatch;
+        while ((optMatch = optRegex.exec(block)) !== null) {
+            options.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
+        }
+
+        questions.push({
+            id: `${moduleRange}-${q.num}`,
+            number: q.num,
+            question: q.text,
+            options,
+            answer: null,
+            explanation: ''
+        });
+    }
+
+    // Parse answers
+    const aRegex = /^\s*(\d+)\.\s*(.+)/gm;
+    let aMatch;
+    while ((aMatch = aRegex.exec(answerSection)) !== null) {
+        const num = parseInt(aMatch[1]);
+        const text = aMatch[2].trim();
+        const q = questions.find(x => x.number === num);
+        if (q) {
+            const letterMatch = text.match(/^([a-e])\b/i);
+            const tfMatch = text.match(/^(True|False)/i);
+            if (letterMatch) {
+                q.answer = letterMatch[1].toLowerCase();
+                q.explanation = text.substring(letterMatch[0].length).trim();
+            } else if (tfMatch) {
+                q.answer = tfMatch[1].toLowerCase();
+                q.explanation = text.substring(tfMatch[0].length).trim();
                 q.type = 'true-false';
             } else {
                 q.explanation = text;
             }
         }
     }
-    
+
     return questions;
 }
 
 const allQuestions = [];
+
+// Process each file with appropriate parser
 const files = fs.readdirSync(RAW_DIR).filter(f => f.endsWith('.txt'));
 
-files.forEach(f => {
-    try {
-        const qs = parseFile(f);
-        // Identify Module from filename
-        // "Independent Practice Questions for Modules 1 - 3 .txt"
-        // Regex to extract "1 - 3" or "4-6"
-        const modMatch = f.match(/Modules\s+([\d\s-]+)/i);
-        let moduleRange = 'Unknown';
-        if (modMatch) moduleRange = modMatch[1].replace(/\s/g, '');
-        
-        qs.forEach(q => q.module = moduleRange);
-        allQuestions.push(...qs);
-    } catch (e) {
-        console.error("Error parsing " + f, e);
+for (const f of files) {
+    const content = fs.readFileSync(path.join(RAW_DIR, f), 'utf-8');
+    const modMatch = f.match(/Modules\s+([\d\s-]+)/i);
+    const moduleRange = modMatch ? modMatch[1].replace(/\s/g, '') : 'Unknown';
+
+    let qs;
+    if (moduleRange === '7-8') {
+        qs = parseModules7_8(content);
+    } else if (moduleRange === '9-11') {
+        qs = parseModules9_11(content);
+    } else {
+        qs = parseStandardFile(f, content, moduleRange);
     }
-});
+
+    qs.forEach(q => q.module = moduleRange);
+
+    console.log(`${f}: Parsed ${qs.length} questions (Expected: ${EXPECTED_COUNTS[moduleRange] || 'N/A'})`);
+    allQuestions.push(...qs);
+}
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allQuestions, null, 2));
-console.log(`Parsed ${allQuestions.length} questions.`);
+console.log(`\nTotal: ${allQuestions.length} questions parsed.`);
+console.log(`Expected Total: ${Object.values(EXPECTED_COUNTS).reduce((a, b) => a + b, 0)}`);
