@@ -1,0 +1,76 @@
+Independent Practice Questions for Modules 7-8
+Answers are at the end of the document
+
+Exercises
+	•	Why do economists and policy makers care that the U.S. has a large Balance of Trade deficit? Support your explanation with the class discussion including articles if applicable.
+
+2.	The ____ of the IMF’s Balance-of-Payments Statistics measures whether a particular country is a net importer or exporter of manufactured goods.
+	a.	current account
+	b.	financial account
+	c.	overall balance
+	d.	trade balance
+	e.	None of the above
+
+3.	The ____ of the IMF’s Balance-of-Payments Statistics measures whether a particular country is a net importer or exporter of goods and services.
+	a.	current account
+	b.	financial account
+	c.	overall balance
+	d.	trade balance
+	e.	None of the above
+	•	
+4.	The ____ of the IMF’s Balance-of-Payments Statistics measures cross-border transactions associated with changes in ownership of financial assets and liabilities.
+	a.	current account
+	b.	financial account
+	c.	overall balance
+	d.	trade balance
+	e.	None of the above
+	•	
+5.	The ____ of the IMF’s Balance-of-Payments Statistics measures the sum of all private financial and economic transactions of the reporting economy with the rest of the world.
+	a.	current account
+	b.	financial account
+	c.	overall balance
+	d.	trade balance
+	e.	None of the above
+
+6. Chapter 3, question 3
+7. Chapter 3, question 5
+
+8. What sort of activities result in credits to the trade category of the US balance of payments? Give some examples from the book or notes.
+9. What sort of activities result in debits to the services category of the US balance of payments? Give some examples from the book or notes.
+10. What sort of activities result in credits to the primary income category of the US balance of payment? Give some examples from the book or notes.
+11. What sort of activities result in debits to the foreign direct investment category of the US balance of payments? Give some examples from the book or notes.
+12. What sort of activities result in credits to the portfolio investment  category of the US balance of payments? Give some examples from the book or notes.
+13. According to your book’s presentation of the BOP categories, what sort of activities result in debits to Switzerland’s official reserves account? Why?
+14. What BOP account does the trade category belong to?
+15. What BOP account does the foreign direct investment category belong to?
+16. What BOP account does the services category belong to?
+17. What BOP account does the primary income account belong to?
+18. What BOP account does the portfolio income account belong to?
+19. What makes the BOP an “identity”?
+20. What are some problems with making bilateral comparisons between two countries’ BOP accounts?
+21.What is secondary income and what BOP account does it belong to? 
+
+Answers
+1.	See class notes/discussion.
+
+2. d	
+3. a	
+4. b	
+5. c 	 
+
+6. The current account deficits of U.S. may be attributable to (i) the strong dollar and undervalued currencies of trading partners such as China, (ii) high consumption and low savings in the U.S., (iii) weak competitiveness of U.S. industries. If U.S. deficits continue, the dollar may eventually depreciate substantially and the confidence in dollar may suffer.
+7. 	The statement presupposes that the U.S. current account deficit causes its capital account surplus. In reality, the causality may be running in the opposite direction: U.S. capital account surplus may cause the country’s current account deficit. Suppose foreigners find the U.S. a great place to invest and send their capital to the U.S., resulting in U.S. capital account surplus. This capital inflow will strengthen the dollar, hurting the U.S. export and encouraging imports from foreign countries, causing current account deficits.
+8. Sales of  US manufactured goods to entities in other countries. Examples will vary.
+9. Purchases by US entities of services from other countries. Examples will vary.
+10. Dividends, interest payments, salaries, etc. paid to US entities from foreign entities. Examples will vary.
+11. Purchases by US entities of foreign ownership shares, foreign firms, real estate. Examples will vary.
+12. Purchases by foreign entities of  US financial assets such as stock, stocks ,bonds, and derivatives that do not involve a transfer of control. Examples will vary.
+13. Purchases of foreign currency, gold, SDR’s by Switzerland’s Central Bank. Examples will vary.
+14.Current account
+15. financial account
+16. Current account
+17. Current account
+18. Financial account
+19. When the accounts are recorded correctly, the combined balance of the current account, the capital account, the financial account, and the reserves account, must be zero. See the note for the equation. Under the pure flexible exchange rate regime, central banks will not intervene in the foreign exchange markets, and central banks do not need to maintain official reserves. In this case, the sum of the rest of the accounts is zero.
+20. See the required article “The i-phone isn’t made in China. It’ s made everywhere.
+21. Current transfers for which no goods services or assets are exchanged. They do not involve change of ownership, acquisition, or disposal of an asset. 

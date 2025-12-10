@@ -1,0 +1,498 @@
+Independent Practice Questions for Modules 9-11
+Answers are at the end of the document
+
+Exercise-Module Summary
+Module 9: Exercises 5, 6, 7, 8, 9, 10, 11, 13, 14, 19, 20
+Module 10: Exercises: 1, 15, 16
+Module 11: Exercises: 2, 3, 4, 12, 17, 18, 21-34
+
+Exercises
+1.  If the $/€ bid and ask prices are $1.50/€ and $1.51/€, respectively, what are the corresponding bid and ask prices on the dollar? 
+a.  bid: $1.5; ask: $1.50
+b.  bid: €0.6667; ask: €0.6623
+c.  bid: €0.6623; ask: €0.6667
+d. Cannot be determined with the information give.
+e. None of the above. 
+
+2. The AUD/$ spot exchange rate is AUD1.60/$ and the CHF/$ is CHF1.25/$. The AUD/CHF cross exchange rate is _____.  
+a. AUD 0.7813/CHF
+b. AUD 2.0000/CHF
+c. AUD 1.2800/CHF
+d. AUD 0.3500/CHF
+e. None of the above
+
+Use the following information to answer the next two questions. The dollar-euro exchange rate is quoted at Bank A as $1.00= €0.8334 and the dollar-pound exchange rate is quoted at Bank B as $1.00 = £0.5556. Bank C quotes you a rate of £1.00 = €1.50
+
+3. What is the euro/pound cross rate computed from the first two quotes in the information above?
+a. £1.50/€
+b. €1.20/£
+c. €1.50/£
+d. €1.80/£ 
+e. None of the above
+
+4.  How much money can an astute trader with $1,000,000 make from triangular arbitrage between Banks A, B, and C above? 
+a. No triangular arbitrage is possible at the above rates. 
+b. $1,600,000 
+c. $41,667 
+d. $40,000 
+e. none of the above is correct
+
+5. The spot market 
+a. involves the almost-immediate purchase or sale of foreign exchange. b. involves the sale of futures, forwards, and options on foreign exchange. c. takes place only on the floor of a physical exchange. d. all of the above.
+e. none of the above
+
+
+6. The forward market 
+a. involves contracting today for the future purchase or sale of foreign exchange at the spot rate that will prevail at the maturity of the contract. b. involves contracting today for the future purchase of sale of foreign exchange at a price agreed upon today. c. involves contracting today for the right but not obligation to the future purchase of sale of foreign exchange at a price agreed upon today. d. none of the above
+
+
+Use the table below to answer the next 4 questions
+Wednesday, October 22, 2014 
+U.S.-dollar foreign-exchange rates in late New York trading
+
+IN US$ 
+
+PER US$ 
+Country/currency
+Wed 
+
+
+
+Wed 
+Australian dollar
+0.8778
+
+1.1392
+  1-mos forward
+0.8759
+
+1.1417
+  3-mos forward
+0.8721
+
+1.1467
+  6-mos forward
+0.8665
+
+1.1540
+China yuan
+0.1635
+
+6.1160
+Hong Kong dollar
+0.1289
+
+7.7572
+India rupee
+0.01634
+
+61.19995
+Indonesia rupiah
+0.0000832
+
+12018
+UK pound
+1.6050
+
+0.6231
+  1-mos forward
+1.6046
+
+0.6232
+  3-mos forward
+1.6038
+
+0.6235
+  6-mos forward
+1.6024
+
+0.6241
+
+7. Which of the following can you infer from the table above?
+a. The US dollar is expected to appreciate against the UK pound.
+b. The Australian dollar is expected to appreciate against the US dollar.
+c. The US dollar is expected to depreciate against the UK pound.
+d. The UK pound is expected to appreciate against the Indian rupee.
+e. none of the above
+
+8. You are receiving a payment of 2 million Australian dollars in 3 months and would like to lock in the dollar amount of your receipt using the forward market.  How much will you receive in US dollars if you enter into the 3 month forward contract?
+a. $1,755,600	b. $2,278,400	c. $1,744,200	d. $2,293,400	e. None of the above
+
+9. You are receiving a payment of 2 million Australian dollars in 3 months and would like to lock in the dollar amount of your receipt using the forward market (with a 3 month forward contract).  What is the ANNUALIZED forward discount or premium on the US dollar? Round to 4 decimal places in your work. 
+a. 0.65% forward premium	b. 0.66% forward premium	c. 2.60% forward premium
+d. 2.64% forward premium	e. none of the above
+
+10. You owe 5 million UK pounds in 6 months and are considering a forward contract to cover your payable. What is the ANNUALIZED 6-month forward premium or discount on the UK pound?
+	a. 0.32% discount		b. 0.32% premium	c. 0.16% discount		d. 0.16% premium
+	e. none of the above
+
+
+11.	Define each of the following types of foreign exchange transactions and give an example.
+	•	Spot
+	•	Outright forward
+
+12.	Given the following exchange rates
+Mexican peso: MXN 10.974/$
+Japanese yen: ¥117.29/$
+
+Calculate the cross rate between the peso and the yen.
+
+
+13.	Suppose the spot rate on the British pound is $1.8410/£ and the one-month and three-month forward rates are given below 
+One-month  $1.8360/£
+Six-month	$1.8120/£
+
+	•	Calculate the one-month forward discount or premium on the pound.
+	•	Calculate the six-month forward discount or premium on the dollar (hint: first convert to a direct quote on the dollar). 
+
+
+Use the following information to answer the next three questions. Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar. Round to 4 decimal places in your work.
+		Bid (€/$)	Ask (€/$)
+	Spot rate	0.8894	0.8898
+	1-month forward	0.8938	0.8942
+	3-month forward	0.9028	0.9032
+	6-month forward	0.9164	0.9168
+	12-month forward	0.9443	0.9447
+
+14.  What is expected to happen to the value of the dollar?
+
+15.  What is the annualized 3-month forward premium or discount on the dollar?
+	•	
+	•				16.  What is the annualized 6-month forward premium or discount on the euro? (Note that you will need to restate the exchange rates so that the euro is in the denominator and then identify the dealer’s asking price on the euro).
+
+
+
+17.	Assume the following quotes:
+	•	Citibank quotes US dollars per pound at $1.8500/£
+	•	National Westminster quotes euro per pound at €1.5000/£
+	•	Deutsche Bank quotes dollars per euro at $1.2400/€
+
+Calculate how a market trader with $1,000,000 can make an intermarket arbitrage profit.
+
+
+18. Suppose a currency trader sees the following quotes at Banks A, J, S.
+	Bank A: $0.009411/¥
+	Bank J:	CHF 0.016459 / ¥
+Bank S: CHF 1.7125 /$
+How much profit can a trader who starts with $1,000,000 make through arbitrage (round to the nearest hundred)?
+
+
+19.  Using the excerpt below, calculate the one-, three-, and six-month forward premium or discount for the Canadian dollar versus the U.S. dollar using American term quotations (see definition in the book). For simplicity, assume each moth has 30 days. What is the interpretation of your results?
+
+
+
+in US $
+per US $
+
+Canada dollar
+0.9629
+1.0385
+
+   1-mos forward
+0.9628
+1.0386
+
+   3-mos forward
+0.9624
+1.0391
+
+   6-mos forward
+0.9614
+1.0401
+
+
+20. Chapter 5, problem 7. Note the wording is a little different than what we used in class. This exercise is asking for the forward premium or discount on the yen (price is in dollars). 
+
+Exercises continue on the next page.
+
+21-26. The following tables show currency quotes from three Banks. Note that this problem does NOT ask you to solve for arbitrage profit. The reason for this is to get extra practice on a challenging step in solving triangular arbitrage exercises. 
+Each column of the table is a separate exercise. For each exercise answer the following three questions.
+	•	Which bank offers the “Quoted Cross Rate?” (See notes and book for the definition of this term).
+	•	Solve for the implied cross rate using the quotes provided. (See notes and book for the definition of this term). 
+	•	Comparing the quoted cross rate and the implied cross rate, which currency do you want to buy, and which currency do you want to sell at the bank you identified in question A?
+
+ 
+Exercise 21
+Exercise 22
+Exercise 23
+Bank
+Quotes
+Quotes
+Quotes
+Apex
+ 1.0676 USD = 1EUR
+ 0.8974 CHF = 1 USD
+1.3538 CAD = 1 USD
+Beta
+ 160 JPY = 1 EUR
+ 1.2386 USD = 1 GBP
+12.05 MXN = 1 CAD
+Chicago
+ 147.78 JPY = 1 USD
+ 1.03 CHF = 1 GBP
+ 17.08 MXN = 1 USD
+(A) Which Bank gives quoted cross rate?
+ 
+ 
+ 
+
+
+
+ 
+(B) Implied Cross rate
+ 
+ 
+
+
+
+
+
+(C) Which currency to buy and which to sell at quoted cross rate?
+ 
+ 
+ 
+
+
+
+ 
+
+
+ 
+Exercise 24
+Exercise 25
+Exercise 26
+Bank
+Quotes
+Quotes
+Quotes
+Apex
+8.5902 JPY = 1 MXN
+0.6938 EUR = 1 CAD
+1.1143 USD = 1 CHF
+Beta
+147.78 JPY = 1 USD
+0.7386 USD = 1 CAD
+83.10 INR = 1 USD
+Chicago
+17.08 MXN = 1 USD
+1.0676 USD = 1 EUR
+92.5983 INR = 1 CHF
+(A) Which Bank gives quoted cross rate?
+ 
+ 
+ 
+
+ 
+ 
+ 
+(B) Implied Cross rate
+ 
+
+ 
+
+ 
+
+ 
+(C) Which currency to buy and which to sell at quoted cross rate? 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+
+
+27-33. Refer to your answers to Exercises 21-26 above. Suppose a trader begins with $5,750,000 in each case. Solve for this trader’s triangular arbitrage profit in each case. Show each step in the arbitrage process.
+
+34. Doug Bernard specializes in cross-rate arbitrage. He notices the following quotes:
+Bank A: CHF/USD = CHF 1.5971/USD
+Bank B: AUD/USD = AUD 1.8215/USD
+Bank C: AUD/CHF = AUD 1.1440/CHF
+Ignoring transaction costs, does Doug Bernard have an arbitrage opportunity based on these quotes? If there is an arbitrage opportunity, what steps would he take to make an arbitrage profit, and how much would he profit if he has $1,000,000 available for this purpose? 
+
+Answers
+
+1. c    
+2. c   
+3. c   
+4. a    
+5. a    
+6. b    
+7. a
+8. c  
+9. d
+10. a     
+11. See book/notes
+12. ¥ 10.69/MXN
+13. A. [(1.8360-1.8410)/1.8410]*[360/30] =  - 0.0326 = 3.26% discount      B. [(0.5519-0.5432)/0.5432]*[360/180] = .0320 = 3.2% premium 
+14. Increasing
+15. [(0.9032-0.8898)/0.8898]*[360/90] = 0.0602 = 6.02% premium
+16. You need to determine the ask on the euro
+Spot = $1.1244
+F6 = $1.0912
+
+[(1.0912 – 1.1244)/1.1244]*[360/180] = - 0.0591 = 5.91% discount
+
+17. The quoted cross rate is €1.5000/£ at National Westminster.
+Solve for an implied cross rate between the other two banks that you can compare to this.
+($1.8500/£)*(€/$1.2400) = €1.4919/£.
+The implied cross rate does not equal the quoted cross rate so arbitrage is possible.
+Comparing the quoted and implied cross rates, you find that a pound buys more euros at National Westminster’s quoted cross rate.
+So, your goal becomes to buy euros with pounds at National Westminster.
+First you need pounds (since you’re starting with dollars)!
+*	First, buy pounds at Citibank: £540,540.50
+*	Second, buy euros at National Westminster: €810,810.81
+*	Third, buy dollars at Deutsche Bank: $1,005,405.40. The result is a profit of $5,405.40.
+
+18. 	The quoted cross rate at Bank J is:	CHF 0.016459 / ¥.
+	Solve for an implied cross rate between the other two banks that you can compare to this.
+	(CHF 1.7125 /$)*($0.009411/¥) = CHF 0.016163/¥
+	Notice that a yen buys more francs at Bank J compared to the cross rate. 
+	So, your goal becomes to buy francs with yen at Bank J.
+	First you need yen (since you’re starting with dollars)!
+	•	First, exchange $1,000,000 into ¥ 106,258,633.50 at Bank A.
+	•	Second, exchange ¥ 106,258,633.50 into CHF 1,748,910.85 at Bank J.
+	•	Third, exchange CHF 1,748,910.85 into $1,021,261.81 at Bank S.
+
+19. This question is asking about the forward premium or discount on the Canadian dollar (in US dollars).
+	F1= [(.9628 - .9629)/.9629] * (360/30) = -.0012 = 0.12% discount
+	F3= [(.9624 - .9629)/.9629] * (360/90) = -.0021 = 0.21% discount
+	F6= [(.9614 - .9629)/.9629] * (360/180) = -.0031 = 0.31% discount
+The Canadian dollar sells forward at a discount that becomes deeper over time. The implication is that the Canadian dollar is expected to depreciate against the U.S. dollar.
+
+20.  This question is asking about the forward premium or discount on the JPY (in USD). Solution: The formula we want to use is:
+
+
+
+
+The pattern of forward premiums indicates that the Japanese yen is trading at a premium versus the U.S. dollar. That is, it becomes more expensive to buy a Japanese yen forward for U.S. dollars (in absolute and percentage terms) the further into the future one contracts.
+
+21-26 See the tables below.
+ 
+Exercise 21
+Exercise 22
+Exercise 23
+Bank
+Quotes
+Quotes
+Quotes
+Apex
+ 1.0676 USD = 1EUR
+ 0.8974 CHF = 1 USD
+1.3538 CAD = 1 USD
+Beta
+ 160 JPY = 1 EUR
+ 1.2386 USD = 1 GBP
+12.05 MXN = 1 CAD
+Chicago
+ 147.78 JPY = 1 USD
+ 1.03 CHF = 1 GBP
+ 17.08 MXN = 1 USD
+(A) Which Bank gives quoted cross rate?
+Beta
+Chicago
+
+
+
+
+Beta
+(B) Implied Cross rate
+ 157.77 Y = 1 EUR
+ 1.11 CHF = 1 GBP
+
+
+
+
+12.62 MXN = 1 CAD
+(C) Which currency to buy and which to sell at Quoted cross rate? 
+Buy yen, sell euros at Beta 
+ Buy GBP, sell CHF at Chicago
+ 
+
+
+
+ Buy CAD, sell MXN at Beta
+
+ 
+Exercise 24
+Exercise 25
+Exercise 26
+Bank
+Quotes
+Quotes
+Quotes
+Apex
+8.5902 JPY = 1 MXN
+0.6938 EUR = 1 CAD
+1.1143 USD = 1 CHF
+Beta
+147.78 JPY = 1 USD
+0.7386 USD = 1 CAD
+83.10 INR = 1 USD
+Chicago
+17.08 MXN = 1 USD
+1.0676 USD = 1 EUR
+92.5983 INR = 1 CHF
+(A) Which Bank gives quoted cross rate?
+ 
+ 
+ 
+
+Apex
+Apex
+Chicago
+(B) Implied Cross rate
+ 
+
+ 
+
+ 8.65 JPY = 1 MXN
+0.6918 EUR = 1 CAD
+ 92.5983 INR = 1 CHF
+(C) Which currency to buy and which to sell at Quoted cross rate? 
+ 
+Buy MXN, sell JPY at Alpha
+ 
+ Buy EUR, sell CAD at Bank Alpha
+ 
+Neither currency is bought or sold: Quoted cross rate = Implied cross rate
+
+27.	First, buy EUR 5,385,912 at Apex
+	Next, buy JPY 861,745,972 at Beta.
+	Last, buy USD 5,831,276 at Chicago.
+	Profit = $81,276
+
+28.	First, 	buy CHF 5,160,050 at Apex.
+Next, 	buy GBP 5,009,757 at Beta.
+Last, 	buy USD 6,205,085 at Chicago.
+Profit = $455,085
+
+29.	First, buy MXN 98,210,000 at Chicago.
+	Next, buy CAD 8,150,207 at Beta.
+	Last, buy USD 6,020,245 at Apex.
+	Profit = $270,245
+
+30.	First, buy JPY 849,735,000 at Beta.
+Next, buy MXN 98,919,117 at Apex.
+Last, buy USD 5,791,517 at Chicago.
+Profit = $41,517
+
+31. 	First, buy CAD 7,784,999 at Beta.
+Next, buy EUR 5,401,232 at Apex.
+Last, buy USD 5,766,355 at Chicago.
+Profit = $16,355
+31.  There are no arbitrage steps to take because the implied INR/CHF cross rate is identical to the quoted INR/CHF cross rate. The no-arbitrage condition is met (same price on the asset in both markets). 
+
+32. Notice the quoted cross rate at Bank C is stated in terms of AUD/CHF. 
+Cross-multiply to solve for the AUD to CHF implied cross rate between Banks A and B.
+Implied cross rate = .
+
+Yes, there is an arbitrage opportunity because the implied cross rate ≠ quoted cross rate.
+Which currency does he want to buy at Bank C? He wants to buy Australian dollars and sell francs at Bank C (because he gets more AUD per CHF at Bank C’s quoted cross rate than he does through the implied cross rate).
+Arbitrage transactions: First, buy CHF 1,5971,000 at Bank A.
+Next, buy AUD 1,827,082 at Bank C.
+Last, buy UAD 1,003,065 at Bank B.
+Profit = $3,065. 

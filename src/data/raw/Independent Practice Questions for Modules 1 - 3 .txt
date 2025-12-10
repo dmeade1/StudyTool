@@ -1,0 +1,120 @@
+Independent Practice Questions for Modules 1-3
+Answers are at the end of the document
+
+Exercise-Module Summary
+Module 1:  Exercises 1, 6, 7, 9, 13, 14, 15 17, 19, 20. 
+Module 2: Exercises 10, 11, 12, 16, 18
+Module 3: Exercises 2, 3, 4, 5, and 8 
+
+Exercises
+1. Evaluate the following as true or false. The domestic financial manager must be knowledgeable in several areas within finance, whereas the multinational financial manager usually specializes in a single area, such as corporate finance, investments, or financial markets.
+
+2.    Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22
+What was the price of British pounds in terms of U.S. dollars on August 22?
+
+3. Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates. 
+	a.	€0.8894/$ Bid and €0.8898/$ Ask 
+	b.	€0.8898/$ Bid and €0.8894/$ Ask
+
+4. Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar (note: forward rates are just rates contracted for an exchange in the future, whereas the spot rate is a rate on a given day and the question is focusing on converting bid and ask rates on different currencies).
+	•	
+				Bid (€/$)	Ask (€/$)
+			Spot rate	0.8894	0.8898
+			1-month forward	0.8938	0.8942
+			3-month forward	0.9028	0.9032
+			6-month forward	0.9164	0.9168
+			12-month forward	0.9443	0.9447
+
+	Convert these to $/€ quotes for the euro—be careful with your bid and ask labels!
+	What would you receive from CSFB if you sold $10 million at the 6-month forward rate?
+	What would you pay CSFB if you bought €10 million at the 12-month forward rate?
+
+
+5. A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?
+6. If capital markets were perfect, that is, capital could move freely across national borders, would MNC’s still exist? Why or why not?
+7. Opportunities for MNCs to create value to their operations through their financial policies include each of the following except ______. 
+	a.	access to low-cost capital
+	b.	currency risk management
+	c.	expansion of the investment opportunity set
+	d.	financial market arbitrage
+	e.	overcoming capital flow barriers 
+
+
+8. When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia, a dollar cost 26.776 rubles. When the deal was finally completed and the invoice arrived, the firm was obliged to pay under an exchange rate of 32 rubles per dollar. We may conclude from this example that
+	•	the firm was able to buy the tractors at a lower U.S. dollar cost, thus making additional profit
+	•	the firm was forced to buy the tractors at a higher U.S. dollar cost, thus losing some or all of its profit
+	•	this firm is not ready for the international phase of globalization
+	•	the U.S. balance of payments is likely to fail to balance if the new exchange rate continues
+	•	none of the above
+
+9. A major advantage of floating exchange rates is
+a.	the need to adjust domestic monetary and fiscal policy whenever a change occurs in international markets
+b.	their inability to deal with changing domestic prices
+c.	export expansion failure that accompanies depreciations in the nation’s currency.
+d.	the instability it creates for those involved in international trade and finance.
+e.	that they are determined by market forces like any other price
+
+10. Which of the following is one of the IMF’s challenges?
+a. to ensure that the consequences of poor investment decisions are borne by investors and not by taxpayers.
+b. to leave a legacy of debt
+c. to encourage countries to use IMF loans to support the value of their currency
+d. all of the above
+e. none of the above
+
+11. Describe the benefits and costs of a common currency such as the euro.
+
+12. What is the European Central Bank and its role?
+
+13. Chapter 1, question 2 (How is international financial management different from domestic financial management?)
+
+14. Chapter 2, question 4 (Discuss the advantages and disadvantages of the gold standard.)
+
+15. Chapter 2, question 5 (What were the main objectives of the Bretton Woods system?)
+
+16. Chapter 2, question 12 (Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.)
+
+17. (A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization? 
+18. Evaluate each of the following as true or false and explain.
+	A) Cryptocurrencies, such as Bitcoin, serves the three essential functions of money.
+B) The IMF is encouraging countries such as El Salvador and Central African Republic, with extreme volatility in their exchange rates, to replace their currencies with cryptocurrency.
+C) Central Bank Digital Currency refers to a central bank adopting cryptocurrency instead of their national currency, as in the case of El Salvador. 
+19. What is the Paris Agreement and what are its key elements? 
+20. Evaluate the following as true or false: According the text, COVID-19 solutions are best addressed at the national or state levels. 
+Answers
+1.		False. The multinational financial manager is likely to require knowledge of several fields within finance.
+2. 	On 8/22, the exchange rate on the British pound was $1.89/£
+
+3. 	Traders buy low and sell high, but don’t necessarily state everything in terms of “Rule #2”. This question requires that you keep bids and asks constant as bids and asks but deduce which currency is being bought or sold.  Restating in terms of “Rule #2” is a good way to evaluate.
+		a.      €0.8894/$ Bid and €0.8898/$ Ask. The amount of euros bid for dollars is lower and asked for dollars is higher so the currency CSFB is buying at the bid and selling at the ask is the dollar.
+	•	€0.8898/$ Bid and €0.8894/$ Ask. The amount of euros to dollars in the bid is higher than in the ask price so CSFB. This must be a bid on the euro and an ask on the euro. Apply Rule #2 to check. The bid is $1.238/ € and the ask is $1.244/ €. Thus the trader is buying euros low at $1.238 and selling euros high at $1.244.
+
+4.					€ Bid in $/€ 		€ Ask in $/€	
+		Spot rate	$1.1238		$1.1244 	
+		1-month forward	$1.1183		$1.1188	
+		3-month forward	$1.1072		$1.1077	
+		6-month forward	$1.0908		$1.0912	
+		12-month forward	$1.0585		$1.0590	
+	•	
+	
+	CSFB is buying dollars at their dollar bid price, so you will receive (€0.9164/$) x ($10 million) = €9,164,000
+	CSFB is selling euros and hence buying dollars. CSFB’s ask price on the euro is $1.05899/Є (bid price is $1.05854/Є). Therefore, you will pay $10,590,000 for 10 million euros.
+
+5. The car costs 70,000/.7821 or $89,502.62
+6. Even if capital moved freely across national borders, MNCs would still exist, because MNCs bring a host of firm-specific knowledge and advantages along with capital to the countries in which they operate. Such advantages may include unique products, processes, technologies, patents, specific rights, or specific knowledge and skills. These advantages can be used profitably in foreign markets. Moreover, MNCs are better able to apply the knowledge and skills gained in their prior operations in other countries to each new country that they enter. Thus, from the point of view of a country attracting foreign capital, the capital that is brought in by an MNC brings with it firm-specific advantages that yield better returns than the capital that is simply borrowed from a foreign country.
+7. d
+8. a 	Explanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the 
+exchange rate of dollars to rubles was $0.0373/ruble and the cost in dollars per tractor would have been $7469.36. When the firm paid the bill, it was under an exchange rate of $0.03125/ruble and the cost in dollars was $6250.00.
+9. e
+10. a
+
+11. See lecture and page 38 of the e-book.
+12. See lecture and pages 18 and 38 of the e-book.
+13. See lecture and pages 15-16 of the e-book. Be sure to understand all the concepts that distinguish domestic versus international finance. 
+14. The advantages of the gold standard include: (I) since the supply of gold is restricted, countries cannot have high inflation; (2) any BOP disequilibrium can be corrected automatically through cross-border flows of gold. On the other hand, the main disadvantages of the gold standard are: (I) the world economy can be subject to deflationary pressure due to restricted supply of gold; (ii) the gold standard itself has no mechanism to enforce the rules of the game, and, as a result, countries may pursue economic policies (like de-monetization of gold) that are incompatible with the gold standard.
+15. The main objectives of the Bretton Woods system were to achieve exchange rate stability and promote international trade and development.
+16. 	Once capital markets are integrated internationally, vast amounts of money may flow in and out of a country in a short time period. This will make it very difficult for the country to maintain a fixed exchange rate.
+17. (A) See page 18 of the e-book .One example of these factors is advances in telecommunication.  (B) See the Module 1 article about globalization and refer to class discussion on the topic. One example of recent trends is Brexit. 
+18. (A), (B), and (C) are all false. Refer to class notes and page 36 of the e-book. 
+
+19. See page 18 of the e-book.
+20. False- see page 18 of the e-book. 

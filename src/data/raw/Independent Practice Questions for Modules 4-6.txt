@@ -1,0 +1,164 @@
+Independent Practice Questions for Modules 4-6
+Answers are at the end of the document
+
+Module 4: Exercises 2, 12, 13 and 14
+Module 5: Exercises 3, 4, 10, 11, 15 and 17
+Module 6: Exercises 1, 5, 6, 7, 8, 9, 16
+
+	•	1. The Czech koruna (CZK) spot rate is CZK36.02/$. 
+	a.	A 20 percent depreciation of the koruna will result in what new CZK/$ spot rate? 
+	b.	If the koruna depreciates by 20 percent, by how much does the dollar appreciate?
+
+2.	Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. A week later on August 29 the exchange rate becomes $2.50/£. Which of the following best explains what has happened between August 22 and August 29?
+	•	The U.S. dollar appreciated against the British pound.
+	•	The British pound appreciated against the dollar
+	•	The U.S. dollar depreciated against the British pound.
+	•	(b) and (c) above
+	•	None of the above
+
+3.	Suppose substantial amounts of people from around the world wish to view the Olympics in person and spend three weeks in the England doing so. While there, they also purchase millions of souvenirs for their family and friends left behind.  All else constant, describe the effect this will have on the foreign exchange market for British pounds. Illustrate your discussion with a graph.
+
+4.	In class, the following example was given.
+
+	•	Suppose the foreign exchange market is made up of only 2 trading partners, the U.S. and the euro area. Determine the effect on the equilibrium exchange rate in the market for euros of the following changes.
+
+Repeat the example, only this time considering the market for dollars
+
+	•	Suppose the price level in the U.S. were to increase by 20% while the average price level in the euro area remained unchanged.
+	•	Suppose that interest rates increase in the United States, while remaining unchanged in the euro area.
+
+
+5. 	On August 1, 2006, Zimbabwe changed the value of the Zim dollar from Z$101/US$ to Z$250/US$.
+	a. 	What was the original US dollar value of the Zim dollar?
+	b.	By what percent has the Zim dollar devalued (or revalued) relative to the US dollar?
+	c.	By what percent has the US dollar appreciated (or depreciated) relative to the US dollar?
+
+6. 	In 2002, one dollar bought ¥125. In 2006 it bought about ¥115.
+	a.	What was the dollar value of the yen in 2002? What was the yen’s dollar value in 2006?
+	b.	By what percent has the yen risen in value between 2002 and 2006?
+	c.	By what percent has the dollar fallen in value between 2002 and 2006?
+
+7. 	On February 1, the euro is worth $1.2966. By May 1, it has moved to $1.3634. 
+a.	By what percent has the euro appreciated or depreciated against the dollar during this 3-month period?
+	b.	By what percent has the dollar appreciated or depreciated against the euro during this period?
+
+8. 	In early August 2002 (the exact date is a state secret), North Korea reduced the official value of the won from $0.465 to $0.0067. The black market value of the won was $0.005 at the time.
+a.	By what percentage did the won devalue? 
+b.	Following the initial devaluation, what further percentage devaluation would be necessary for the won to equal its black market value? 
+
+9. 	On March 29, 2007, the Indian rupee was worth $0.023270. The next day, it was worth $0.022980. 
+	a.	By how much had the rupee depreciated against the dollar?
+	b.	By how much had the dollar appreciated against the rupee?
+
+
+10.	When foreigners decide to purchase additional U.S. government bonds, ____.
+	a.	the demand for dollars rises
+	b.	the federal government budget deficit declines
+	c.	the supply of dollars rises
+	d.	the trade deficit declines
+	e.	None of the above
+
+
+11. Foreign nations’ demand for dollars increases as 
+	•	Americans purchase more foreign goods
+	•	Foreigners purchase more American goods
+	•	Americans travel more abroad
+	•	Foreigners receive more U.S. direct investment
+	•	Americans’ exports fall
+
+12.	If the equilibrium price of yen is $0.008/¥, but for some reason the market opens at $0.005/¥, it is likely that
+	•	the Japanese demand for U.S. goods will increase, moving the foreign rate toward equilibrium
+	•	the US purchases of Japanese goods will increase driving up the foreign exchange price of yen
+	•	an excess supply of yen will force a decline in the exchange rate
+	•	the US demand for yen will shift right
+	•	none of the above
+
+13.	If the price level in Mexico falls relative to the U.S. price level, which of the following is correct?
+	•	demand for pesos increases (shifts right)
+	•	supply of pesos decreases (shifts left)
+	•	demand for dollars decreases (shifts left)
+	•	supply of dollars increases (shifts right)
+	•	all of the above
+
+14.  All else equal, an appreciation in the US dollar relative to other currencies tends to
+	•	increase U.S. imports
+	•	increase U.S. exports
+	•	demand for the dollar to increase
+	•	occur when interest rates abroad are higher than those in the U.S.
+	•	cause more foreigners to invest in U.S. securities
+
+15. Which of the following will decrease (shift left) the demand for Swiss francs
+	•	higher inflation in Switzerland
+	•	lower U.S. interest rates
+	•	U.S. incomes rise
+	•	Appreciation of the Swiss franc
+	•	Depreciation of the Swiss franc
+
+16.	During 1995, the yen went from $0.0125 to $0.0095238. By how much did the dollar appreciate against the yen?
+	•	23.81%
+	•	31.25%
+	•	15.67%
+	•	40.78%
+	•	None of the above
+
+17. Answer true or false and explain: In 2011, the Swiss National Bank intervened in the foreign currency market to strengthen the Swiss franc against the euro. 
+
+ANSWERS
+
+1.	a.	Since it is the Czech koruna that has depreciated, it is most convenient to place the koruna in the denominator of the foreign exchange quote; CZK36.02/$ = $0.02776/CZK. A 20% depreciation of the koruna results in: (End rate) = (Beg. rate)(1+%) = ($0.02776/CZK)(0.80) = $0.02221/CZK, or CZK45.03/$. 
+	b.	To find the dollar appreciation, it is most convenient to use a CZK/$ quote. The dollar appreciates by (45.03-36.02)/36.02 = 25%
+	•	
+2.	d	explanation: On 8/22 the exchange rate required $1.89 to buy one British pound. On 8/29, $2.50 was required to buy one British pound. So the dollar depreciated against the pound. This is the same thing as saying the pound appreciated against the dollar.
+
+3.	The large influx of foreigners into Britain increases the demand for British goods and services. So, in the market for British pounds there is an increase in demand for pounds. The demand curve shifts to the right and the equilibrium $/£ exchange rate increases.
+
+4.	a.	U.S. goods are now relatively more expensive compared to European goods. This decreases demand by Europeans for U.S. goods and decreases the demand for dollars (shifts left to Da). This also increases American’s desire for imports, and therefore, increases the supply of dollars (shifts right to Sa). Both of these factors drive the exchange rate of €/$ downward. This means the dollar depreciates against the euro.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+                                                                             
+
+
+
+
+
+
+
+b.	U.S. securities now offer a relatively higher return compared to euro-denominated securities. This means Europeans and Americans both desire to hold relatively more U.S. securities and less euro-denominated securities. This means Europeans need more dollars and Americans need fewer euros. So the demand for dollars  by Europeans increases (shifts right to Dc) and the supply of dollars by Americans decreases (shifts left to Sc).  The dollar appreciates against the euro.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. 	a.	The U.S. dollar value of the Zim dollar prior to devaluation was $0.0099 (1/101). Subsequent to devaluation, the Zim dollar was worth $0.004 (1/250). 
+	•	The U.S. dollar value of the Zim dollar has changed by (0.004 - 0.0099)/0.0099 = -59.6%. Thus, the Zim dollar has devalued by 59.6% against the U.S. dollar.
+	•	147.5%
+
+6. 	a.  The dollar value of the yen in 2002 was $0.008 (1/125). By 2006, the yen had risen to $0.0087.
+			b.	Between 2002 and 2006, the yen rose by 8.8%, calculated as (0.0087 - 0.008)/0.008.
+			c.	During this same period, the dollar depreciated by 8%, calculated as (115 - 125)/125.
+
+7.  a. Since the euro is now worth more in dollar terms, it has appreciated against the dollar. The amount of euro appreciation is (1.3634 - 1.2966)/1.2966 = 5.15%.
+b.  The flip side of euro appreciation is dollar depreciation. The dollar has depreciated by an amount equal to [(1/1.3634) – (1/1.2966)]/(1/1.2966)  =  -4.9%
+
+8. a. The won devalued ($0.067-$0.465)/$0.465) = 98.56% 	b.  (0.005-0.0067)/0.0067 = 25.4%
+9. a. The rupee devalued by (0.02298 - 0.02327)/0.02327, or -1.25%.   
+b. The dollar appreciated against the rupee by  [(1/0.02298) - (1/0.02327)]/(1/0.02327), or 1.28%.
+
+10.	a	
+11. 	b
+
+12.	b.	explanation: At an exchange rate below equilibrium, there is a shortage of yen, with Americans wanting more Japanese imports than the Japanese want to export. The price of yen is thus bid up to equilibrium. See explanation and graph given in class.
+13.	 e.	explanation: If the price level in Mexico falls relative to the U.S. then Mexican imports become more attractive to Americans and they demand more pesos (which means the supply of dollars increases). At the same time, American exports become relatively more expensive to Mexicans and they demand fewer dollars (supply of pesos decreases).
+14. a.	explanation: An appreciation in the U.S. dollar means it takes more of other countries’ currencies to buy a dollar. This means that the price of American exports increases, which decreases the amount of the U.S. exports abroad
+15.  a	
+16.  b.   (105 -80)/80 = 31.25%
+17. False- in 2011 the Swiss National Bank (SNB) intervened in the currency market to strengthen the euro because Swiss exports were declining. Study tip: Review the following from the notes (1) what events were causing Swiss exports to decline and (2) What actions the SNB took in the foreign exchange market to strengthen the euro. 
