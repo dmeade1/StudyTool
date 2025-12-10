@@ -4,6 +4,7 @@
     "number": 1,
     "question": "Evaluate the following as true or false. The domestic financial manager must be knowledgeable in several areas within finance, whereas the multinational financial manager usually specializes in a single area, such as corporate finance, investments, or financial markets.",
     "options": [],
+    "subQuestions": [],
     "answer": "false",
     "explanation": ". The multinational financial manager is likely to require knowledge of several fields within finance.",
     "type": "true-false",
@@ -14,8 +15,10 @@
     "number": 2,
     "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "On 8/22, the exchange rate on the British pound was $1.89/£",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -32,8 +35,10 @@
         "text": "€0.8898/$ Bid and €0.8894/$ Ask"
       }
     ],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Traders buy low and sell high, but don’t necessarily state everything in terms of “Rule #2”. This question requires that you keep bids and asks constant as bids and asks but deduce which currency is being bought or sold.  Restating in terms of “Rule #2” is a good way to evaluate.",
+    "type": "multiple-choice",
     "module": "1-3"
   },
   {
@@ -41,8 +46,10 @@
     "number": 4,
     "question": "Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar (note: forward rates are just rates contracted for an exchange in the future, whereas the spot rate is a rate on a given day and the question is focusing on converting bid and ask rates on different currencies).",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "€ Bid in $/€ \t\t€ Ask in $/€",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -50,8 +57,10 @@
     "number": 5,
     "question": "A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "The car costs 70,000/.7821 or $89,502.62",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -59,8 +68,10 @@
     "number": 6,
     "question": "If capital markets were perfect, that is, capital could move freely across national borders, would MNC’s still exist? Why or why not?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Even if capital moved freely across national borders, MNCs would still exist, because MNCs bring a host of firm-specific knowledge and advantages along with capital to the countries in which they operate. Such advantages may include unique products, processes, technologies, patents, specific rights, or specific knowledge and skills. These advantages can be used profitably in foreign markets. Moreover, MNCs are better able to apply the knowledge and skills gained in their prior operations in other countries to each new country that they enter. Thus, from the point of view of a country attracting foreign capital, the capital that is brought in by an MNC brings with it firm-specific advantages that yield better returns than the capital that is simply borrowed from a foreign country.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -89,8 +100,10 @@
         "text": "overcoming capital flow barriers"
       }
     ],
+    "subQuestions": [],
     "answer": "d",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "1-3"
   },
   {
@@ -98,8 +111,10 @@
     "number": 8,
     "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia, a dollar cost 26.776 rubles. When the deal was finally completed and the invoice arrived, the firm was obliged to pay under an exchange rate of 32 rubles per dollar. We may conclude from this example that",
     "options": [],
-    "answer": "a",
-    "explanation": "Explanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the",
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "a \tExplanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -128,8 +143,10 @@
         "text": "that they are determined by market forces like any other price"
       }
     ],
+    "subQuestions": [],
     "answer": "e",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "1-3"
   },
   {
@@ -158,8 +175,10 @@
         "text": "none of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "a",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "1-3"
   },
   {
@@ -167,8 +186,10 @@
     "number": 11,
     "question": "Describe the benefits and costs of a common currency such as the euro.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See lecture and page 38 of the e-book.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -176,8 +197,10 @@
     "number": 12,
     "question": "What is the European Central Bank and its role?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See lecture and pages 18 and 38 of the e-book.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -185,8 +208,10 @@
     "number": 13,
     "question": "Chapter 1, question 2 (How is international financial management different from domestic financial management?)",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See lecture and pages 15-16 of the e-book. Be sure to understand all the concepts that distinguish domestic versus international finance.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -194,8 +219,10 @@
     "number": 14,
     "question": "Chapter 2, question 4 (Discuss the advantages and disadvantages of the gold standard.)",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "The advantages of the gold standard include: (I) since the supply of gold is restricted, countries cannot have high inflation; (2) any BOP disequilibrium can be corrected automatically through cross-border flows of gold. On the other hand, the main disadvantages of the gold standard are: (I) the world economy can be subject to deflationary pressure due to restricted supply of gold; (ii) the gold standard itself has no mechanism to enforce the rules of the game, and, as a result, countries may pursue economic policies (like de-monetization of gold) that are incompatible with the gold standard.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -203,8 +230,10 @@
     "number": 15,
     "question": "Chapter 2, question 5 (What were the main objectives of the Bretton Woods system?)",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "The main objectives of the Bretton Woods system were to achieve exchange rate stability and promote international trade and development.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -212,8 +241,10 @@
     "number": 16,
     "question": "Chapter 2, question 12 (Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.)",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Once capital markets are integrated internationally, vast amounts of money may flow in and out of a country in a short time period. This will make it very difficult for the country to maintain a fixed exchange rate.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -221,8 +252,10 @@
     "number": 17,
     "question": "(A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "(A) See page 18 of the e-book .One example of these factors is advances in telecommunication.  (B) See the Module 1 article about globalization and refer to class discussion on the topic. One example of recent trends is Brexit.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -230,8 +263,10 @@
     "number": 18,
     "question": "Evaluate each of the following as true or false and explain.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "(A), (B), and (C) are all false. Refer to class notes and page 36 of the e-book.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -239,8 +274,10 @@
     "number": 19,
     "question": "What is the Paris Agreement and what are its key elements?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See page 18 of the e-book.",
+    "type": "open-ended",
     "module": "1-3"
   },
   {
@@ -248,6 +285,7 @@
     "number": 20,
     "question": "Evaluate the following as true or false: According the text, COVID-19 solutions are best addressed at the national or state levels.",
     "options": [],
+    "subQuestions": [],
     "answer": "false",
     "explanation": "- see page 18 of the e-book.",
     "type": "true-false",
@@ -258,8 +296,10 @@
     "number": 2,
     "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. A week later on August 29 the exchange rate becomes $2.50/£. Which of the following best explains what has happened between August 22 and August 29?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "d\texplanation: On 8/22 the exchange rate required $1.89 to buy one British pound. On 8/29, $2.50 was required to buy one British pound. So the dollar depreciated against the pound. This is the same thing as saying the pound appreciated against the dollar.",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -267,8 +307,10 @@
     "number": 3,
     "question": "Suppose substantial amounts of people from around the world wish to view the Olympics in person and spend three weeks in the England doing so. While there, they also purchase millions of souvenirs for their family and friends left behind.  All else constant, describe the effect this will have on the foreign exchange market for British pounds. Illustrate your discussion with a graph.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "The large influx of foreigners into Britain increases the demand for British goods and services. So, in the market for British pounds there is an increase in demand for pounds. The demand curve shifts to the right and the equilibrium $/£ exchange rate increases.",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -276,15 +318,18 @@
     "number": 4,
     "question": "In class, the following example was given.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "a.\tU.S. goods are now relatively more expensive compared to European goods. This decreases demand by Europeans for U.S. goods and decreases the demand for dollars (shifts left to Da). This also increases American’s desire for imports, and therefore, increases the supply of dollars (shifts right to Sa). Both of these factors drive the exchange rate of €/$ downward. This means the dollar depreciates against the euro.",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
     "id": "4-6-5",
     "number": 5,
     "question": "On August 1, 2006, Zimbabwe changed the value of the Zim dollar from Z$101/US$ to Z$250/US$.",
-    "options": [
+    "options": [],
+    "subQuestions": [
       {
         "label": "a",
         "text": "What was the original US dollar value of the Zim dollar?"
@@ -299,14 +344,16 @@
       }
     ],
     "answer": null,
-    "explanation": "",
+    "explanation": "a.\tThe U.S. dollar value of the Zim dollar prior to devaluation was $0.0099 (1/101). Subsequent to devaluation, the Zim dollar was worth $0.004 (1/250).",
+    "type": "multi-part",
     "module": "4-6"
   },
   {
     "id": "4-6-6",
     "number": 6,
     "question": "In 2002, one dollar bought ¥125. In 2006 it bought about ¥115.",
-    "options": [
+    "options": [],
+    "subQuestions": [
       {
         "label": "a",
         "text": "What was the dollar value of the yen in 2002? What was the yen’s dollar value in 2006?"
@@ -321,14 +368,16 @@
       }
     ],
     "answer": null,
-    "explanation": "",
+    "explanation": "a.  The dollar value of the yen in 2002 was $0.008 (1/125). By 2006, the yen had risen to $0.0087.",
+    "type": "multi-part",
     "module": "4-6"
   },
   {
     "id": "4-6-7",
     "number": 7,
     "question": "On February 1, the euro is worth $1.2966. By May 1, it has moved to $1.3634.",
-    "options": [
+    "options": [],
+    "subQuestions": [
       {
         "label": "a",
         "text": "By what percent has the euro appreciated or depreciated against the dollar during this 3-month period?"
@@ -339,14 +388,16 @@
       }
     ],
     "answer": null,
-    "explanation": "",
+    "explanation": "a. Since the euro is now worth more in dollar terms, it has appreciated against the dollar. The amount of euro appreciation is (1.3634 - 1.2966)/1.2966 = 5.15%.",
+    "type": "multi-part",
     "module": "4-6"
   },
   {
     "id": "4-6-8",
     "number": 8,
     "question": "In early August 2002 (the exact date is a state secret), North Korea reduced the official value of the won from $0.465 to $0.0067. The black market value of the won was $0.005 at the time.",
-    "options": [
+    "options": [],
+    "subQuestions": [
       {
         "label": "a",
         "text": "By what percentage did the won devalue?"
@@ -357,14 +408,16 @@
       }
     ],
     "answer": null,
-    "explanation": "",
+    "explanation": "a. The won devalued ($0.067-$0.465)/$0.465) = 98.56% \tb.  (0.005-0.0067)/0.0067 = 25.4%",
+    "type": "multi-part",
     "module": "4-6"
   },
   {
     "id": "4-6-9",
     "number": 9,
     "question": "On March 29, 2007, the Indian rupee was worth $0.023270. The next day, it was worth $0.022980.",
-    "options": [
+    "options": [],
+    "subQuestions": [
       {
         "label": "a",
         "text": "By how much had the rupee depreciated against the dollar?"
@@ -375,7 +428,8 @@
       }
     ],
     "answer": null,
-    "explanation": "",
+    "explanation": "a. The rupee devalued by (0.02298 - 0.02327)/0.02327, or -1.25%.",
+    "type": "multi-part",
     "module": "4-6"
   },
   {
@@ -404,8 +458,10 @@
         "text": "None of the above"
       }
     ],
-    "answer": null,
+    "subQuestions": [],
+    "answer": "a",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "4-6"
   },
   {
@@ -413,8 +469,10 @@
     "number": 11,
     "question": "Foreign nations’ demand for dollars increases as",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "b",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -422,8 +480,10 @@
     "number": 12,
     "question": "If the equilibrium price of yen is $0.008/¥, but for some reason the market opens at $0.005/¥, it is likely that",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "b.\texplanation: At an exchange rate below equilibrium, there is a shortage of yen, with Americans wanting more Japanese imports than the Japanese want to export. The price of yen is thus bid up to equilibrium. See explanation and graph given in class.",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -431,8 +491,10 @@
     "number": 13,
     "question": "If the price level in Mexico falls relative to the U.S. price level, which of the following is correct?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "e.\texplanation: If the price level in Mexico falls relative to the U.S. then Mexican imports become more attractive to Americans and they demand more pesos (which means the supply of dollars increases). At the same time, American exports become relatively more expensive to Mexicans and they demand fewer dollars (supply of pesos decreases).",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -440,8 +502,10 @@
     "number": 14,
     "question": "All else equal, an appreciation in the US dollar relative to other currencies tends to",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "a.\texplanation: An appreciation in the U.S. dollar means it takes more of other countries’ currencies to buy a dollar. This means that the price of American exports increases, which decreases the amount of the U.S. exports abroad",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -449,8 +513,10 @@
     "number": 15,
     "question": "Which of the following will decrease (shift left) the demand for Swiss francs",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "a",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -458,8 +524,10 @@
     "number": 16,
     "question": "During 1995, the yen went from $0.0125 to $0.0095238. By how much did the dollar appreciate against the yen?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
-    "explanation": "",
+    "explanation": "b.   (105 -80)/80 = 31.25%",
+    "type": "open-ended",
     "module": "4-6"
   },
   {
@@ -467,42 +535,10 @@
     "number": 17,
     "question": "Answer true or false and explain: In 2011, the Swiss National Bank intervened in the foreign currency market to strengthen the Swiss franc against the euro.",
     "options": [],
-    "answer": null,
-    "explanation": "",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-1",
-    "number": 1,
-    "question": "a.\tSince it is the Czech koruna that has depreciated, it is most convenient to place the koruna in the denominator of the foreign exchange quote; CZK36.02/$ = $0.02776/CZK. A 20% depreciation of the koruna results in: (End rate) = (Beg. rate)(1+%) = ($0.02776/CZK)(0.80) = $0.02221/CZK, or CZK45.03/$.",
-    "options": [
-      {
-        "label": "b",
-        "text": "To find the dollar appreciation, it is most convenient to use a CZK/$ quote. The dollar appreciates by (45.03-36.02)/36.02 = 25%"
-      },
-      {
-        "label": "b",
-        "text": "U.S. securities now offer a relatively higher return compared to euro-denominated securities. This means Europeans and Americans both desire to hold relatively more U.S. securities and less euro-denominated securities. This means Europeans need more dollars and Americans need fewer euros. So the demand for dollars  by Europeans increases (shifts right to Dc) and the supply of dollars by Americans decreases (shifts left to Sc).  The dollar appreciates against the euro."
-      },
-      {
-        "label": "b",
-        "text": "Between 2002 and 2006, the yen rose by 8.8%, calculated as (0.0087 - 0.008)/0.008."
-      },
-      {
-        "label": "c",
-        "text": "During this same period, the dollar depreciated by 8%, calculated as (115 - 125)/125."
-      },
-      {
-        "label": "b",
-        "text": "The flip side of euro appreciation is dollar depreciation. The dollar has depreciated by an amount equal to [(1/1.3634) – (1/1.2966)]/(1/1.2966)  =  -4.9%"
-      },
-      {
-        "label": "b",
-        "text": "The dollar appreciated against the rupee by  [(1/0.02298) - (1/0.02327)]/(1/0.02327), or 1.28%."
-      }
-    ],
-    "answer": null,
-    "explanation": "",
+    "subQuestions": [],
+    "answer": "false",
+    "explanation": "- in 2011 the Swiss National Bank (SNB) intervened in the currency market to strengthen the euro because Swiss exports were declining. Study tip: Review the following from the notes (1) what events were causing Swiss exports to decline and (2) What actions the SNB took in the foreign exchange market to strengthen the euro.",
+    "type": "true-false",
     "module": "4-6"
   },
   {
@@ -510,8 +546,10 @@
     "number": 1,
     "question": "Why do economists and policy makers care that the U.S. has a large Balance of Trade deficit? Support your explanation with the class discussion including articles if applicable.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See class notes/discussion.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -540,8 +578,10 @@
         "text": "None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "d",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "7-8"
   },
   {
@@ -570,8 +610,10 @@
         "text": "None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "a",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "7-8"
   },
   {
@@ -600,8 +642,10 @@
         "text": "None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "b",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "7-8"
   },
   {
@@ -630,8 +674,10 @@
         "text": "None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "c",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "7-8"
   },
   {
@@ -639,8 +685,10 @@
     "number": 6,
     "question": "Chapter 3, question 3",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "The current account deficits of U.S. may be attributable to (i) the strong dollar and undervalued currencies of trading partners such as China, (ii) high consumption and low savings in the U.S., (iii) weak competitiveness of U.S. industries. If U.S. deficits continue, the dollar may eventually depreciate substantially and the confidence in dollar may suffer.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -648,8 +696,10 @@
     "number": 7,
     "question": "Chapter 3, question 5",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "The statement presupposes that the U.S. current account deficit causes its capital account surplus. In reality, the causality may be running in the opposite direction: U.S. capital account surplus may cause the country’s current account deficit. Suppose foreigners find the U.S. a great place to invest and send their capital to the U.S., resulting in U.S. capital account surplus. This capital inflow will strengthen the dollar, hurting the U.S. export and encouraging imports from foreign countries, causing current account deficits.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -657,8 +707,10 @@
     "number": 8,
     "question": "What sort of activities result in credits to the trade category of the US balance of payments? Give some examples from the book or notes.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Sales of  US manufactured goods to entities in other countries. Examples will vary.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -666,8 +718,10 @@
     "number": 9,
     "question": "What sort of activities result in debits to the services category of the US balance of payments? Give some examples from the book or notes.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Purchases by US entities of services from other countries. Examples will vary.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -675,8 +729,10 @@
     "number": 10,
     "question": "What sort of activities result in credits to the primary income category of the US balance of payment? Give some examples from the book or notes.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Dividends, interest payments, salaries, etc. paid to US entities from foreign entities. Examples will vary.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -684,8 +740,10 @@
     "number": 11,
     "question": "What sort of activities result in debits to the foreign direct investment category of the US balance of payments? Give some examples from the book or notes.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Purchases by US entities of foreign ownership shares, foreign firms, real estate. Examples will vary.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -693,8 +751,10 @@
     "number": 12,
     "question": "What sort of activities result in credits to the portfolio investment  category of the US balance of payments? Give some examples from the book or notes.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Purchases by foreign entities of  US financial assets such as stock, stocks ,bonds, and derivatives that do not involve a transfer of control. Examples will vary.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -702,8 +762,10 @@
     "number": 13,
     "question": "According to your book’s presentation of the BOP categories, what sort of activities result in debits to Switzerland’s official reserves account? Why?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Purchases of foreign currency, gold, SDR’s by Switzerland’s Central Bank. Examples will vary.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -711,8 +773,10 @@
     "number": 14,
     "question": "What BOP account does the trade category belong to?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Current account",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -720,8 +784,10 @@
     "number": 15,
     "question": "What BOP account does the foreign direct investment category belong to?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "financial account",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -729,8 +795,10 @@
     "number": 16,
     "question": "What BOP account does the services category belong to?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Current account",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -738,8 +806,10 @@
     "number": 17,
     "question": "What BOP account does the primary income account belong to?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Current account",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -747,8 +817,10 @@
     "number": 18,
     "question": "What BOP account does the portfolio income account belong to?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Financial account",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -756,8 +828,10 @@
     "number": 19,
     "question": "What makes the BOP an “identity”?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "When the accounts are recorded correctly, the combined balance of the current account, the capital account, the financial account, and the reserves account, must be zero. See the note for the equation. Under the pure flexible exchange rate regime, central banks will not intervene in the foreign exchange markets, and central banks do not need to maintain official reserves. In this case, the sum of the rest of the accounts is zero.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -765,8 +839,10 @@
     "number": 20,
     "question": "What are some problems with making bilateral comparisons between two countries’ BOP accounts?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See the required article “The i-phone isn’t made in China. It’ s made everywhere.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -774,8 +850,10 @@
     "number": 21,
     "question": "What is secondary income and what BOP account does it belong to?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Current transfers for which no goods services or assets are exchanged. They do not involve change of ownership, acquisition, or disposal of an asset.",
+    "type": "open-ended",
     "module": "7-8"
   },
   {
@@ -804,8 +882,10 @@
         "text": "None of the above."
       }
     ],
+    "subQuestions": [],
     "answer": "c",
     "explanation": "0676 USD = 1 EUR",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -834,8 +914,10 @@
         "text": "None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "c",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -864,8 +946,10 @@
         "text": "None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "c",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -894,8 +978,10 @@
         "text": "none of the above is correct"
       }
     ],
+    "subQuestions": [],
     "answer": "a",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -924,15 +1010,18 @@
         "text": "none of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "a",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
     "id": "mod9-11-6",
     "number": 6,
     "question": "The forward market",
-    "options": [
+    "options": [],
+    "subQuestions": [
       {
         "label": "a",
         "text": "involves contracting today for the future purchase or sale of foreign exchange at the spot rate that will prevail at the maturity of the contract."
@@ -950,8 +1039,9 @@
         "text": "none of the above"
       }
     ],
-    "answer": "b",
-    "explanation": "",
+    "answer": null,
+    "explanation": "b",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
@@ -980,8 +1070,10 @@
         "text": "none of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "a",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -994,8 +1086,10 @@
         "text": "$1,755,600\tb. $2,278,400\tc. $1,744,200\td. $2,293,400\te. None of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "c",
     "explanation": "65 JPY = 1 MXN",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -1012,8 +1106,10 @@
         "text": "2.64% forward premium\te. none of the above"
       }
     ],
+    "subQuestions": [],
     "answer": "d",
     "explanation": "",
+    "type": "multiple-choice",
     "module": "9-11"
   },
   {
@@ -1021,8 +1117,10 @@
     "number": 10,
     "question": "You owe 5 million UK pounds in 6 months and are considering a forward contract to cover your payable. What is the ANNUALIZED 6-month forward premium or discount on the UK pound?",
     "options": [],
-    "answer": "a",
-    "explanation": "",
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "a",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1030,8 +1128,10 @@
     "number": 11,
     "question": "Define each of the following types of foreign exchange transactions and give an example.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "See book/notes",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1039,8 +1139,10 @@
     "number": 12,
     "question": "Given the following exchange rates",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "62 MXN = 1 CAD",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1048,8 +1150,10 @@
     "number": 13,
     "question": "Suppose the spot rate on the British pound is $1.8410/£ and the one-month and three-month forward rates are given below",
     "options": [],
-    "answer": "a",
-    "explanation": ". [(1.8360-1.8410)/1.8410]*[360/30] =  - 0.0326 = 3.26% discount      B. [(0.5519-0.5432)/0.5432]*[360/180] = .0320 = 3.2% premium",
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "A. [(1.8360-1.8410)/1.8410]*[360/30] =  - 0.0326 = 3.26% discount      B. [(0.5519-0.5432)/0.5432]*[360/180] = .0320 = 3.2% premium",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1057,8 +1161,10 @@
     "number": 14,
     "question": "What is expected to happen to the value of the dollar?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Increasing",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1066,8 +1172,21 @@
     "number": 15,
     "question": "What is the annualized 3-month forward premium or discount on the dollar?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "[(0.9032-0.8898)/0.8898]*[360/90] = 0.0602 = 6.02% premium",
+    "type": "open-ended",
+    "module": "9-11"
+  },
+  {
+    "id": "mod9-11-16",
+    "number": 16,
+    "question": "What is the annualized 6-month forward premium or discount on the euro? (Note that you will need to restate the exchange rates so that the euro is in the denominator and then identify the dealer’s asking price on the euro).",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "You need to determine the ask on the euro",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1075,8 +1194,10 @@
     "number": 17,
     "question": "Assume the following quotes:",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "08 MXN = 1 USD",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1084,8 +1205,10 @@
     "number": 18,
     "question": "Suppose a currency trader sees the following quotes at Banks A, J, S.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "The quoted cross rate at Bank J is:\tCHF 0.016459 / ¥.",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1093,8 +1216,10 @@
     "number": 19,
     "question": "Using the excerpt below, calculate the one-, three-, and six-month forward premium or discount for the Canadian dollar versus the U.S. dollar using American term quotations (see definition in the book). For simplicity, assume each moth has 30 days. What is the interpretation of your results?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "This question is asking about the forward premium or discount on the Canadian dollar (in US dollars).",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1102,8 +1227,10 @@
     "number": 20,
     "question": "Chapter 5, problem 7. Note the wording is a little different than what we used in class. This exercise is asking for the forward premium or discount on the yen (price is in dollars).",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "This question is asking about the forward premium or discount on the JPY (in USD). Solution: The formula we want to use is:",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
@@ -1111,8 +1238,23 @@
     "number": 21,
     "question": "Exercise 21: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.",
     "options": [],
+    "subQuestions": [
+      {
+        "label": "a",
+        "text": "Which bank offers the \"Quoted Cross Rate?\""
+      },
+      {
+        "label": "b",
+        "text": "Solve for the implied cross rate using the quotes provided."
+      },
+      {
+        "label": "c",
+        "text": "Comparing the quoted and implied cross rates, which currency do you want to buy/sell?"
+      }
+    ],
     "answer": null,
     "explanation": "",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
@@ -1120,8 +1262,23 @@
     "number": 22,
     "question": "Exercise 22: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.",
     "options": [],
+    "subQuestions": [
+      {
+        "label": "a",
+        "text": "Which bank offers the \"Quoted Cross Rate?\""
+      },
+      {
+        "label": "b",
+        "text": "Solve for the implied cross rate using the quotes provided."
+      },
+      {
+        "label": "c",
+        "text": "Comparing the quoted and implied cross rates, which currency do you want to buy/sell?"
+      }
+    ],
     "answer": null,
     "explanation": "",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
@@ -1129,8 +1286,23 @@
     "number": 23,
     "question": "Exercise 23: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.",
     "options": [],
+    "subQuestions": [
+      {
+        "label": "a",
+        "text": "Which bank offers the \"Quoted Cross Rate?\""
+      },
+      {
+        "label": "b",
+        "text": "Solve for the implied cross rate using the quotes provided."
+      },
+      {
+        "label": "c",
+        "text": "Comparing the quoted and implied cross rates, which currency do you want to buy/sell?"
+      }
+    ],
     "answer": null,
     "explanation": "",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
@@ -1138,8 +1310,23 @@
     "number": 24,
     "question": "Exercise 24: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.",
     "options": [],
+    "subQuestions": [
+      {
+        "label": "a",
+        "text": "Which bank offers the \"Quoted Cross Rate?\""
+      },
+      {
+        "label": "b",
+        "text": "Solve for the implied cross rate using the quotes provided."
+      },
+      {
+        "label": "c",
+        "text": "Comparing the quoted and implied cross rates, which currency do you want to buy/sell?"
+      }
+    ],
     "answer": null,
     "explanation": "",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
@@ -1147,8 +1334,23 @@
     "number": 25,
     "question": "Exercise 25: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.",
     "options": [],
+    "subQuestions": [
+      {
+        "label": "a",
+        "text": "Which bank offers the \"Quoted Cross Rate?\""
+      },
+      {
+        "label": "b",
+        "text": "Solve for the implied cross rate using the quotes provided."
+      },
+      {
+        "label": "c",
+        "text": "Comparing the quoted and implied cross rates, which currency do you want to buy/sell?"
+      }
+    ],
     "answer": null,
     "explanation": "",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
@@ -1156,80 +1358,111 @@
     "number": 26,
     "question": "Exercise 26: Triangular arbitrage analysis - Identify quoted cross rate bank, solve implied cross rate, and determine buy/sell currency.",
     "options": [],
+    "subQuestions": [
+      {
+        "label": "a",
+        "text": "Which bank offers the \"Quoted Cross Rate?\""
+      },
+      {
+        "label": "b",
+        "text": "Solve for the implied cross rate using the quotes provided."
+      },
+      {
+        "label": "c",
+        "text": "Comparing the quoted and implied cross rates, which currency do you want to buy/sell?"
+      }
+    ],
     "answer": null,
     "explanation": "",
+    "type": "multi-part",
     "module": "9-11"
   },
   {
     "id": "mod9-11-27",
     "number": 27,
-    "question": "Exercise 27: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 27: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "First, buy EUR 5,385,912 at Apex",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-28",
     "number": 28,
-    "question": "Exercise 28: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 28: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "First, \tbuy CHF 5,160,050 at Apex.",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-29",
     "number": 29,
-    "question": "Exercise 29: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 29: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "First, buy MXN 98,210,000 at Chicago.",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-30",
     "number": 30,
-    "question": "Exercise 30: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 30: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "First, buy JPY 849,735,000 at Beta.",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-31",
     "number": 31,
-    "question": "Exercise 31: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 31: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "There are no arbitrage steps to take because the implied INR/CHF cross rate is identical to the quoted INR/CHF cross rate. The no-arbitrage condition is met (same price on the asset in both markets).",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-32",
     "number": 32,
-    "question": "Exercise 32: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 32: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "Notice the quoted cross rate at Bank C is stated in terms of AUD/CHF.",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-33",
     "number": 33,
-    "question": "Exercise 33: Calculate triangular arbitrage profit starting with $5,750,000, showing each step.",
+    "question": "Exercise 33: Calculate triangular arbitrage profit starting with $5,750,000, showing each step in the arbitrage process.",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "",
+    "type": "open-ended",
     "module": "9-11"
   },
   {
     "id": "mod9-11-34",
     "number": 34,
-    "question": "Doug Bernard specializes in cross-rate arbitrage. He notices the following quotes:",
+    "question": "Doug Bernard specializes in cross-rate arbitrage. Given the quotes: Bank A: CHF/USD = CHF 1.5971/USD, Bank B: AUD/USD = AUD 1.8215/USD, Bank C: AUD/CHF = AUD 1.1440/CHF. Does Doug have an arbitrage opportunity? If so, what steps would he take, and how much would he profit with $1,000,000?",
     "options": [],
+    "subQuestions": [],
     "answer": null,
     "explanation": "",
+    "type": "open-ended",
     "module": "9-11"
   }
 ]
