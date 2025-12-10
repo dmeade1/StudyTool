@@ -5,7 +5,6 @@ import path from 'path';
 const RAW_DIR = path.join(process.cwd(), 'src/data/raw');
 const OUTPUT_FILE = path.join(process.cwd(), 'src/data/questions.json');
 
-// Expected counts per module for validation
 const EXPECTED_COUNTS = {
     '1-3': 20,
     '4-6': 16,
@@ -13,40 +12,90 @@ const EXPECTED_COUNTS = {
     '9-11': 34
 };
 
-/**
- * Determines if a list of lettered items are sub-questions or multiple choice options.
- * Sub-questions typically:
- * - Are phrased as questions (contain "what", "how", "by what percent", etc.)
- * - Are longer in length
- * - Don't follow a standard answer choice pattern
- * 
- * Multiple choice options typically:
- * - Are short phrases or single concepts
- * - Don't end with question marks
- * - Are noun phrases or statements
- */
 function areSubQuestions(items) {
     if (items.length === 0) return false;
-
     const questionIndicators = ['what', 'how', 'by what', 'by how', 'calculate', 'which', 'why', 'explain'];
-
     let questionCount = 0;
     let totalLength = 0;
-
     for (const item of items) {
         const textLower = item.text.toLowerCase();
         totalLength += item.text.length;
-
-        // Check if it looks like a question
         if (questionIndicators.some(q => textLower.includes(q)) || item.text.includes('?')) {
             questionCount++;
         }
     }
-
     const avgLength = totalLength / items.length;
-
-    // If most items look like questions OR average length is very long, treat as sub-questions
     return questionCount >= items.length * 0.5 || avgLength > 80;
+}
+
+/**
+ * Parse answer section into blocks - each block is all content from one numbered answer to the next
+ */
+function parseAnswerBlocks(answerSection) {
+    const blocks = {};
+    const aRegex = /^\s*(\d+)\.\s*/gm;
+    const matches = [];
+    let match;
+
+    while ((match = aRegex.exec(answerSection)) !== null) {
+        matches.push({ num: parseInt(match[1]), index: match.index, length: match[0].length });
+    }
+
+    // Deduplicate by number (keep first occurrence)
+    const seen = new Set();
+    const uniqueMatches = matches.filter(m => {
+        if (seen.has(m.num)) return false;
+        seen.add(m.num);
+        return true;
+    });
+
+    for (let i = 0; i < uniqueMatches.length; i++) {
+        const m = uniqueMatches[i];
+        const startIdx = m.index + m.length;
+        const endIdx = (i < uniqueMatches.length - 1) ? uniqueMatches[i + 1].index : answerSection.length;
+        const block = answerSection.substring(startIdx, endIdx).trim();
+        blocks[m.num] = block;
+    }
+
+    return blocks;
+}
+
+/**
+ * Format an answer block that may contain multiple sub-parts
+ */
+function formatAnswerBlock(block, questionType) {
+    // For multiple choice, extract just the letter answer
+    if (questionType === 'multiple-choice') {
+        const letterMatch = block.match(/^([a-e])\b/i);
+        if (letterMatch) {
+            return {
+                answer: letterMatch[1].toLowerCase(),
+                explanation: block.substring(letterMatch[0].length).trim()
+            };
+        }
+    }
+
+    // For true-false
+    const tfMatch = block.match(/^(True|False)/i);
+    if (tfMatch) {
+        return {
+            answer: tfMatch[1].toLowerCase(),
+            explanation: block.substring(tfMatch[0].length).trim(),
+            type: 'true-false'
+        };
+    }
+
+    // For multi-part or open-ended, format the whole block
+    // Replace tabs and multiple spaces with single space, but preserve line structure
+    let formatted = block
+        .replace(/\t+/g, ' ')
+        .replace(/  +/g, ' ')
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line.length > 0)
+        .join('\n');
+
+    return { explanation: formatted };
 }
 
 function parseModules7_8(content) {
@@ -61,6 +110,8 @@ function parseModules7_8(content) {
         answerSection = content.substring(answerHeaderMatch.index + answerHeaderMatch[0].length);
     }
 
+    const answerBlocks = parseAnswerBlocks(answerSection);
+
     // Question 1 uses bullet point format
     const bulletMatch = questionSection.match(/•\s+(Why do economists[^\n]+)/);
     if (bulletMatch) {
@@ -71,7 +122,7 @@ function parseModules7_8(content) {
             options: [],
             subQuestions: [],
             answer: null,
-            explanation: 'See class notes/discussion.',
+            explanation: answerBlocks[1] || 'See class notes/discussion.',
             type: 'open-ended'
         });
     }
@@ -92,13 +143,16 @@ function parseModules7_8(content) {
             const block = nextIdx > 0 ? restContent.substring(0, nextIdx) : restContent.substring(0, 500);
 
             const items = [];
-            const optRegex = /^\s*([a-e])[\.\)]\s*(.+)/gm;
+            const optRegex = /^\s*([a-e])[\.\\)]\s*(.+)/gm;
             let optMatch;
             while ((optMatch = optRegex.exec(block)) !== null) {
                 items.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
             }
 
             const isSubQ = areSubQuestions(items);
+            const qType = items.length > 0 ? (isSubQ ? 'multi-part' : 'multiple-choice') : 'open-ended';
+
+            const answerData = answerBlocks[num] ? formatAnswerBlock(answerBlocks[num], qType) : {};
 
             questions.push({
                 id: 'mod7-8-' + num,
@@ -106,28 +160,10 @@ function parseModules7_8(content) {
                 question: match[2].trim(),
                 options: isSubQ ? [] : items,
                 subQuestions: isSubQ ? items : [],
-                answer: null,
-                explanation: '',
-                type: items.length > 0 ? (isSubQ ? 'multi-part' : 'multiple-choice') : 'open-ended'
+                answer: answerData.answer || null,
+                explanation: answerData.explanation || '',
+                type: answerData.type || qType
             });
-        }
-    }
-
-    // Parse answers
-    const aRegex = /^\s*(\d+)\.\s*(.+)/gm;
-    let aMatch;
-    while ((aMatch = aRegex.exec(answerSection)) !== null) {
-        const num = parseInt(aMatch[1]);
-        const text = aMatch[2].trim();
-        const q = questions.find(x => x.number === num);
-        if (q) {
-            const letterMatch = text.match(/^([a-e])\b/i);
-            if (letterMatch && q.type === 'multiple-choice') {
-                q.answer = letterMatch[1].toLowerCase();
-                q.explanation = text.substring(letterMatch[0].length).trim();
-            } else {
-                q.explanation = text;
-            }
         }
     }
 
@@ -146,8 +182,9 @@ function parseModules9_11(content) {
         answerSection = content.substring(answerHeaderMatch.index + answerHeaderMatch[0].length);
     }
 
+    const answerBlocks = parseAnswerBlocks(answerSection);
+
     // Questions 1-20
-    // Some questions like 16 are embedded in bullet points with format "• 16. ..."
     const qRegex = /(?:^|\s)(\d+)\.\s+(.+)/gm;
     let match;
     const seen = new Set();
@@ -163,13 +200,16 @@ function parseModules9_11(content) {
             const block = nextIdx > 0 ? restContent.substring(0, nextIdx) : restContent.substring(0, 500);
 
             const items = [];
-            const optRegex = /^([a-e])[\.\)]\s+(.+)/gm;
+            const optRegex = /^([a-e])[\.\\)]\s+(.+)/gm;
             let optMatch;
             while ((optMatch = optRegex.exec(block)) !== null) {
                 items.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
             }
 
             const isSubQ = areSubQuestions(items);
+            const qType = items.length > 0 ? (isSubQ ? 'multi-part' : 'multiple-choice') : 'open-ended';
+
+            const answerData = answerBlocks[num] ? formatAnswerBlock(answerBlocks[num], qType) : {};
 
             questions.push({
                 id: 'mod9-11-' + num,
@@ -177,9 +217,9 @@ function parseModules9_11(content) {
                 question: match[2].trim(),
                 options: isSubQ ? [] : items,
                 subQuestions: isSubQ ? items : [],
-                answer: null,
-                explanation: '',
-                type: items.length > 0 ? (isSubQ ? 'multi-part' : 'multiple-choice') : 'open-ended'
+                answer: answerData.answer || null,
+                explanation: answerData.explanation || '',
+                type: answerData.type || qType
             });
         }
     }
@@ -197,7 +237,7 @@ function parseModules9_11(content) {
                 { label: 'c', text: 'Comparing the quoted and implied cross rates, which currency do you want to buy/sell?' }
             ],
             answer: null,
-            explanation: '',
+            explanation: answerBlocks[i] || '',
             type: 'multi-part'
         });
     }
@@ -211,7 +251,7 @@ function parseModules9_11(content) {
             options: [],
             subQuestions: [],
             answer: null,
-            explanation: '',
+            explanation: answerBlocks[i] || '',
             type: 'open-ended'
         });
     }
@@ -224,27 +264,9 @@ function parseModules9_11(content) {
         options: [],
         subQuestions: [],
         answer: null,
-        explanation: '',
+        explanation: answerBlocks[34] || '',
         type: 'open-ended'
     });
-
-    // Parse answers
-    const aRegex = /^\s*(\d+)\.\s*(.+)/gm;
-    let aMatch;
-    while ((aMatch = aRegex.exec(answerSection)) !== null) {
-        const num = parseInt(aMatch[1]);
-        const text = aMatch[2].trim();
-        const q = questions.find(x => x.number === num);
-        if (q) {
-            const letterMatch = text.match(/^([a-e])\b/i);
-            if (letterMatch && q.type === 'multiple-choice') {
-                q.answer = letterMatch[1].toLowerCase();
-                q.explanation = text.substring(letterMatch[0].length).trim();
-            } else {
-                q.explanation = text;
-            }
-        }
-    }
 
     return questions;
 }
@@ -260,6 +282,8 @@ function parseStandardFile(filename, content, moduleRange) {
         questionSection = content.substring(0, answerHeaderMatch.index);
         answerSection = content.substring(answerHeaderMatch.index + answerHeaderMatch[0].length);
     }
+
+    const answerBlocks = parseAnswerBlocks(answerSection);
 
     const qRegex = /^\s*(\d+)\.\s+(.+)/gm;
     let match;
@@ -286,13 +310,16 @@ function parseStandardFile(filename, content, moduleRange) {
         const block = questionSection.substring(q.index + q.length, endIdx);
 
         const items = [];
-        const optRegex = /^\s*([a-e])[\.\)]\s+(.+)/gm;
+        const optRegex = /^\s*([a-e])[\.\\)]\s+(.+)/gm;
         let optMatch;
         while ((optMatch = optRegex.exec(block)) !== null) {
             items.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
         }
 
         const isSubQ = areSubQuestions(items);
+        const qType = items.length > 0 ? (isSubQ ? 'multi-part' : 'multiple-choice') : 'open-ended';
+
+        const answerData = answerBlocks[q.num] ? formatAnswerBlock(answerBlocks[q.num], qType) : {};
 
         questions.push({
             id: `${moduleRange}-${q.num}`,
@@ -300,40 +327,16 @@ function parseStandardFile(filename, content, moduleRange) {
             question: q.text,
             options: isSubQ ? [] : items,
             subQuestions: isSubQ ? items : [],
-            answer: null,
-            explanation: '',
-            type: items.length > 0 ? (isSubQ ? 'multi-part' : 'multiple-choice') : 'open-ended'
+            answer: answerData.answer || null,
+            explanation: answerData.explanation || '',
+            type: answerData.type || qType
         });
-    }
-
-    // Parse answers
-    const aRegex = /^\s*(\d+)\.\s*(.+)/gm;
-    let aMatch;
-    while ((aMatch = aRegex.exec(answerSection)) !== null) {
-        const num = parseInt(aMatch[1]);
-        const text = aMatch[2].trim();
-        const q = questions.find(x => x.number === num);
-        if (q) {
-            const letterMatch = text.match(/^([a-e])\b/i);
-            const tfMatch = text.match(/^(True|False)/i);
-            if (letterMatch && q.type === 'multiple-choice') {
-                q.answer = letterMatch[1].toLowerCase();
-                q.explanation = text.substring(letterMatch[0].length).trim();
-            } else if (tfMatch) {
-                q.answer = tfMatch[1].toLowerCase();
-                q.explanation = text.substring(tfMatch[0].length).trim();
-                q.type = 'true-false';
-            } else {
-                q.explanation = text;
-            }
-        }
     }
 
     return questions;
 }
 
 const allQuestions = [];
-
 const files = fs.readdirSync(RAW_DIR).filter(f => f.endsWith('.txt'));
 
 for (const f of files) {
@@ -352,7 +355,6 @@ for (const f of files) {
 
     qs.forEach(q => q.module = moduleRange);
 
-    // Count by type
     const multiPart = qs.filter(q => q.type === 'multi-part').length;
     const mc = qs.filter(q => q.type === 'multiple-choice').length;
     const open = qs.filter(q => q.type === 'open-ended' || q.type === 'true-false').length;
