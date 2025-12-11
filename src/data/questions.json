@@ -88,12 +88,33 @@
   {
     "id": "mod1-13",
     "number": 13,
-    "question": "Chapter 1, question 2: How is international financial management different from domestic financial management?",
-    "options": [],
+    "question": "How is international financial management different from domestic financial management?",
+    "options": [
+      {
+        "label": "a",
+        "text": "International financial management involves managing foreign exchange risk, political risk, and market imperfections, whereas domestic financial management largely does not."
+      },
+      {
+        "label": "b",
+        "text": "International financial management is restricted to a single currency environment, simplifying capital budgeting decisions."
+      },
+      {
+        "label": "c",
+        "text": "Domestic financial management operates in a more complex environment with expanded opportunity sets compared to international management."
+      },
+      {
+        "label": "d",
+        "text": "International financial management is primarily concerned with local GAAP compliance, while domestic management focuses on IFRS."
+      },
+      {
+        "label": "e",
+        "text": "There are no fundamental differences between the two disciplines."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "See lecture and pages 15-16 of the e-book. Be sure to understand all the concepts that distinguish domestic versus international finance.",
-    "type": "open-ended",
+    "answer": "a",
+    "explanation": "International financial management differs from domestic management because it must deal with foreign exchange risk, political risk (sovereign risk), and market imperfections (barriers to trade/capital flow). It also offers an expanded opportunity set for financing and investment.",
+    "type": "multiple-choice",
     "module": "1"
   },
   {
