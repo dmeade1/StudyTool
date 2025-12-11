@@ -182,12 +182,33 @@
   {
     "id": "mod1-15",
     "number": 15,
-    "question": "Chapter 2, question 5: What were the main objectives of the Bretton Woods system?",
-    "options": [],
+    "question": "What were the main objectives of the Bretton Woods system?",
+    "options": [
+      {
+        "label": "a",
+        "text": "To achieve exchange rate stability and promote international trade and development."
+      },
+      {
+        "label": "b",
+        "text": "To abolish all national currencies and create a single world currency."
+      },
+      {
+        "label": "c",
+        "text": "To return the world to a strict Gold Standard without any flexibility."
+      },
+      {
+        "label": "d",
+        "text": "To promote protectionism and reduce international trade to protect local industries."
+      },
+      {
+        "label": "e",
+        "text": "To establish a floating exchange rate system for all countries."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
+    "answer": "a",
     "explanation": "The main objectives of the Bretton Woods system were to achieve exchange rate stability and promote international trade and development.",
-    "type": "open-ended",
+    "type": "multiple-choice",
     "module": "1"
   },
   {
@@ -385,12 +406,33 @@
   {
     "id": "mod2-16",
     "number": 16,
-    "question": "Chapter 2, question 12: Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.",
-    "options": [],
+    "question": "Once capital markets are integrated, why is it difficult for a country to maintain a fixed exchange rate system?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Because vast amounts of money may flow in and out of a country in a short time period, overwhelming the central bank's ability to maintain the peg."
+      },
+      {
+        "label": "b",
+        "text": "Because integrated markets always lead to lower interest rates, which automatically supports fixed rates."
+      },
+      {
+        "label": "c",
+        "text": "It is actually easier to maintain a fixed rate because foreign investors will always support the government's policy."
+      },
+      {
+        "label": "d",
+        "text": "Because capital integration requires the adoption of a common currency, making fixed rates irrelevant."
+      },
+      {
+        "label": "e",
+        "text": "Because the IMF prohibits fixed exchange rates in integrated markets."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
+    "answer": "a",
     "explanation": "Once capital markets are integrated internationally, vast amounts of money may flow in and out of a country in a short time period. This will make it very difficult for the country to maintain a fixed exchange rate.",
-    "type": "open-ended",
+    "type": "multiple-choice",
     "module": "2"
   },
   {
