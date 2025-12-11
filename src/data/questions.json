@@ -481,12 +481,33 @@
   {
     "id": "mod3-3",
     "number": 3,
-    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.\na. €0.8894/$ Bid and €0.8898/$ Ask\nb. €0.8898/$ Bid and €0.8894/$ Ask",
-    "options": [],
+    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.\n\nQuote A: €0.8894/$ Bid and €0.8898/$ Ask\nQuote B: €0.8898/$ Bid and €0.8894/$ Ask",
+    "options": [
+      {
+        "label": "a",
+        "text": "Quote A: CSFB buys Dollars / sells Dollars; Quote B: CSFB buys Euros / sells Euros"
+      },
+      {
+        "label": "b",
+        "text": "Quote A: CSFB buys Euros / sells Euros; Quote B: CSFB buys Dollars / sells Dollars"
+      },
+      {
+        "label": "c",
+        "text": "Quote A: CSFB buys Dollars / sells Euros; Quote B: CSFB buys Euros / sells Dollars"
+      },
+      {
+        "label": "d",
+        "text": "Quote A: CSFB buys Euros / sells Dollars; Quote B: CSFB buys Dollars / sells Euros"
+      },
+      {
+        "label": "e",
+        "text": "Both quotes indicate CSFB is buying Dollars and selling Euros"
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "Traders buy low and sell high, but don't necessarily state everything in terms of \"Rule #2\". This question requires that you keep bids and asks constant as bids and asks but deduce which currency is being bought or sold. Restating in terms of \"Rule #2\" is a good way to evaluate.\n\na. €0.8894/$ Bid and €0.8898/$ Ask. The amount of euros bid for dollars is lower and asked for dollars is higher so the currency CSFB is buying at the bid and selling at the ask is the dollar.\n\nb. €0.8898/$ Bid and €0.8894/$ Ask. The amount of euros to dollars in the bid is higher than in the ask price so CSFB. This must be a bid on the euro and an ask on the euro. Apply Rule #2 to check. The bid is $1.238/€ and the ask is $1.244/€. Thus the trader is buying euros low at $1.238 and selling euros high at $1.244.",
-    "type": "open-ended",
+    "answer": "a",
+    "explanation": "Quote A (€0.8894/$ Bid, €0.8898/$ Ask): Since bid < ask for dollars, CSFB is buying dollars at bid and selling dollars at ask. \nQuote B (€0.8898/$ Bid, €0.8894/$ Ask): Bid > Ask implies this is inverted or referencing the counter currency. This must be a bid/ask on the Euro. Bid =$1.238/€, Ask=$1.244/€. Thus CSFB is buying euros low and selling euros high.",
+    "type": "multiple-choice",
     "module": "3"
   },
   {
