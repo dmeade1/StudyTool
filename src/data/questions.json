@@ -388,256 +388,6 @@
     "module": "3"
   },
   {
-    "id": "4-6-2",
-    "number": 2,
-    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. A week later on August 29 the exchange rate becomes $2.50/£. Which of the following best explains what has happened between August 22 and August 29?",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "d explanation: On 8/22 the exchange rate required $1.89 to buy one British pound. On 8/29, $2.50 was required to buy one British pound. So the dollar depreciated against the pound. This is the same thing as saying the pound appreciated against the dollar.",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-3",
-    "number": 3,
-    "question": "Suppose substantial amounts of people from around the world wish to view the Olympics in person and spend three weeks in the England doing so. While there, they also purchase millions of souvenirs for their family and friends left behind.  All else constant, describe the effect this will have on the foreign exchange market for British pounds. Illustrate your discussion with a graph.",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "The large influx of foreigners into Britain increases the demand for British goods and services. So, in the market for British pounds there is an increase in demand for pounds. The demand curve shifts to the right and the equilibrium $/£ exchange rate increases.",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-4",
-    "number": 4,
-    "question": "In class, the following example was given.",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "a. U.S. goods are now relatively more expensive compared to European goods. This decreases demand by Europeans for U.S. goods and decreases the demand for dollars (shifts left to Da). This also increases American’s desire for imports, and therefore, increases the supply of dollars (shifts right to Sa). Both of these factors drive the exchange rate of €/$ downward. This means the dollar depreciates against the euro.\nb. U.S. securities now offer a relatively higher return compared to euro-denominated securities. This means Europeans and Americans both desire to hold relatively more U.S. securities and less euro-denominated securities. This means Europeans need more dollars and Americans need fewer euros. So the demand for dollars by Europeans increases (shifts right to Dc) and the supply of dollars by Americans decreases (shifts left to Sc). The dollar appreciates against the euro.",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-5",
-    "number": 5,
-    "question": "On August 1, 2006, Zimbabwe changed the value of the Zim dollar from Z$101/US$ to Z$250/US$.",
-    "options": [],
-    "subQuestions": [
-      {
-        "label": "a",
-        "text": "What was the original US dollar value of the Zim dollar?"
-      },
-      {
-        "label": "b",
-        "text": "By what percent has the Zim dollar devalued (or revalued) relative to the US dollar?"
-      },
-      {
-        "label": "c",
-        "text": "By what percent has the US dollar appreciated (or depreciated) relative to the US dollar?"
-      }
-    ],
-    "answer": null,
-    "explanation": "a. The U.S. dollar value of the Zim dollar prior to devaluation was $0.0099 (1/101). Subsequent to devaluation, the Zim dollar was worth $0.004 (1/250).\n• The U.S. dollar value of the Zim dollar has changed by (0.004 - 0.0099)/0.0099 = -59.6%. Thus, the Zim dollar has devalued by 59.6% against the U.S. dollar.\n• 147.5%",
-    "type": "multi-part",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-6",
-    "number": 6,
-    "question": "In 2002, one dollar bought ¥125. In 2006 it bought about ¥115.",
-    "options": [],
-    "subQuestions": [
-      {
-        "label": "a",
-        "text": "What was the dollar value of the yen in 2002? What was the yen’s dollar value in 2006?"
-      },
-      {
-        "label": "b",
-        "text": "By what percent has the yen risen in value between 2002 and 2006?"
-      },
-      {
-        "label": "c",
-        "text": "By what percent has the dollar fallen in value between 2002 and 2006?"
-      }
-    ],
-    "answer": null,
-    "explanation": "a. The dollar value of the yen in 2002 was $0.008 (1/125). By 2006, the yen had risen to $0.0087.\nb. Between 2002 and 2006, the yen rose by 8.8%, calculated as (0.0087 - 0.008)/0.008.\nc. During this same period, the dollar depreciated by 8%, calculated as (115 - 125)/125.",
-    "type": "multi-part",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-7",
-    "number": 7,
-    "question": "On February 1, the euro is worth $1.2966. By May 1, it has moved to $1.3634.",
-    "options": [],
-    "subQuestions": [
-      {
-        "label": "a",
-        "text": "By what percent has the euro appreciated or depreciated against the dollar during this 3-month period?"
-      },
-      {
-        "label": "b",
-        "text": "By what percent has the dollar appreciated or depreciated against the euro during this period?"
-      }
-    ],
-    "answer": null,
-    "explanation": "a. Since the euro is now worth more in dollar terms, it has appreciated against the dollar. The amount of euro appreciation is (1.3634 - 1.2966)/1.2966 = 5.15%.\nb. The flip side of euro appreciation is dollar depreciation. The dollar has depreciated by an amount equal to [(1/1.3634) – (1/1.2966)]/(1/1.2966) = -4.9%",
-    "type": "multi-part",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-8",
-    "number": 8,
-    "question": "In early August 2002 (the exact date is a state secret), North Korea reduced the official value of the won from $0.465 to $0.0067. The black market value of the won was $0.005 at the time.",
-    "options": [],
-    "subQuestions": [
-      {
-        "label": "a",
-        "text": "By what percentage did the won devalue?"
-      },
-      {
-        "label": "b",
-        "text": "Following the initial devaluation, what further percentage devaluation would be necessary for the won to equal its black market value?"
-      }
-    ],
-    "answer": null,
-    "explanation": "a. The won devalued ($0.067-$0.465)/$0.465) = 98.56% b. (0.005-0.0067)/0.0067 = 25.4%",
-    "type": "multi-part",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-9",
-    "number": 9,
-    "question": "On March 29, 2007, the Indian rupee was worth $0.023270. The next day, it was worth $0.022980.",
-    "options": [],
-    "subQuestions": [
-      {
-        "label": "a",
-        "text": "By how much had the rupee depreciated against the dollar?"
-      },
-      {
-        "label": "b",
-        "text": "By how much had the dollar appreciated against the rupee?"
-      }
-    ],
-    "answer": null,
-    "explanation": "a. The rupee devalued by (0.02298 - 0.02327)/0.02327, or -1.25%.\nb. The dollar appreciated against the rupee by [(1/0.02298) - (1/0.02327)]/(1/0.02327), or 1.28%.",
-    "type": "multi-part",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-10",
-    "number": 10,
-    "question": "When foreigners decide to purchase additional U.S. government bonds, ____.",
-    "options": [
-      {
-        "label": "a",
-        "text": "the demand for dollars rises"
-      },
-      {
-        "label": "b",
-        "text": "the federal government budget deficit declines"
-      },
-      {
-        "label": "c",
-        "text": "the supply of dollars rises"
-      },
-      {
-        "label": "d",
-        "text": "the trade deficit declines"
-      },
-      {
-        "label": "e",
-        "text": "None of the above"
-      }
-    ],
-    "subQuestions": [],
-    "answer": "a",
-    "explanation": "",
-    "type": "multiple-choice",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-11",
-    "number": 11,
-    "question": "Foreign nations’ demand for dollars increases as",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "b",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-12",
-    "number": 12,
-    "question": "If the equilibrium price of yen is $0.008/¥, but for some reason the market opens at $0.005/¥, it is likely that",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "b. explanation: At an exchange rate below equilibrium, there is a shortage of yen, with Americans wanting more Japanese imports than the Japanese want to export. The price of yen is thus bid up to equilibrium. See explanation and graph given in class.",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-13",
-    "number": 13,
-    "question": "If the price level in Mexico falls relative to the U.S. price level, which of the following is correct?",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "e. explanation: If the price level in Mexico falls relative to the U.S. then Mexican imports become more attractive to Americans and they demand more pesos (which means the supply of dollars increases). At the same time, American exports become relatively more expensive to Mexicans and they demand fewer dollars (supply of pesos decreases).",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-14",
-    "number": 14,
-    "question": "All else equal, an appreciation in the US dollar relative to other currencies tends to",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "a. explanation: An appreciation in the U.S. dollar means it takes more of other countries’ currencies to buy a dollar. This means that the price of American exports increases, which decreases the amount of the U.S. exports abroad",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-15",
-    "number": 15,
-    "question": "Which of the following will decrease (shift left) the demand for Swiss francs",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "a",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-16",
-    "number": 16,
-    "question": "During 1995, the yen went from $0.0125 to $0.0095238. By how much did the dollar appreciate against the yen?",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "b. (105 -80)/80 = 31.25%",
-    "type": "open-ended",
-    "module": "4-6"
-  },
-  {
-    "id": "4-6-17",
-    "number": 17,
-    "question": "Answer true or false and explain: In 2011, the Swiss National Bank intervened in the foreign currency market to strengthen the Swiss franc against the euro.",
-    "options": [],
-    "subQuestions": [],
-    "answer": "false",
-    "explanation": "- in 2011 the Swiss National Bank (SNB) intervened in the currency market to strengthen the euro because Swiss exports were declining. Study tip: Review the following from the notes (1) what events were causing Swiss exports to decline and (2) What actions the SNB took in the foreign exchange market to strengthen the euro.",
-    "type": "true-false",
-    "module": "4-6"
-  },
-  {
     "id": "mod7-8-1",
     "number": 1,
     "question": "Why do economists and policy makers care that the U.S. has a large Balance of Trade deficit? Support your explanation with the class discussion including articles if applicable.",
@@ -1560,5 +1310,457 @@
     "explanation": "",
     "type": "open-ended",
     "module": "9-11"
+  },
+  {
+    "id": "mod4-2",
+    "number": 2,
+    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. A week later on August 29 the exchange rate becomes $2.50/£. Which of the following best explains what has happened between August 22 and August 29?",
+    "options": [
+      {
+        "label": "a",
+        "text": "The U.S. dollar appreciated against the British pound"
+      },
+      {
+        "label": "b",
+        "text": "The British pound appreciated against the dollar"
+      },
+      {
+        "label": "c",
+        "text": "The U.S. dollar depreciated against the British pound"
+      },
+      {
+        "label": "d",
+        "text": "(b) and (c) above"
+      },
+      {
+        "label": "e",
+        "text": "None of the above"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "d",
+    "explanation": "On 8/22 the exchange rate required $1.89 to buy one British pound. On 8/29, $2.50 was required to buy one British pound. So the dollar depreciated against the pound. This is the same thing as saying the pound appreciated against the dollar.",
+    "type": "multiple-choice",
+    "module": "4"
+  },
+  {
+    "id": "mod4-12",
+    "number": 12,
+    "question": "If the equilibrium price of yen is $0.008/¥, but for some reason the market opens at $0.005/¥, it is likely that:",
+    "options": [
+      {
+        "label": "a",
+        "text": "the Japanese demand for U.S. goods will increase, moving the foreign rate toward equilibrium"
+      },
+      {
+        "label": "b",
+        "text": "the US purchases of Japanese goods will increase driving up the foreign exchange price of yen"
+      },
+      {
+        "label": "c",
+        "text": "an excess supply of yen will force a decline in the exchange rate"
+      },
+      {
+        "label": "d",
+        "text": "the US demand for yen will shift right"
+      },
+      {
+        "label": "e",
+        "text": "none of the above"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "b",
+    "explanation": "At an exchange rate below equilibrium, there is a shortage of yen, with Americans wanting more Japanese imports than the Japanese want to export. The price of yen is thus bid up to equilibrium. See explanation and graph given in class.",
+    "type": "multiple-choice",
+    "module": "4"
+  },
+  {
+    "id": "mod4-13",
+    "number": 13,
+    "question": "If the price level in Mexico falls relative to the U.S. price level, which of the following is correct?",
+    "options": [
+      {
+        "label": "a",
+        "text": "demand for pesos increases (shifts right)"
+      },
+      {
+        "label": "b",
+        "text": "supply of pesos decreases (shifts left)"
+      },
+      {
+        "label": "c",
+        "text": "demand for dollars decreases (shifts left)"
+      },
+      {
+        "label": "d",
+        "text": "supply of dollars increases (shifts right)"
+      },
+      {
+        "label": "e",
+        "text": "all of the above"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "e",
+    "explanation": "If the price level in Mexico falls relative to the U.S. then Mexican imports become more attractive to Americans and they demand more pesos (which means the supply of dollars increases). At the same time, American exports become relatively more expensive to Mexicans and they demand fewer dollars (supply of pesos decreases).",
+    "type": "multiple-choice",
+    "module": "4"
+  },
+  {
+    "id": "mod4-14",
+    "number": 14,
+    "question": "All else equal, an appreciation in the US dollar relative to other currencies tends to:",
+    "options": [
+      {
+        "label": "a",
+        "text": "increase U.S. imports"
+      },
+      {
+        "label": "b",
+        "text": "increase U.S. exports"
+      },
+      {
+        "label": "c",
+        "text": "demand for the dollar to increase"
+      },
+      {
+        "label": "d",
+        "text": "occur when interest rates abroad are higher than those in the U.S."
+      },
+      {
+        "label": "e",
+        "text": "cause more foreigners to invest in U.S. securities"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "An appreciation in the U.S. dollar means it takes more of other countries' currencies to buy a dollar. This means that the price of American exports increases, which decreases the amount of the U.S. exports abroad",
+    "type": "multiple-choice",
+    "module": "4"
+  },
+  {
+    "id": "mod5-3",
+    "number": 3,
+    "question": "Suppose substantial amounts of people from around the world wish to view the Olympics in person and spend three weeks in England doing so. While there, they also purchase millions of souvenirs for their family and friends left behind. All else constant, what effect will this have on the foreign exchange market for British pounds?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Demand for pounds decreases, causing the pound to depreciate"
+      },
+      {
+        "label": "b",
+        "text": "Supply of pounds increases, causing the pound to depreciate"
+      },
+      {
+        "label": "c",
+        "text": "Demand for pounds increases, causing the pound to appreciate"
+      },
+      {
+        "label": "d",
+        "text": "Supply of pounds decreases, causing the pound to appreciate"
+      },
+      {
+        "label": "e",
+        "text": "No effect on the foreign exchange market"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "c",
+    "explanation": "The large influx of foreigners into Britain increases the demand for British goods and services. So, in the market for British pounds there is an increase in demand for pounds. The demand curve shifts to the right and the equilibrium $/£ exchange rate increases.",
+    "type": "multiple-choice",
+    "module": "5"
+  },
+  {
+    "id": "mod5-4",
+    "number": 4,
+    "question": "In class, the following example was given: Suppose the foreign exchange market is made up of only 2 trading partners, the U.S. and the euro area. Determine the effect on the equilibrium exchange rate in the market for euros of the following changes.\n\nPart a: Suppose the price level in the U.S. were to increase by 20% while the average price level in the euro area remained unchanged. What happens to the dollar?\nPart b: Suppose that interest rates increase in the United States, while remaining unchanged in the euro area. What happens to the dollar?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Part a: Dollar appreciates; Part b: Dollar appreciates"
+      },
+      {
+        "label": "b",
+        "text": "Part a: Dollar depreciates; Part b: Dollar appreciates"
+      },
+      {
+        "label": "c",
+        "text": "Part a: Dollar appreciates; Part b: Dollar depreciates"
+      },
+      {
+        "label": "d",
+        "text": "Part a: Dollar depreciates; Part b: Dollar depreciates"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "b",
+    "explanation": "Part a: Dollar depreciates against the euro. U.S. goods are now relatively more expensive compared to European goods. This decreases demand by Europeans for U.S. goods and decreases the demand for dollars... This also increases American's desire for imports... Both factors drive the exchange rate of €/$ downward.\nPart b: Dollar appreciates against the euro. U.S. securities now offer a relatively higher return... Europeans need more dollars and Americans need fewer euros. So the demand for dollars by Europeans increases... and the supply of dollars by Americans decreases...",
+    "type": "multiple-choice",
+    "module": "5"
+  },
+  {
+    "id": "mod5-10",
+    "number": 10,
+    "question": "When foreigners decide to purchase additional U.S. government bonds, ____.",
+    "options": [
+      {
+        "label": "a",
+        "text": "the demand for dollars rises"
+      },
+      {
+        "label": "b",
+        "text": "the federal government budget deficit declines"
+      },
+      {
+        "label": "c",
+        "text": "the supply of dollars rises"
+      },
+      {
+        "label": "d",
+        "text": "the trade deficit declines"
+      },
+      {
+        "label": "e",
+        "text": "None of the above"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "",
+    "type": "multiple-choice",
+    "module": "5"
+  },
+  {
+    "id": "mod5-11",
+    "number": 11,
+    "question": "Foreign nations' demand for dollars increases as:",
+    "options": [
+      {
+        "label": "a",
+        "text": "Americans purchase more foreign goods"
+      },
+      {
+        "label": "b",
+        "text": "Foreigners purchase more American goods"
+      },
+      {
+        "label": "c",
+        "text": "Americans travel more abroad"
+      },
+      {
+        "label": "d",
+        "text": "Foreigners receive more U.S. direct investment"
+      },
+      {
+        "label": "e",
+        "text": "Americans' exports fall"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "b",
+    "explanation": "",
+    "type": "multiple-choice",
+    "module": "5"
+  },
+  {
+    "id": "mod5-15",
+    "number": 15,
+    "question": "Which of the following will decrease (shift left) the demand for Swiss francs?",
+    "options": [
+      {
+        "label": "a",
+        "text": "higher inflation in Switzerland"
+      },
+      {
+        "label": "b",
+        "text": "lower U.S. interest rates"
+      },
+      {
+        "label": "c",
+        "text": "U.S. incomes rise"
+      },
+      {
+        "label": "d",
+        "text": "Appreciation of the Swiss franc"
+      },
+      {
+        "label": "e",
+        "text": "Depreciation of the Swiss franc"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "",
+    "type": "multiple-choice",
+    "module": "5"
+  },
+  {
+    "id": "mod5-17",
+    "number": 17,
+    "question": "Answer true or false and explain: In 2011, the Swiss National Bank intervened in the foreign currency market to strengthen the Swiss franc against the euro.",
+    "options": [
+      {
+        "label": "a",
+        "text": "True"
+      },
+      {
+        "label": "b",
+        "text": "False"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "b",
+    "explanation": "False. In 2011 the Swiss National Bank (SNB) intervened in the currency market to strengthen the euro because Swiss exports were declining. The SNB wanted to WEAKEN the Swiss franc (or prevent it from appreciating further) to protect Swiss exports.",
+    "type": "multiple-choice",
+    "module": "5"
+  },
+  {
+    "id": "mod6-1",
+    "number": 1,
+    "question": "The Czech koruna (CZK) spot rate is CZK36.02/$.\na. A 20 percent depreciation of the koruna will result in what new CZK/$ spot rate?\nb. If the koruna depreciates by 20 percent, by how much does the dollar appreciate?\n\nMULTIPLE CHOICE - Which mathematical functions should you use?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Part a: Convert to $/CZK, multiply by 0.80, convert back; Part b: (New-Old)/Old"
+      },
+      {
+        "label": "b",
+        "text": "Part a: Multiply CZK rate by 1.20; Part b: 20%"
+      },
+      {
+        "label": "c",
+        "text": "Part a: Divide CZK rate by 0.80; Part b: (New-Old)/Old"
+      },
+      {
+        "label": "d",
+        "text": "Part a: Convert to $/CZK, multiply by 0.80, convert back; Part b: 20%"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "a. Since it is the Czech koruna that has depreciated... CZK36.02/$ = $0.02776/CZK. A 20% depreciation... ($0.02776/CZK)(0.80) = $0.02221/CZK, or CZK45.03/$.\nb. To find dollar appreciation... (45.03-36.02)/36.02 = 25%",
+    "type": "multiple-choice",
+    "module": "6"
+  },
+  {
+    "id": "mod6-5",
+    "number": 5,
+    "question": "On August 1, 2006, Zimbabwe changed the value of the Zim dollar from Z$101/US$ to Z$250/US$.\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart a (Finding US dollar value of Zim dollar): Divide 1 / 101\nPart b (Finding percent devaluation): (New value - Old value) / Old value\nPart c (Finding US dollar appreciation): (New rate - Old rate) / Old rate",
+    "options": [
+      {
+        "label": "a",
+        "text": "Correct functions as listed above"
+      },
+      {
+        "label": "b",
+        "text": "Incorrect functions listed"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "a. The U.S. dollar value of the Zim dollar prior to devaluation was $0.0099 (1/101). Subsequent... $0.004 (1/250).\nb. ... changed by (0.004 - 0.0099)/0.0099 = -59.6%.\nc. 147.5%",
+    "type": "multiple-choice",
+    "module": "6"
+  },
+  {
+    "id": "mod6-6",
+    "number": 6,
+    "question": "In 2002, one dollar bought ¥125. In 2006 it bought about ¥115.\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart a (Converting ¥/$ to $/¥): Divide 1 / (¥/$)\nPart b (Finding percent change in yen value): (2006 $/¥ value - 2002 $/¥ value) / 2002 $/¥ value\nPart c (Finding percent change in dollar value): (2006 ¥/$ - 2002 ¥/$) / 2002 ¥/$",
+    "options": [
+      {
+        "label": "a",
+        "text": "Correct functions as listed above"
+      },
+      {
+        "label": "b",
+        "text": "Incorrect functions listed"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "a. The dollar value of the yen in 2002 was $0.008 (1/125). By 2006... $0.0087.\nb. ... yen rose by 8.8%, calculated as (0.0087 - 0.008)/0.008.\nc. ... dollar depreciated by 8%, calculated as (115 - 125)/125.",
+    "type": "multiple-choice",
+    "module": "6"
+  },
+  {
+    "id": "mod6-7",
+    "number": 7,
+    "question": "On February 1, the euro is worth $1.2966. By May 1, it has moved to $1.3634.\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart a (Finding euro appreciation): (May value - Feb value) / Feb value\nPart b (Finding dollar appreciation/depreciation): [(1/May rate) - (1/Feb rate)] / (1/Feb rate)",
+    "options": [
+      {
+        "label": "a",
+        "text": "Correct functions as listed above"
+      },
+      {
+        "label": "b",
+        "text": "Incorrect functions listed"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "a. ... amount of euro appreciation is (1.3634 - 1.2966)/1.2966 = 5.15%.\nb. The flip side... dollar depreciation... [(1/1.3634) – (1/1.2966)]/(1/1.2966) = -4.9%",
+    "type": "multiple-choice",
+    "module": "6"
+  },
+  {
+    "id": "mod6-8",
+    "number": 8,
+    "question": "In early August 2002 (the exact date is a state secret), North Korea reduced the official value of the won from $0.465 to $0.0067. The black market value of the won was $0.005 at the time.\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart a (Finding won devaluation): (New value - Old value) / Old value\nPart b (Finding further devaluation needed): (Black market value - New official value) / New official value",
+    "options": [
+      {
+        "label": "a",
+        "text": "Correct functions as listed above"
+      },
+      {
+        "label": "b",
+        "text": "Incorrect functions listed"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "a. The won devalued ($0.0067-$0.465)/$0.465) = -98.56%\nb. (0.005-0.0067)/0.0067 = -25.4%",
+    "type": "multiple-choice",
+    "module": "6"
+  },
+  {
+    "id": "mod6-9",
+    "number": 9,
+    "question": "On March 29, 2007, the Indian rupee was worth $0.023270. The next day, it was worth $0.022980.\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart a (Finding rupee depreciation): (New value - Old value) / Old value\nPart b (Finding dollar appreciation): [(1/New rate) - (1/Old rate)] / (1/Old rate)",
+    "options": [
+      {
+        "label": "a",
+        "text": "Correct functions as listed above"
+      },
+      {
+        "label": "b",
+        "text": "Incorrect functions listed"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "a. The rupee devalued by (0.02298 - 0.02327)/0.02327, or -1.25%.\nb. The dollar appreciated against the rupee by [(1/0.02298) - (1/0.02327)]/(1/0.02327), or 1.28%.",
+    "type": "multiple-choice",
+    "module": "6"
+  },
+  {
+    "id": "mod6-16",
+    "number": 16,
+    "question": "During 1995, the yen went from $0.0125 to $0.0095238. By how much did the dollar appreciate against the yen?\n\nMULTIPLE CHOICE - Which mathematical function should you use?\na. Use formula: (1/0.0095238 - 1/0.0125) / (1/0.0125)\nb. Use formula: (0.0125 - 0.0095238) / 0.0095238",
+    "options": [
+      {
+        "label": "a",
+        "text": "Formula a"
+      },
+      {
+        "label": "b",
+        "text": "Formula b"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "a",
+    "explanation": "Answer: 31.25%. Calculation: (105 - 80)/80 = 31.25%. Formula used matches finding appreciation of the quote currency term when given the base currency value.",
+    "type": "multiple-choice",
+    "module": "6"
   }
 ]
