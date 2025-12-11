@@ -13,12 +13,33 @@
   {
     "id": "mod1-6",
     "number": 6,
-    "question": "If capital markets were perfect, that is, capital could move freely across national borders, would MNC's still exist? Why or why not?",
-    "options": [],
+    "question": "If capital markets were perfect (capital could move freely across borders), would MNCs still exist?",
+    "options": [
+      {
+        "label": "a",
+        "text": "No, because perfect capital markets would eliminate the comparative advantage of multinational firms."
+      },
+      {
+        "label": "b",
+        "text": "Yes, because MNCs bring firm-specific advantages (technology, knowledge, patents) that allow them to operate profitably even if capital flows are unrestricted."
+      },
+      {
+        "label": "c",
+        "text": "No, because local firms would always outperform foreign competitors in a perfect market."
+      },
+      {
+        "label": "d",
+        "text": "Yes, but only if they can secure government subsidies in the host country."
+      },
+      {
+        "label": "e",
+        "text": "No, because arbitrage would eliminate all profit opportunities for MNCs."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "Even if capital moved freely across national borders, MNCs would still exist, because MNCs bring a host of firm-specific knowledge and advantages along with capital to the countries in which they operate. Such advantages may include unique products, processes, technologies, patents, specific rights, or specific knowledge and skills. These advantages can be used profitably in foreign markets. Moreover, MNCs are better able to apply the knowledge and skills gained in their prior operations in other countries to each new country that they enter. Thus, from the point of view of a country attracting foreign capital, the capital that is brought in by an MNC brings with it firm-specific advantages that yield better returns than the capital that is simply borrowed from a foreign country.",
-    "type": "open-ended",
+    "answer": "b",
+    "explanation": "Even with perfect capital markets, MNCs would still exist because they bring firm-specific advantages (knowledge, technology, skills, patents) that yield better returns than simple capital investment. They can apply these advantages profitably in foreign markets.",
+    "type": "multiple-choice",
     "module": "1"
   },
   {
