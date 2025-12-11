@@ -492,12 +492,33 @@
   {
     "id": "mod3-4",
     "number": 4,
-    "question": "Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar...\n\nConvert these to $/€ quotes for the euro—be careful with your bid and ask labels!\nWhat would you receive from CSFB if you sold $10 million at the 6-month forward rate?\nWhat would you pay CSFB if you bought €10 million at the 12-month forward rate?\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart 1 (Converting €/$ to $/€):\na. Multiply: $/€ = (€/$) x 2\nb. Divide: $/€ = 1 ÷ (€/$)\nc. Add: $/€ = (€/$) + 1\nd. Square: $/€ = (€/$)²\n\nPart 2 (Selling $10 million at 6-month forward):\na. Multiply: € received = $10 million x (€/$ bid rate)\nb. Divide: € received = $10 million ÷ (€/$ bid rate)\nc. Multiply: € received = $10 million x ($/€ ask rate)\nd. Divide: € received = $10 million ÷ ($/€ bid rate)\n\nPart 3 (Buying €10 million at 12-month forward):\na. Multiply: $ paid = €10 million x ($/€ bid rate)\nb. Multiply: $ paid = €10 million x ($/€ ask rate)\nc. Divide: $ paid = €10 million ÷ (€/$ ask rate)\nd. Divide: $ paid = €10 million ÷ (€/$ bid rate)",
-    "options": [],
+    "question": "Credit Suisse First Boston (CSFB) quotes rates for the U.S. dollar:\n\nBid (€/$)   Ask (€/$)\nSpot rate           0.8894      0.8898\n1-month forward     0.8938      0.8942\n3-month forward     0.9028      0.9032\n6-month forward     0.9164      0.9168\n12-month forward    0.9443      0.9447\n\nConvert these to $/€ quotes... Part 1 (Converting €/$ to $/€) choices: a. Multiply by 2, b. Divide 1 ÷ (€/$), c. Add 1... Part 2 (Selling $10m 6-mo forward) choices: a. Multiply by bid, b. Divide by bid... Part 3 (Buying €10m 12-mo forward) choices: a. Multiply by bid, b. Multiply by ask... \n\nWhich set of mathematical functions is correct?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Part 1: b (Divide: 1 ÷ (€/$)); Part 2: a (Multiply: € received = $10m x €/$ bid rate); Part 3: b (Multiply: $ paid = €10m x $/€ ask rate)"
+      },
+      {
+        "label": "b",
+        "text": "Part 1: a (Multiply by 2); Part 2: b (Divide by bid); Part 3: a (Multiply by bid)"
+      },
+      {
+        "label": "c",
+        "text": "Part 1: c (Add 1); Part 2: c (Multiply by ask); Part 3: d (Divide by bid)"
+      },
+      {
+        "label": "d",
+        "text": "Part 1: b (Divide: 1 ÷ (€/$)); Part 2: d (Divide by bid); Part 3: c (Divide by ask)"
+      },
+      {
+        "label": "e",
+        "text": "None of the above combinations are correct."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "Correct mathematical functions:\nPart 1: b. Divide: $/€ = 1 ÷ (€/$)\nPart 2: a. Multiply: € received = $10 million x (€/$ bid rate)\nPart 3: b. Multiply: $ paid = €10 million x ($/€ ask rate)\n\nSpot rate $1.1238 $1.1244\n1-month forward $1.1183 $1.1188\n3-month forward $1.1072 $1.1077\n6-month forward $1.0908 $1.0912\n12-month forward $1.0585 $1.0590\n\nCSFB is buying dollars at their dollar bid price, so you will receive (€0.9164/$) x ($10 million) = €9,164,000\n\nCSFB is selling euros and hence buying dollars. CSFB's ask price on the euro is $1.05899/€ (bid price is $1.05854/€). Therefore, you will pay $10,590,000 for 10 million euros.",
-    "type": "open-ended",
+    "answer": "a",
+    "explanation": "Correct functions are:\nPart 1: b. Divide: $/€ = 1 ÷ (€/$)\nPart 2: a. Multiply: € received = $10 million x (€/$ bid rate). You sell $, bank buys $ (pays €) at the bid rate.\nPart 3: b. Multiply: $ paid = €10 million x ($/€ ask rate). You buy €, bank sells € (receives $) at the ask rate.",
+    "type": "multiple-choice",
     "module": "3"
   },
   {
