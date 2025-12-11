@@ -120,12 +120,33 @@
   {
     "id": "mod1-14",
     "number": 14,
-    "question": "Chapter 2, question 4: Discuss the advantages and disadvantages of the gold standard.",
-    "options": [],
+    "question": "Which of the following correctly describes the advantages and disadvantages of the gold standard?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Advantages: It encourages high inflation to stimulate growth; Disadvantages: It requires strict government intervention in Balance of Payments."
+      },
+      {
+        "label": "b",
+        "text": "Advantages: Restricted gold supply prevents high inflation and allows automatic BOP correction; Disadvantages: Potential for deflationary pressure and lack of enforcement mechanism."
+      },
+      {
+        "label": "c",
+        "text": "Advantages: It allows for unlimited money supply growth; Disadvantages: It causes varying exchange rates."
+      },
+      {
+        "label": "d",
+        "text": "Advantages: It centralizes control of currency in a World Bank; Disadvantages: It favors creditor nations over debtor nations."
+      },
+      {
+        "label": "e",
+        "text": "There are no significant disadvantages to the gold standard."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "The advantages of the gold standard include: (1) since the supply of gold is restricted, countries cannot have high inflation; (2) any BOP disequilibrium can be corrected automatically through cross-border flows of gold. On the other hand, the main disadvantages of the gold standard are: (1) the world economy can be subject to deflationary pressure due to restricted supply of gold; (2) the gold standard itself has no mechanism to enforce the rules of the game, and, as a result, countries may pursue economic policies (like de-monetization of gold) that are incompatible with the gold standard.",
-    "type": "open-ended",
+    "answer": "b",
+    "explanation": "The advantages include restricted supply preventing high inflation and automatic BOP correction. Disadvantages include deflationary pressure due to restricted supply and the lack of a mechanism to enforce the 'rules of the game'.",
+    "type": "multiple-choice",
     "module": "1"
   },
   {
