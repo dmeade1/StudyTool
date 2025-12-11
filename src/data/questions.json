@@ -2,12 +2,21 @@
   {
     "id": "mod1-1",
     "number": 1,
-    "question": "Evaluate the following as true or false. The domestic financial manager must be knowledgeable in several areas within finance, whereas the multinational financial manager usually specializes in a single area, such as corporate finance, investments, or financial markets.",
-    "options": [],
+    "question": "Evaluate the following as true or false: The domestic financial manager must be knowledgeable in several areas within finance, whereas the multinational financial manager usually specializes in a single area, such as corporate finance, investments, or financial markets.",
+    "options": [
+      {
+        "label": "a",
+        "text": "True"
+      },
+      {
+        "label": "b",
+        "text": "False"
+      }
+    ],
     "subQuestions": [],
-    "answer": "false",
+    "answer": "b",
     "explanation": "False. The multinational financial manager is likely to require knowledge of several fields within finance.",
-    "type": "true-false",
+    "type": "multiple-choice",
     "module": "1"
   },
   {
@@ -184,12 +193,33 @@
   {
     "id": "mod1-17",
     "number": 17,
-    "question": "(A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization?",
-    "options": [],
+    "question": "(A) What factors in the 1980s/90s encouraged market integration? (B) What are recent trends in globalization?",
+    "options": [
+      {
+        "label": "a",
+        "text": "(A) Increased tariffs and capital controls; (B) accelerated global trade growth."
+      },
+      {
+        "label": "b",
+        "text": "(A) Advances in telecommunications and deregulation/privatization; (B) Recent backlash/retreat (e.g., Brexit, protectionism)."
+      },
+      {
+        "label": "c",
+        "text": "(A) The return to the Gold Standard; (B) Universal adoption of the Euro."
+      },
+      {
+        "label": "d",
+        "text": "(A) Strict government ownership of industries; (B) Complete elimination of national borders."
+      },
+      {
+        "label": "e",
+        "text": "(A) The collapse of the internet bubble; (B) Unrestricted global labor migration."
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "(A) See page 18 of the e-book. One example of these factors is advances in telecommunication. (B) See the Module 1 article about globalization and refer to class discussion on the topic. One example of recent trends is Brexit.",
-    "type": "open-ended",
+    "answer": "b",
+    "explanation": "(A) Integration was driven by deregulation, privatization, and technological advances (telecommunications) that reduced costs. (B) Recent trends show a backlash against globalization, exemplified by events like Brexit and increased protectionist policies.",
+    "type": "multiple-choice",
     "module": "1"
   },
   {
