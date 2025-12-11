@@ -545,12 +545,29 @@
   {
     "id": "mod3-5",
     "number": 5,
-    "question": "A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?\n\nMULTIPLE CHOICE - Which mathematical function should you use?\na. Multiply: $ cost = €70,000 x 0.7821€/$\nb. Divide: $ cost = €70,000 ÷ 0.7821€/$\nc. Add: $ cost = €70,000 + 0.7821€/$\nd. Subtract: $ cost = €70,000 - 0.7821€/$",
-    "options": [],
+    "question": "A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is 0.7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Multiply: $ cost = €70,000 x 0.7821€/$"
+      },
+      {
+        "label": "b",
+        "text": "Divide: $ cost = €70,000 ÷ 0.7821€/$"
+      },
+      {
+        "label": "c",
+        "text": "Add: $ cost = €70,000 + 0.7821€/$"
+      },
+      {
+        "label": "d",
+        "text": "Subtract: $ cost = €70,000 - 0.7821€/$"
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "Correct mathematical function: b. Divide: $ cost = €70,000 ÷ 0.7821€/$\n\nThe car costs 70,000/.7821 or $89,502.62",
-    "type": "open-ended",
+    "answer": "b",
+    "explanation": "Correct mathematical function: b. Divide: $ cost = €70,000 ÷ 0.7821€/$\nThe car costs 70,000/.7821 or $89,502.62",
+    "type": "multiple-choice",
     "module": "3"
   },
   {
