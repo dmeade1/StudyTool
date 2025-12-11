@@ -14,10 +14,13 @@ const Dashboard: React.FC<DashboardProps> = ({ onSelectModule }) => {
         <div className="container animate-float">
             <div className="glass-panel" style={{ padding: '3rem', textAlign: 'center' }}>
                 <h1 className="text-gradient" style={{ fontSize: '3rem', marginBottom: '1rem' }}>
-                    Galactic Study System
+                    FIN 475 StudyTool
                 </h1>
-                <p style={{ color: 'var(--color-starlight-dim)', marginBottom: '3rem', fontSize: '1.2rem' }}>
-                    Select your training module, Cadet. The galaxy needs your knowledge.
+                <p style={{ color: 'var(--color-text-secondary)', marginBottom: '0.5rem', fontSize: '1.2rem' }}>
+                    Exam 1 Practice Questions
+                </p>
+                <p style={{ color: 'var(--color-text-secondary)', marginBottom: '3rem', fontSize: '1rem' }}>
+                    Select a module to begin practicing.
                 </p>
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
@@ -37,9 +40,11 @@ const Dashboard: React.FC<DashboardProps> = ({ onSelectModule }) => {
                             onClick={() => onSelectModule(mod)}
                         >
                             <span style={{ fontSize: '1.5rem', display: 'block', marginBottom: '1rem' }}>📦</span>
-                            <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>Modules {mod}</span>
+                            <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
+                                {mod.includes('-') ? 'Modules' : 'Module'} {mod}
+                            </span>
                             <span style={{ marginTop: '0.5rem', color: 'var(--color-starlight-dim)' }}>
-                                {questions.filter((q) => q.module === mod).length} Missions
+                                {questions.filter((q) => q.module === mod).length} Questions
                             </span>
                         </button>
                     ))}

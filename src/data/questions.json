@@ -1,81 +1,28 @@
 [
   {
-    "id": "1-3-1",
+    "id": "mod1-1",
     "number": 1,
     "question": "Evaluate the following as true or false. The domestic financial manager must be knowledgeable in several areas within finance, whereas the multinational financial manager usually specializes in a single area, such as corporate finance, investments, or financial markets.",
     "options": [],
     "subQuestions": [],
     "answer": "false",
-    "explanation": ". The multinational financial manager is likely to require knowledge of several fields within finance.",
+    "explanation": "False. The multinational financial manager is likely to require knowledge of several fields within finance.",
     "type": "true-false",
-    "module": "1-3"
+    "module": "1"
   },
   {
-    "id": "1-3-2",
-    "number": 2,
-    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "On 8/22, the exchange rate on the British pound was $1.89/£",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-3",
-    "number": 3,
-    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.",
-    "options": [
-      {
-        "label": "a",
-        "text": "€0.8894/$ Bid and €0.8898/$ Ask"
-      },
-      {
-        "label": "b",
-        "text": "€0.8898/$ Bid and €0.8894/$ Ask"
-      }
-    ],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "Traders buy low and sell high, but don’t necessarily state everything in terms of “Rule #2”. This question requires that you keep bids and asks constant as bids and asks but deduce which currency is being bought or sold. Restating in terms of “Rule #2” is a good way to evaluate.\na. €0.8894/$ Bid and €0.8898/$ Ask. The amount of euros bid for dollars is lower and asked for dollars is higher so the currency CSFB is buying at the bid and selling at the ask is the dollar.\n• €0.8898/$ Bid and €0.8894/$ Ask. The amount of euros to dollars in the bid is higher than in the ask price so CSFB. This must be a bid on the euro and an ask on the euro. Apply Rule #2 to check. The bid is $1.238/ € and the ask is $1.244/ €. Thus the trader is buying euros low at $1.238 and selling euros high at $1.244.",
-    "type": "multiple-choice",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-4",
-    "number": 4,
-    "question": "Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar (note: forward rates are just rates contracted for an exchange in the future, whereas the spot rate is a rate on a given day and the question is focusing on converting bid and ask rates on different currencies).",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "€ Bid in $/€ € Ask in $/€\nSpot rate $1.1238 $1.1244\n1-month forward $1.1183 $1.1188\n3-month forward $1.1072 $1.1077\n6-month forward $1.0908 $1.0912\n12-month forward $1.0585 $1.0590\n•\nCSFB is buying dollars at their dollar bid price, so you will receive (€0.9164/$) x ($10 million) = €9,164,000\nCSFB is selling euros and hence buying dollars. CSFB’s ask price on the euro is $1.05899/Є (bid price is $1.05854/Є). Therefore, you will pay $10,590,000 for 10 million euros.",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-5",
-    "number": 5,
-    "question": "A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "The car costs 70,000/.7821 or $89,502.62",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-6",
+    "id": "mod1-6",
     "number": 6,
-    "question": "If capital markets were perfect, that is, capital could move freely across national borders, would MNC’s still exist? Why or why not?",
+    "question": "If capital markets were perfect, that is, capital could move freely across national borders, would MNC's still exist? Why or why not?",
     "options": [],
     "subQuestions": [],
     "answer": null,
     "explanation": "Even if capital moved freely across national borders, MNCs would still exist, because MNCs bring a host of firm-specific knowledge and advantages along with capital to the countries in which they operate. Such advantages may include unique products, processes, technologies, patents, specific rights, or specific knowledge and skills. These advantages can be used profitably in foreign markets. Moreover, MNCs are better able to apply the knowledge and skills gained in their prior operations in other countries to each new country that they enter. Thus, from the point of view of a country attracting foreign capital, the capital that is brought in by an MNC brings with it firm-specific advantages that yield better returns than the capital that is simply borrowed from a foreign country.",
     "type": "open-ended",
-    "module": "1-3"
+    "module": "1"
   },
   {
-    "id": "1-3-7",
+    "id": "mod1-7",
     "number": 7,
     "question": "Opportunities for MNCs to create value to their operations through their financial policies include each of the following except ______.",
     "options": [
@@ -104,23 +51,12 @@
     "answer": "d",
     "explanation": "",
     "type": "multiple-choice",
-    "module": "1-3"
+    "module": "1"
   },
   {
-    "id": "1-3-8",
-    "number": 8,
-    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia, a dollar cost 26.776 rubles. When the deal was finally completed and the invoice arrived, the firm was obliged to pay under an exchange rate of 32 rubles per dollar. We may conclude from this example that",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "a Explanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the\nexchange rate of dollars to rubles was $0.0373/ruble and the cost in dollars per tractor would have been $7469.36. When the firm paid the bill, it was under an exchange rate of $0.03125/ruble and the cost in dollars was $6250.00.",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-9",
+    "id": "mod1-9",
     "number": 9,
-    "question": "A major advantage of floating exchange rates is",
+    "question": "A major advantage of floating exchange rates is:",
     "options": [
       {
         "label": "a",
@@ -132,11 +68,11 @@
       },
       {
         "label": "c",
-        "text": "export expansion failure that accompanies depreciations in the nation’s currency."
+        "text": "export expansion failure that accompanies depreciations in the nation's currency"
       },
       {
         "label": "d",
-        "text": "the instability it creates for those involved in international trade and finance."
+        "text": "the instability it creates for those involved in international trade and finance"
       },
       {
         "label": "e",
@@ -147,16 +83,124 @@
     "answer": "e",
     "explanation": "",
     "type": "multiple-choice",
-    "module": "1-3"
+    "module": "1"
   },
   {
-    "id": "1-3-10",
-    "number": 10,
-    "question": "Which of the following is one of the IMF’s challenges?",
+    "id": "mod1-13",
+    "number": 13,
+    "question": "Chapter 1, question 2: How is international financial management different from domestic financial management?",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "See lecture and pages 15-16 of the e-book. Be sure to understand all the concepts that distinguish domestic versus international finance.",
+    "type": "open-ended",
+    "module": "1"
+  },
+  {
+    "id": "mod1-14",
+    "number": 14,
+    "question": "Chapter 2, question 4: Discuss the advantages and disadvantages of the gold standard.",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "The advantages of the gold standard include: (1) since the supply of gold is restricted, countries cannot have high inflation; (2) any BOP disequilibrium can be corrected automatically through cross-border flows of gold. On the other hand, the main disadvantages of the gold standard are: (1) the world economy can be subject to deflationary pressure due to restricted supply of gold; (2) the gold standard itself has no mechanism to enforce the rules of the game, and, as a result, countries may pursue economic policies (like de-monetization of gold) that are incompatible with the gold standard.",
+    "type": "open-ended",
+    "module": "1"
+  },
+  {
+    "id": "mod1-15",
+    "number": 15,
+    "question": "Chapter 2, question 5: What were the main objectives of the Bretton Woods system?",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "The main objectives of the Bretton Woods system were to achieve exchange rate stability and promote international trade and development.",
+    "type": "open-ended",
+    "module": "1"
+  },
+  {
+    "id": "mod1-17",
+    "number": 17,
+    "question": "(A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization?",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "(A) See page 18 of the e-book. One example of these factors is advances in telecommunication. (B) See the Module 1 article about globalization and refer to class discussion on the topic. One example of recent trends is Brexit.",
+    "type": "open-ended",
+    "module": "1"
+  },
+  {
+    "id": "mod1-19",
+    "number": 19,
+    "question": "What is the primary goal of the Paris Agreement?",
     "options": [
       {
         "label": "a",
-        "text": "to ensure that the consequences of poor investment decisions are borne by investors and not by taxpayers."
+        "text": "To establish a common European currency"
+      },
+      {
+        "label": "b",
+        "text": "To limit global warming to well below 2°C above pre-industrial levels"
+      },
+      {
+        "label": "c",
+        "text": "To create free trade zones across Europe"
+      },
+      {
+        "label": "d",
+        "text": "To regulate international banking standards"
+      },
+      {
+        "label": "e",
+        "text": "To establish the International Monetary Fund"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "b",
+    "explanation": "The Paris Agreement is an international treaty on climate change adopted in 2015. Its main goal is to limit global temperature increase to well below 2°C above pre-industrial levels, and to pursue efforts to limit the increase to 1.5°C. Countries commit to reducing greenhouse gas emissions through nationally determined contributions (NDCs).",
+    "type": "multiple-choice",
+    "module": "1"
+  },
+  {
+    "id": "mod1-20",
+    "number": 20,
+    "question": "According to the text, at what level are COVID-19 solutions best addressed?",
+    "options": [
+      {
+        "label": "a",
+        "text": "At the national or state levels only"
+      },
+      {
+        "label": "b",
+        "text": "At the local community level only"
+      },
+      {
+        "label": "c",
+        "text": "At the global level through international cooperation"
+      },
+      {
+        "label": "d",
+        "text": "At the individual level only"
+      },
+      {
+        "label": "e",
+        "text": "COVID-19 solutions should not involve government intervention"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "c",
+    "explanation": "False to the original statement. According to the text, COVID-19 solutions are NOT best addressed solely at national or state levels. Instead, the pandemic requires global cooperation and international coordination, as diseases cross borders and affect all countries, necessitating collaborative solutions at the global level.",
+    "type": "multiple-choice",
+    "module": "1"
+  },
+  {
+    "id": "mod2-10",
+    "number": 10,
+    "question": "Which of the following is one of the IMF's challenges?",
+    "options": [
+      {
+        "label": "a",
+        "text": "to ensure that the consequences of poor investment decisions are borne by investors and not by taxpayers"
       },
       {
         "label": "b",
@@ -179,117 +223,169 @@
     "answer": "a",
     "explanation": "",
     "type": "multiple-choice",
-    "module": "1-3"
+    "module": "2"
   },
   {
-    "id": "1-3-11",
+    "id": "mod2-11",
     "number": 11,
-    "question": "Describe the benefits and costs of a common currency such as the euro.",
-    "options": [],
+    "question": "Which of the following is NOT a benefit of a common currency such as the euro?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Elimination of exchange rate risk among member countries"
+      },
+      {
+        "label": "b",
+        "text": "Reduced transaction costs for cross-border trade"
+      },
+      {
+        "label": "c",
+        "text": "Ability for individual countries to adjust monetary policy to address domestic economic conditions"
+      },
+      {
+        "label": "d",
+        "text": "Enhanced price transparency across member countries"
+      },
+      {
+        "label": "e",
+        "text": "Lower borrowing costs for some member countries"
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "See lecture and page 38 of the e-book.",
-    "type": "open-ended",
-    "module": "1-3"
+    "answer": "c",
+    "explanation": "The loss of independent monetary policy is actually a COST, not a benefit, of adopting a common currency. Member countries cannot adjust their own interest rates or money supply to address specific domestic economic conditions.",
+    "type": "multiple-choice",
+    "module": "2"
   },
   {
-    "id": "1-3-12",
+    "id": "mod2-12",
     "number": 12,
-    "question": "What is the European Central Bank and its role?",
-    "options": [],
+    "question": "What is the primary objective of the European Central Bank (ECB)?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Maximize employment in eurozone countries"
+      },
+      {
+        "label": "b",
+        "text": "Maintain price stability (control inflation)"
+      },
+      {
+        "label": "c",
+        "text": "Promote economic growth across member states"
+      },
+      {
+        "label": "d",
+        "text": "Manage fiscal policy for eurozone members"
+      },
+      {
+        "label": "e",
+        "text": "Regulate trade among European Union countries"
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "See lecture and pages 18 and 38 of the e-book.",
-    "type": "open-ended",
-    "module": "1-3"
+    "answer": "b",
+    "explanation": "The ECB's primary mandate is to maintain price stability, typically targeting inflation around 2%. Unlike the U.S. Federal Reserve which has a dual mandate (price stability and employment), the ECB focuses primarily on controlling inflation in the eurozone.",
+    "type": "multiple-choice",
+    "module": "2"
   },
   {
-    "id": "1-3-13",
-    "number": 13,
-    "question": "Chapter 1, question 2 (How is international financial management different from domestic financial management?)",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "See lecture and pages 15-16 of the e-book. Be sure to understand all the concepts that distinguish domestic versus international finance.",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-14",
-    "number": 14,
-    "question": "Chapter 2, question 4 (Discuss the advantages and disadvantages of the gold standard.)",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "The advantages of the gold standard include: (I) since the supply of gold is restricted, countries cannot have high inflation; (2) any BOP disequilibrium can be corrected automatically through cross-border flows of gold. On the other hand, the main disadvantages of the gold standard are: (I) the world economy can be subject to deflationary pressure due to restricted supply of gold; (ii) the gold standard itself has no mechanism to enforce the rules of the game, and, as a result, countries may pursue economic policies (like de-monetization of gold) that are incompatible with the gold standard.",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-15",
-    "number": 15,
-    "question": "Chapter 2, question 5 (What were the main objectives of the Bretton Woods system?)",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "The main objectives of the Bretton Woods system were to achieve exchange rate stability and promote international trade and development.",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-16",
+    "id": "mod2-16",
     "number": 16,
-    "question": "Chapter 2, question 12 (Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.)",
+    "question": "Chapter 2, question 12: Once capital markets are integrated, it is difficult for a country to maintain a fixed exchange rate system. Explain.",
     "options": [],
     "subQuestions": [],
     "answer": null,
     "explanation": "Once capital markets are integrated internationally, vast amounts of money may flow in and out of a country in a short time period. This will make it very difficult for the country to maintain a fixed exchange rate.",
     "type": "open-ended",
-    "module": "1-3"
+    "module": "2"
   },
   {
-    "id": "1-3-17",
-    "number": 17,
-    "question": "(A) According to the text, what factors during the 1980s and 1990s encouraged the integration of international goods, financial, and capital markets? (B) According to the text and additional readings assigned for Module 1, what are the recent trends in globalization?",
-    "options": [],
-    "subQuestions": [],
-    "answer": null,
-    "explanation": "(A) See page 18 of the e-book .One example of these factors is advances in telecommunication. (B) See the Module 1 article about globalization and refer to class discussion on the topic. One example of recent trends is Brexit.",
-    "type": "open-ended",
-    "module": "1-3"
-  },
-  {
-    "id": "1-3-18",
+    "id": "mod2-18",
     "number": 18,
-    "question": "Evaluate each of the following as true or false and explain.",
+    "question": "Which of the following statements about cryptocurrencies and digital currencies is TRUE?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Cryptocurrencies like Bitcoin serve all three essential functions of money (medium of exchange, store of value, unit of account)"
+      },
+      {
+        "label": "b",
+        "text": "The IMF encourages countries with extreme exchange rate volatility to replace their currencies with cryptocurrency"
+      },
+      {
+        "label": "c",
+        "text": "Central Bank Digital Currency (CBDC) refers to a central bank adopting cryptocurrency instead of their national currency"
+      },
+      {
+        "label": "d",
+        "text": "All of the above are true"
+      },
+      {
+        "label": "e",
+        "text": "None of the above are true"
+      }
+    ],
+    "subQuestions": [],
+    "answer": "e",
+    "explanation": "All three statements (A), (B), and (C) are false. Cryptocurrencies do not fully serve the three functions of money due to their volatility and limited acceptance. The IMF does not encourage countries to adopt cryptocurrency as their official currency. CBDCs are digital versions of a country's national currency issued by the central bank, not the adoption of existing cryptocurrencies like Bitcoin.",
+    "type": "multiple-choice",
+    "module": "2"
+  },
+  {
+    "id": "mod3-2",
+    "number": 2,
+    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. What was the price of British pounds in terms of U.S. dollars on August 22? \n\nMULTIPLE CHOICE - Which mathematical function should you use?\na. Multiply: $ x £0.5303/$\nb. Divide: 1 ÷ £0.5303/$\nc. Add: $ + £0.5303/$\nd. Subtract: $ - £0.5303/$",
     "options": [],
     "subQuestions": [],
     "answer": null,
-    "explanation": "(A), (B), and (C) are all false. Refer to class notes and page 36 of the e-book.",
+    "explanation": "Correct mathematical function: b. Divide: 1 ÷ £0.5303/$\n\nOn 8/22, the exchange rate on the British pound was $1.89/£",
     "type": "open-ended",
-    "module": "1-3"
+    "module": "3"
   },
   {
-    "id": "1-3-19",
-    "number": 19,
-    "question": "What is the Paris Agreement and what are its key elements?",
+    "id": "mod3-3",
+    "number": 3,
+    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.\na. €0.8894/$ Bid and €0.8898/$ Ask\nb. €0.8898/$ Bid and €0.8894/$ Ask",
     "options": [],
     "subQuestions": [],
     "answer": null,
-    "explanation": "See page 18 of the e-book.",
+    "explanation": "Traders buy low and sell high, but don't necessarily state everything in terms of \"Rule #2\". This question requires that you keep bids and asks constant as bids and asks but deduce which currency is being bought or sold. Restating in terms of \"Rule #2\" is a good way to evaluate.\n\na. €0.8894/$ Bid and €0.8898/$ Ask. The amount of euros bid for dollars is lower and asked for dollars is higher so the currency CSFB is buying at the bid and selling at the ask is the dollar.\n\nb. €0.8898/$ Bid and €0.8894/$ Ask. The amount of euros to dollars in the bid is higher than in the ask price so CSFB. This must be a bid on the euro and an ask on the euro. Apply Rule #2 to check. The bid is $1.238/€ and the ask is $1.244/€. Thus the trader is buying euros low at $1.238 and selling euros high at $1.244.",
     "type": "open-ended",
-    "module": "1-3"
+    "module": "3"
   },
   {
-    "id": "1-3-20",
-    "number": 20,
-    "question": "Evaluate the following as true or false: According the text, COVID-19 solutions are best addressed at the national or state levels.",
+    "id": "mod3-4",
+    "number": 4,
+    "question": "Credit Suisse First Boston (CSFB) quotes the following rates for the U.S. dollar...\n\nConvert these to $/€ quotes for the euro—be careful with your bid and ask labels!\nWhat would you receive from CSFB if you sold $10 million at the 6-month forward rate?\nWhat would you pay CSFB if you bought €10 million at the 12-month forward rate?\n\nMULTIPLE CHOICE - Which mathematical functions should you use?\nPart 1 (Converting €/$ to $/€):\na. Multiply: $/€ = (€/$) x 2\nb. Divide: $/€ = 1 ÷ (€/$)\nc. Add: $/€ = (€/$) + 1\nd. Square: $/€ = (€/$)²\n\nPart 2 (Selling $10 million at 6-month forward):\na. Multiply: € received = $10 million x (€/$ bid rate)\nb. Divide: € received = $10 million ÷ (€/$ bid rate)\nc. Multiply: € received = $10 million x ($/€ ask rate)\nd. Divide: € received = $10 million ÷ ($/€ bid rate)\n\nPart 3 (Buying €10 million at 12-month forward):\na. Multiply: $ paid = €10 million x ($/€ bid rate)\nb. Multiply: $ paid = €10 million x ($/€ ask rate)\nc. Divide: $ paid = €10 million ÷ (€/$ ask rate)\nd. Divide: $ paid = €10 million ÷ (€/$ bid rate)",
     "options": [],
     "subQuestions": [],
-    "answer": "false",
-    "explanation": "- see page 18 of the e-book.",
-    "type": "true-false",
-    "module": "1-3"
+    "answer": null,
+    "explanation": "Correct mathematical functions:\nPart 1: b. Divide: $/€ = 1 ÷ (€/$)\nPart 2: a. Multiply: € received = $10 million x (€/$ bid rate)\nPart 3: b. Multiply: $ paid = €10 million x ($/€ ask rate)\n\nSpot rate $1.1238 $1.1244\n1-month forward $1.1183 $1.1188\n3-month forward $1.1072 $1.1077\n6-month forward $1.0908 $1.0912\n12-month forward $1.0585 $1.0590\n\nCSFB is buying dollars at their dollar bid price, so you will receive (€0.9164/$) x ($10 million) = €9,164,000\n\nCSFB is selling euros and hence buying dollars. CSFB's ask price on the euro is $1.05899/€ (bid price is $1.05854/€). Therefore, you will pay $10,590,000 for 10 million euros.",
+    "type": "open-ended",
+    "module": "3"
+  },
+  {
+    "id": "mod3-5",
+    "number": 5,
+    "question": "A German automobile costs €70,000 if purchased in Frankfurt. You buy this car through a U.S. retailer when the exchange rate is .7821€/$. Assuming that transportation and other costs are zero, what does the German car cost you in U.S. dollars?\n\nMULTIPLE CHOICE - Which mathematical function should you use?\na. Multiply: $ cost = €70,000 x 0.7821€/$\nb. Divide: $ cost = €70,000 ÷ 0.7821€/$\nc. Add: $ cost = €70,000 + 0.7821€/$\nd. Subtract: $ cost = €70,000 - 0.7821€/$",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "Correct mathematical function: b. Divide: $ cost = €70,000 ÷ 0.7821€/$\n\nThe car costs 70,000/.7821 or $89,502.62",
+    "type": "open-ended",
+    "module": "3"
+  },
+  {
+    "id": "mod3-8",
+    "number": 8,
+    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia... We may conclude from this example that:\na. the firm was able to buy the tractors at a lower U.S. dollar cost, thus making additional profit\nb. the firm was forced to buy the tractors at a higher U.S. dollar cost, thus losing some or all of its profit\nc. this firm is not ready for the international phase of globalization\nd. the U.S. balance of payments is likely to fail to balance if the new exchange rate continues\ne. none of the above\n\nMULTIPLE CHOICE - Which mathematical function should you use to find the dollar cost?\na. Multiply: $ cost = 200,000 rubles x (rubles/$)\nb. Divide: $ cost = 200,000 rubles ÷ (rubles/$)\nc. Add: $ cost = 200,000 rubles + (rubles/$)\nd. Multiply: $ cost = 200,000 rubles x ($1/rubles)",
+    "options": [],
+    "subQuestions": [],
+    "answer": null,
+    "explanation": "Correct mathematical function: b. Divide: $ cost = 200,000 rubles ÷ (rubles/$)\n\nAnswer to main question: a\n\nExplanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the exchange rate of dollars to rubles was $0.0373/ruble and the cost in dollars per tractor would have been $7469.36. When the firm paid the bill, it was under an exchange rate of $0.03125/ruble and the cost in dollars was $6250.00.",
+    "type": "open-ended",
+    "module": "3"
   },
   {
     "id": "4-6-2",

@@ -309,11 +309,26 @@ function parseStandardFile(filename, content, moduleRange) {
         const endIdx = nextQ ? nextQ.index : questionSection.length;
         const block = questionSection.substring(q.index + q.length, endIdx);
 
+        // Check for uppercase items (A), B), C)) which are part of the question, not options
+        const uppercaseItems = [];
+        const uppercaseRegex = /^\s*([A-C])\)\s*(.+)/gm;
+        let upperMatch;
+        while ((upperMatch = uppercaseRegex.exec(block)) !== null) {
+            uppercaseItems.push({ label: upperMatch[1], text: upperMatch[2].trim() });
+        }
+
+        // Check for lowercase options (a., b., c., d., e.)
         const items = [];
         const optRegex = /^\s*([a-e])[\.\\)]\s+(.+)/gm;
         let optMatch;
         while ((optMatch = optRegex.exec(block)) !== null) {
             items.push({ label: optMatch[1].toLowerCase(), text: optMatch[2].trim() });
+        }
+
+        // If we have uppercase items, append them to the question text
+        let fullQuestionText = q.text;
+        if (uppercaseItems.length > 0) {
+            fullQuestionText += '\n' + uppercaseItems.map(item => `${item.label}) ${item.text}`).join('\n');
         }
 
         const isSubQ = areSubQuestions(items);
@@ -324,7 +339,7 @@ function parseStandardFile(filename, content, moduleRange) {
         questions.push({
             id: `${moduleRange}-${q.num}`,
             number: q.num,
-            question: q.text,
+            question: fullQuestionText,
             options: isSubQ ? [] : items,
             subQuestions: isSubQ ? items : [],
             answer: answerData.answer || null,
