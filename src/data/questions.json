@@ -470,7 +470,7 @@
   {
     "id": "mod3-2",
     "number": 2,
-    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. What was the price of British pounds in terms of U.S. dollars on August 22?",
+    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22.\n\nWhat was the price of British pounds in terms of U.S. dollars on August 22?",
     "options": [
       {
         "label": "a",
@@ -498,7 +498,7 @@
   {
     "id": "mod3-3",
     "number": 3,
-    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.\n\nQuote A: €0.8894/$ Bid and €0.8898/$ Ask\nQuote B: €0.8898/$ Bid and €0.8894/$ Ask",
+    "question": "Credit Suisse First Boston (CSFB) quotes the following rates. For each quote, state which currency CSFB is buying and which currency CSFB is selling at the quoted rates.\n\nQuote A: €0.8894/$ Bid and €0.8898/$ Ask\n\nQuote B: €0.8898/$ Bid and €0.8894/$ Ask",
     "options": [
       {
         "label": "a",
@@ -530,7 +530,7 @@
   {
     "id": "mod3-4",
     "number": 4,
-    "question": "Credit Suisse First Boston (CSFB) quotes rates for the U.S. dollar:\n\nBid (€/$)   Ask (€/$)\nSpot rate           0.8894      0.8898\n1-month forward     0.8938      0.8942\n3-month forward     0.9028      0.9032\n6-month forward     0.9164      0.9168\n12-month forward    0.9443      0.9447\n\nConvert these to $/€ quotes... Part 1 (Converting €/$ to $/€) choices: a. Multiply by 2, b. Divide 1 ÷ (€/$), c. Add 1... Part 2 (Selling $10m 6-mo forward) choices: a. Multiply by bid, b. Divide by bid... Part 3 (Buying €10m 12-mo forward) choices: a. Multiply by bid, b. Multiply by ask... \n\nWhich set of mathematical functions is correct?",
+    "question": "Credit Suisse First Boston (CSFB) quotes rates for the U.S. dollar:\n\n                      Bid (€/$)      Ask (€/$)\nSpot rate             0.8894         0.8898\n1-month forward       0.8938         0.8942\n3-month forward       0.9028         0.9032\n6-month forward       0.9164         0.9168\n12-month forward      0.9443         0.9447\n\nConvert these to $/€ quotes... \n\nPart 1 (Converting €/$ to $/€) choices:\na. Multiply by 2\nb. Divide 1 ÷ (€/$)\nc. Add 1\n\nPart 2 (Selling $10m 6-mo forward) choices:\na. Multiply by bid\nb. Divide by bid\n\nPart 3 (Buying €10m 12-mo forward) choices:\na. Multiply by bid\nb. Multiply by ask\n\nWhich set of mathematical functions is correct?",
     "options": [
       {
         "label": "a",
@@ -590,7 +590,7 @@
   {
     "id": "mod3-8",
     "number": 8,
-    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia... Which mathematical function should you use to find the dollar cost?",
+    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia...\n\nWhich mathematical function should you use to find the dollar cost?",
     "options": [
       {
         "label": "a",

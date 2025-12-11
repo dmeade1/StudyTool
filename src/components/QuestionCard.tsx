@@ -69,7 +69,7 @@ const QuestionCard: React.FC<QuestionProps> = ({ question, onAnswer, onNext }) =
                 <span>TYPE: {getTypeLabel()}</span>
             </div>
 
-            <h2 style={{ fontSize: '1.4rem', lineHeight: '1.6', marginBottom: '2rem' }}>
+            <h2 style={{ fontSize: '1.4rem', lineHeight: '1.6', marginBottom: '2rem', whiteSpace: 'pre-wrap' }}>
                 {question.question}
             </h2>
 
