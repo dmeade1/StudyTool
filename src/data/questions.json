@@ -470,12 +470,29 @@
   {
     "id": "mod3-2",
     "number": 2,
-    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. What was the price of British pounds in terms of U.S. dollars on August 22? \n\nMULTIPLE CHOICE - Which mathematical function should you use?\na. Multiply: $ x £0.5303/$\nb. Divide: 1 ÷ £0.5303/$\nc. Add: $ + £0.5303/$\nd. Subtract: $ - £0.5303/$",
-    "options": [],
+    "question": "Suppose that the exchange rate of U.S. dollars in for British pounds was £0.5303/$ on August 22. What was the price of British pounds in terms of U.S. dollars on August 22?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Multiply: $ x £0.5303/$"
+      },
+      {
+        "label": "b",
+        "text": "Divide: 1 ÷ £0.5303/$"
+      },
+      {
+        "label": "c",
+        "text": "Add: $ + £0.5303/$"
+      },
+      {
+        "label": "d",
+        "text": "Subtract: $ - £0.5303/$"
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "Correct mathematical function: b. Divide: 1 ÷ £0.5303/$\n\nOn 8/22, the exchange rate on the British pound was $1.89/£",
-    "type": "open-ended",
+    "answer": "b",
+    "explanation": "Correct mathematical function: b. Divide: 1 ÷ £0.5303/$\nOn 8/22, the exchange rate on the British pound was $1.89/£",
+    "type": "multiple-choice",
     "module": "3"
   },
   {
@@ -573,12 +590,29 @@
   {
     "id": "mod3-8",
     "number": 8,
-    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia... We may conclude from this example that:\na. the firm was able to buy the tractors at a lower U.S. dollar cost, thus making additional profit\nb. the firm was forced to buy the tractors at a higher U.S. dollar cost, thus losing some or all of its profit\nc. this firm is not ready for the international phase of globalization\nd. the U.S. balance of payments is likely to fail to balance if the new exchange rate continues\ne. none of the above\n\nMULTIPLE CHOICE - Which mathematical function should you use to find the dollar cost?\na. Multiply: $ cost = 200,000 rubles x (rubles/$)\nb. Divide: $ cost = 200,000 rubles ÷ (rubles/$)\nc. Add: $ cost = 200,000 rubles + (rubles/$)\nd. Multiply: $ cost = 200,000 rubles x ($1/rubles)",
-    "options": [],
+    "question": "When a U.S. firm signed a contract to buy tractors at a cost of 200,000 rubles from Russia... Which mathematical function should you use to find the dollar cost?",
+    "options": [
+      {
+        "label": "a",
+        "text": "Multiply: $ cost = 200,000 rubles x (rubles/$)"
+      },
+      {
+        "label": "b",
+        "text": "Divide: $ cost = 200,000 rubles ÷ (rubles/$)"
+      },
+      {
+        "label": "c",
+        "text": "Add: $ cost = 200,000 rubles + (rubles/$)"
+      },
+      {
+        "label": "d",
+        "text": "Multiply: $ cost = 200,000 rubles x ($1/rubles)"
+      }
+    ],
     "subQuestions": [],
-    "answer": null,
-    "explanation": "Correct mathematical function: b. Divide: $ cost = 200,000 rubles ÷ (rubles/$)\n\nAnswer to main question: a\n\nExplanation: The contract was for a cost of 200,000 rubles. When the contract was signed, the exchange rate of dollars to rubles was $0.0373/ruble and the cost in dollars per tractor would have been $7469.36. When the firm paid the bill, it was under an exchange rate of $0.03125/ruble and the cost in dollars was $6250.00.",
-    "type": "open-ended",
+    "answer": "b",
+    "explanation": "Correct mathematical function: b. Divide: $ cost = 200,000 rubles ÷ (rubles/$)\nThe contract was for a cost of 200,000 rubles. When the contract was signed, the exchange rate of dollars to rubles was $0.0373/ruble... When the firm paid the bill, it was under an exchange rate of $0.03125/ruble...",
+    "type": "multiple-choice",
     "module": "3"
   },
   {
